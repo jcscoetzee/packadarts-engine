@@ -58,6 +58,14 @@ def save(name, obj):
         json.dump(obj, f, separators=(",", ":"), sort_keys=True)
 
 
+def minutes(st):
+    """Minutes played; older seasons only carry seconds played (sp)."""
+    m = st.get("min")
+    if m is None and st.get("sp") is not None:
+        m = float(st["sp"]) / 60.0
+    return float(m or 0)
+
+
 def fantasy_points(stats, scoring):
     """Sleeper's own formula: sum of scoring weight x stat value for every scoring key present."""
     return round(sum(float(w) * float(stats.get(k, 0) or 0) for k, w in scoring.items()), 2)
@@ -165,7 +173,9 @@ def main():
                         players[pid]["team"] = p.get("team") or players[pid]["team"]
                         if p.get("fantasy_positions"):
                             players[pid]["fpos"] = p["fantasy_positions"]
-                    played = bool(st) and float(st.get("min") or 0) > 0
+                    played = bool(st) and minutes(st) > 0
+                    if played and st.get("min") is None:
+                        st["min"] = round(minutes(st), 2)
                     entry["cur"].append({
                         "d": g.get("date"), "w": int(wk) if str(wk).isdigit() else None,
                         "opp": g.get("opponent"), "away": bool(g.get("is_away_team")),
@@ -175,7 +185,7 @@ def main():
                     })
         # last season: reuse if already cached, otherwise fetch once
         cached_prev = (old.get(pid) or {}).get("prev") if old else None
-        if cached_prev:
+        if cached_prev and cached_prev.get("n", 0) > 0:
             entry["prev"] = cached_prev
         else:
             pdata = get(f"{COM}/stats/nba/player/{pid}?season_type=regular&season={prev_season}&grouping=week")
@@ -184,9 +194,9 @@ def main():
                 for wk, games in pdata.items():
                     for g in games or []:
                         st = g.get("stats") or {}
-                        if st and float(st.get("min") or 0) > 0:
+                        if st and minutes(st) > 0:
                             fps.append(fantasy_points(st, scoring))
-                            mins.append(float(st.get("min") or 0))
+                            mins.append(minutes(st))
             entry["prev"] = {"n": len(fps), "fps": fps, "mean_min": (sum(mins) / len(mins)) if mins else None}
         gamelogs[pid] = entry
         if i % 25 == 0:

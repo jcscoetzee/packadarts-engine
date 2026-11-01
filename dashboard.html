@@ -1,0 +1,317 @@
+<title>PackaDarts Engine</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a scoreboard strip up top, then one column of cards; the "do now" list is the page's job. */
+:root {
+  --bg: #F1F4F2; --surface: #FFFFFF; --surface-2: #E6ECE8; --fg: #141A17; --muted: #5F6B65; --line: #D3DCD6;
+  --accent: #1C6A4D; --accent-ink: #FFFFFF; --board: #0E2A1F; --board-ink: #F3F6F2; --board-dim: #8FB3A3;
+  --lock: #1C6A4D; --pass: #B5731A; --wait: #6E7A74; --bad: #A33A2E; --good: #2E7D52;
+  --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1412; --surface: #171E1A; --surface-2: #1F2823; --fg: #ECEFEC; --muted: #95A29B; --line: #2B3630;
+  --accent: #4FBF8F; --accent-ink: #0F1412; --board: #0B1F17; --board-ink: #F3F6F2; --board-dim: #7FA393;
+  --lock: #4FBF8F; --pass: #E0A24A; --wait: #8A968F; --bad: #E07A6C; --good: #5BC58A; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0F1412; --surface: #171E1A; --surface-2: #1F2823; --fg: #ECEFEC; --muted: #95A29B; --line: #2B3630;
+  --accent: #4FBF8F; --accent-ink: #0F1412; --board: #0B1F17; --board-ink: #F3F6F2; --board-dim: #7FA393;
+  --lock: #4FBF8F; --pass: #E0A24A; --wait: #8A968F; --bad: #E07A6C; --good: #5BC58A; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.45; margin: 0 }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--board) }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; letter-spacing: 0.01em }
+h2 { font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted) }
+.num { font-family: var(--display); font-variant-numeric: tabular-nums }
+.eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600 }
+
+/* scoreboard */
+.board { background: var(--board); color: var(--board-ink) }
+.board .wrap { padding-block: 18px 16px; display: grid; gap: 10px }
+.board .top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap }
+.board h1 { font-size: 30px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em }
+.board .meta { color: var(--board-dim); font-size: 13px }
+.score { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px }
+.score .side { display: grid; gap: 2px; min-width: 0 }
+.score .side.them { text-align: right }
+.score .name { font-size: 13px; color: var(--board-dim); text-transform: uppercase; letter-spacing: 0.08em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.score .pts { font-size: 56px; line-height: 1; font-weight: 700 }
+.score .exp { font-size: 13px; color: var(--board-dim) }
+.score .vs { font-family: var(--display); color: var(--board-dim); font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; text-align: center }
+.winprob { display: grid; gap: 4px }
+.winprob .bar { height: 6px; background: rgba(255,255,255,0.12); border-radius: 3px; overflow: hidden }
+.winprob .bar > i { display: block; height: 100%; background: var(--accent); width: 0 }
+.winprob .lbl { font-size: 12px; color: var(--board-dim); display: flex; justify-content: space-between }
+
+/* cards */
+section { margin-top: 22px }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px }
+.card + .card { margin-top: 10px }
+.sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 10px }
+.sec-head .sub { font-size: 13px; color: var(--muted) }
+.empty { color: var(--muted); font-size: 14px; padding: 6px 0 }
+.banner { background: var(--surface-2); border-left: 3px solid var(--pass); padding: 10px 14px; border-radius: 6px; font-size: 14px; margin-top: 16px }
+
+/* recommendation rows */
+.recs { display: grid; gap: 8px }
+.rec { display: grid; grid-template-columns: 64px 1fr auto; gap: 12px; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface) }
+.rec.done { opacity: 0.55 }
+.pill { font-family: var(--display); font-weight: 700; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; text-align: center; padding: 6px 0; border-radius: 6px; border: 2px solid var(--wait); color: var(--wait) }
+.pill.LOCK { background: var(--lock); border-color: var(--lock); color: var(--accent-ink) }
+.pill.PASS { border-color: var(--pass); color: var(--pass) }
+.pill.ADD, .pill.SWAP, .pill.TRADE, .pill.LINEUP { border-color: var(--accent); color: var(--accent) }
+.pill.DROP { border-color: var(--bad); color: var(--bad) }
+.rec .what { min-width: 0 }
+.rec .who { font-weight: 600 }
+.rec .why { font-size: 13px; color: var(--muted); margin-top: 2px }
+.rec .deadline { font-size: 12px; color: var(--pass); margin-top: 2px }
+.done-btn { font: inherit; font-size: 13px; font-weight: 600; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface-2); color: var(--fg); cursor: pointer; white-space: nowrap }
+.done-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink) }
+.done-btn:focus-visible, .toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.done-btn:disabled { opacity: 0.5; cursor: default }
+
+/* stats */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px }
+.stat { background: var(--surface-2); border-radius: 8px; padding: 10px 12px; display: grid; gap: 2px }
+.stat .v { font-size: 28px; line-height: 1.1; font-weight: 700 }
+.stat .k { font-size: 12px; color: var(--muted) }
+.eff { display: grid; gap: 6px; margin-top: 12px }
+.eff .row { display: grid; grid-template-columns: 110px 1fr 56px; gap: 10px; align-items: center; font-size: 13px }
+.eff .row .bar { height: 10px; background: var(--surface-2); border-radius: 5px; overflow: hidden }
+.eff .row .bar > i { display: block; height: 100%; background: var(--accent) }
+.eff .row.me .bar > i { background: var(--pass) }
+.eff .row .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted) }
+.eff .row.me .nm { color: var(--fg); font-weight: 600 }
+.eff .row .pct { text-align: right }
+
+/* lists */
+.list { display: grid; gap: 8px }
+.item { padding: 10px 12px; border-left: 3px solid var(--line); background: var(--surface); font-size: 14px }
+.item .when { font-size: 12px; color: var(--muted); margin-bottom: 2px }
+.item.run { border-left-color: var(--accent) }
+.item .headline { font-weight: 600 }
+details { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px }
+summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--muted) }
+.params { font-size: 13px; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 6px 14px; margin-top: 8px }
+.params div { display: flex; justify-content: space-between; gap: 8px; border-bottom: 1px dotted var(--line); padding: 2px 0 }
+.params span:last-child { font-variant-numeric: tabular-nums; font-weight: 600 }
+.note { font-size: 12px; color: var(--muted); margin-top: 10px }
+.toggle { font: inherit; font-size: 13px; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline }
+@media (max-width: 480px) { .score .pts { font-size: 44px } .rec { grid-template-columns: 56px 1fr auto; gap: 8px } .pill { font-size: 13px } }
+@media (prefers-reduced-motion: no-preference) { .winprob .bar > i { transition: width 400ms ease } }
+</style>
+
+<div class="board">
+  <div class="wrap">
+    <div class="top">
+      <h1>PackaDarts Engine</h1>
+      <div class="meta" id="meta">Warriors Fantasy League · Lock-In · loading…</div>
+    </div>
+    <div class="score">
+      <div class="side me"><div class="name">PackaDarts</div><div class="pts num" id="my-pts">—</div><div class="exp" id="my-exp">expected final —</div></div>
+      <div class="vs">week <span id="week">—</span></div>
+      <div class="side them"><div class="name" id="opp-name">opponent</div><div class="pts num" id="opp-pts">—</div><div class="exp" id="opp-exp">expected final —</div></div>
+    </div>
+    <div class="winprob"><div class="bar"><i id="wp-bar"></i></div><div class="lbl"><span>win probability</span><span id="wp">—</span></div></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="banner" id="setup" hidden></div>
+
+  <section>
+    <div class="sec-head"><h2>Do now</h2><div class="sub" id="recs-sub">from the latest run</div></div>
+    <div class="recs" id="recs"><div class="empty">No recommendations yet. The first scheduled run will post lock-or-pass calls, swaps and waiver moves here, each with a Done button so the engine knows what you actually did in Sleeper.</div></div>
+    <div class="note" id="recs-note" hidden></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Record</h2><div class="sub" id="record-sub">lock efficiency = points banked ÷ points available</div></div>
+    <div class="card">
+      <div class="stats" id="stats"><div class="empty">The Monday audit fills this in: hit rate, regret per decision, calibration, and where your lock efficiency ranks in the league.</div></div>
+      <div class="eff" id="eff"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Lessons</h2><div class="sub">what the audits taught the engine</div></div>
+    <div class="list" id="lessons"><div class="empty">Nothing learned yet. Each weekly audit writes what it changed and why.</div></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>League-mates</h2><div class="sub">tendencies worth trading against</div></div>
+    <div class="list" id="profiles"><div class="empty">Profiles appear after the first Saturday scan.</div></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Runs</h2><div class="sub" id="runs-sub"></div></div>
+    <div class="list" id="runs"><div class="empty">No runs yet.</div></div>
+  </section>
+
+  <section>
+    <div class="card">
+      <details><summary>Engine parameters</summary>
+        <div class="params" id="params"></div>
+        <div class="note" id="params-note">Defaults until the first audit tunes them.</div>
+      </details>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const fmt = (n, d = 1) => (n === null || n === undefined || isNaN(n)) ? "—" : Number(n).toFixed(d);
+  const pct = (p) => (p === null || p === undefined) ? "—" : Math.round(p * 100) + "%";
+  const when = (ts) => { try { const d = new Date(ts); return d.toLocaleString("en-AU", { timeZone: "Australia/Brisbane", weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }); } catch (e) { return ts || ""; } };
+  const dateB = (iso) => { try { const d = new Date(iso + "T00:00:00-05:00"); return d.toLocaleDateString("en-AU", { weekday: "short", day: "numeric", month: "short" }); } catch (e) { return iso; } };
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  let db = null, canWrite = null, showAllRuns = false, runsCache = [], recsCache = [];
+
+  function renderBoard(run) {
+    const m = (run && run.matchup) || {};
+    $("week").textContent = run && run.week != null ? run.week : "—";
+    $("my-pts").textContent = fmt(m.my_points_now);
+    $("opp-pts").textContent = fmt(m.opp_points_now);
+    $("opp-name").textContent = m.opponent || "opponent";
+    $("my-exp").textContent = "expected final " + fmt(m.my_expected_final);
+    $("opp-exp").textContent = "expected final " + fmt(m.opp_expected_final);
+    $("wp").textContent = pct(m.p_win_now);
+    $("wp-bar").style.width = (m.p_win_now != null ? Math.round(m.p_win_now * 100) : 0) + "%";
+    $("meta").textContent = "Warriors Fantasy League · Lock-In · " + (run ? "last run " + when(run.ts) : "no runs yet");
+  }
+
+  function recWhy(r) {
+    const bits = [];
+    if (r.kind === "LOCK" || r.kind === "PASS") {
+      if (r.score != null) bits.push("scored " + fmt(r.score));
+      if (r.continuation_value != null) bits.push("hurdle " + fmt(r.continuation_value));
+      if (r.p_improve != null) bits.push(pct(r.p_improve) + " chance a later game beats it");
+      if (r.winprob_lock != null && r.winprob_pass != null) bits.push("win " + pct(r.winprob_lock) + " lock vs " + pct(r.winprob_pass) + " pass");
+    }
+    if (r.kind === "SWAP" && r.detail) bits.push(r.detail);
+    if (r.kind === "ADD") { if (r.bid != null) bits.push("bid " + r.bid); if (r.detail) bits.push(r.detail); }
+    if ((r.kind === "DROP" || r.kind === "TRADE" || r.kind === "LINEUP") && r.detail) bits.push(r.detail);
+    if (!bits.length && r.detail) bits.push(r.detail);
+    return bits.join(" · ");
+  }
+
+  function renderRecs() {
+    const el = $("recs");
+    const active = recsCache.filter((r) => r.active !== false);
+    if (!active.length) { el.innerHTML = '<div class="empty">No open recommendations. The next run posts here.</div>'; return; }
+    const order = { LOCK: 0, PASS: 1, SWAP: 2, LINEUP: 3, ADD: 4, DROP: 5, TRADE: 6 };
+    active.sort((a, b) => (order[a.kind] ?? 9) - (order[b.kind] ?? 9) || (a.deadline || "").localeCompare(b.deadline || ""));
+    el.innerHTML = active.map((r) => `
+      <div class="rec ${r.done ? "done" : ""}" data-id="${esc(r.id)}">
+        <div class="pill ${esc(r.kind)}">${esc(r.kind)}</div>
+        <div class="what">
+          <div class="who">${esc(r.name || r.pid)}${r.slot ? ' <span class="eyebrow">' + esc(r.slot) + "</span>" : ""}</div>
+          <div class="why">${esc(recWhy(r))}</div>
+          ${r.deadline ? '<div class="deadline">before tip-off ' + esc(dateB(r.deadline)) + " (US date)</div>" : ""}
+        </div>
+        <button class="done-btn" type="button" aria-pressed="${r.done ? "true" : "false"}" ${canWrite === false ? "disabled" : ""}>${r.done ? "Done" : "Mark done"}</button>
+      </div>`).join("");
+    const open = active.filter((r) => !r.done).length;
+    $("recs-sub").textContent = open ? open + " open · tap Done after you make the move in Sleeper" : "all done";
+  }
+
+  async function toggleDone(id, btn) {
+    if (!db) return;
+    const r = recsCache.find((x) => x.id === id);
+    if (!r) return;
+    const next = !r.done;
+    btn.disabled = true;
+    try {
+      await db.doc("recs/" + id).update({ done: next, done_ts: next ? new Date().toISOString() : null });
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { canWrite = false; $("recs-note").hidden = false; $("recs-note").textContent = "This view can't record actions (read-only)."; }
+    }
+    btn.disabled = false;
+  }
+
+  function renderRecord(audits) {
+    const latest = audits[0];
+    const st = $("stats"), eff = $("eff");
+    if (!latest) { eff.innerHTML = ""; return; }
+    const s = latest.summary || {};
+    const tiles = [];
+    if (s.hit_rate != null) tiles.push(["hit rate", pct(s.hit_rate)]);
+    if (s.total_regret != null) tiles.push(["points left on table", fmt(s.total_regret)]);
+    if (s.decisions_scored != null) tiles.push(["decisions scored", s.decisions_scored]);
+    if (s.pass_calibration) tiles.push(["pass calls that paid off", pct(s.pass_calibration.actual_improve) + " (predicted " + pct(s.pass_calibration.predicted_improve) + ")"]);
+    if (latest.my_efficiency != null) tiles.push(["my lock efficiency", pct(latest.my_efficiency)]);
+    st.innerHTML = tiles.map(([k, v]) => `<div class="stat"><div class="v num">${esc(v)}</div><div class="k">${esc(k)}</div></div>`).join("") || '<div class="empty">Audit recorded, no scored decisions yet.</div>';
+    $("record-sub").textContent = "after week " + (latest.week != null ? latest.week : "—") + " · lock efficiency = points banked ÷ points available";
+    const rank = (s.lock_efficiency_rank || []).slice(0, 12);
+    eff.innerHTML = rank.map((r) => `<div class="row ${r.roster_id === 7 ? "me" : ""}"><div class="nm">${esc(r.owner)}</div><div class="bar"><i style="width:${Math.round((r.efficiency || 0) * 100)}%"></i></div><div class="pct num">${pct(r.efficiency)}</div></div>`).join("");
+  }
+
+  function renderList(id, docs, kind) {
+    const el = $(id);
+    if (!docs.length) return;
+    if (kind === "lessons") el.innerHTML = docs.map((d) => `<div class="item"><div class="when">week ${esc(d.week ?? "—")} · ${esc(when(d.ts))}</div>${esc(d.text)}</div>`).join("");
+    if (kind === "profiles") el.innerHTML = docs.map((d) => `<div class="item"><div class="when">${esc(d.owner || d.id)} · roster ${esc(d.id)} · ${esc(d.record || "")}</div>${esc(d.notes || "")}${(d.tendencies || []).length ? "<div class=\"why\">" + d.tendencies.map(esc).join(" · ") + "</div>" : ""}</div>`).join("");
+  }
+
+  function renderRuns() {
+    const el = $("runs");
+    if (!runsCache.length) return;
+    const shown = showAllRuns ? runsCache : runsCache.slice(0, 5);
+    el.innerHTML = shown.map((r) => `<div class="item run"><div class="when">${esc(when(r.ts))} · ${esc(r.kind || "run")} · week ${esc(r.week ?? "—")}</div><div class="headline">${esc(r.headline || "")}</div>${r.summary ? "<div class=\"why\">" + esc(r.summary) + "</div>" : ""}</div>`).join("");
+    $("runs-sub").innerHTML = runsCache.length > 5 ? `<button class="toggle" type="button" id="runs-toggle">${showAllRuns ? "show fewer" : "show all " + runsCache.length}</button>` : "";
+    const t = $("runs-toggle"); if (t) t.addEventListener("click", () => { showAllRuns = !showAllRuns; renderRuns(); });
+  }
+
+  function renderParams(p) {
+    const el = $("params");
+    if (!p) return;
+    const keys = ["prior_games", "recency_half_life", "base_miss_rate", "b2b_miss_add", "b2b_miss_add_vet", "swap_margin", "add_margin", "sims"];
+    el.innerHTML = keys.filter((k) => p[k] !== undefined).map((k) => `<div><span>${esc(k.replace(/_/g, " "))}</span><span>${esc(p[k])}</span></div>`).join("");
+    const ov = Object.keys(p.overrides || {}).length;
+    $("params-note").textContent = (p.updated_at ? "updated " + when(p.updated_at) : "defaults until the first audit tunes them") + (ov ? " · " + ov + " player override" + (ov > 1 ? "s" : "") + " from news" : "");
+    const setup = $("setup");
+    if (!p.repo_url) { setup.hidden = false; setup.textContent = "Setup pending: the data repository isn't linked yet, so scheduled runs will report that and stop. Give Claude the GitHub repo URL to finish setup."; }
+    else setup.hidden = true;
+  }
+
+  renderBoard(null);
+
+  document.addEventListener("click", (ev) => {
+    const btn = ev.target.closest(".done-btn");
+    if (!btn) return;
+    const row = btn.closest(".rec");
+    if (row) toggleDone(row.getAttribute("data-id"), btn);
+  });
+
+  (async () => {
+    const [d, user] = await Promise.all([window.claude?.use ? claude.use("db") : null, window.claude?.use ? claude.use("user") : null]);
+    db = d;
+    if (!db) { $("meta").textContent = "Warriors Fantasy League · Lock-In · data store unavailable in this view"; return; }
+    try { canWrite = user ? await user.can("data.write") : null; } catch (e) { canWrite = null; }
+    const timer = setTimeout(() => { $("meta").textContent = "Warriors Fantasy League · Lock-In · still loading…"; }, 10000);
+    const settle = (snap) => { if (snap && snap.metadata && !snap.metadata.fromCache) clearTimeout(timer); };
+    db.collection("runs").orderBy("ts", "desc").limit(30).onSnapshot((snap) => {
+      settle(snap); runsCache = snap.docs.map((x) => ({ id: x.id, ...x.data() }));
+      renderBoard(runsCache.find((r) => r.matchup) || runsCache[0] || null); renderRuns();
+    }, () => {});
+    db.collection("recs").where("active", "==", true).onSnapshot((snap) => {
+      settle(snap); recsCache = snap.docs.map((x) => ({ id: x.id, ...x.data() })); renderRecs();
+    }, () => {});
+    db.collection("audits").orderBy("week", "desc").limit(12).onSnapshot((snap) => {
+      settle(snap); renderRecord(snap.docs.map((x) => ({ id: x.id, ...x.data() })));
+    }, () => {});
+    db.collection("lessons").orderBy("ts", "desc").limit(30).onSnapshot((snap) => {
+      settle(snap); renderList("lessons", snap.docs.map((x) => ({ id: x.id, ...x.data() })), "lessons");
+    }, () => {});
+    db.collection("profiles").onSnapshot((snap) => {
+      settle(snap); renderList("profiles", snap.docs.map((x) => ({ id: x.id, ...x.data() })), "profiles");
+    }, () => {});
+    db.doc("params/current").onSnapshot((snap) => { settle(snap); renderParams(snap.exists ? snap.data() : null); }, () => {});
+  })();
+})();
+</script>

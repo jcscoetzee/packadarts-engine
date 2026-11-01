@@ -1,0 +1,11 @@
+{
+  "prior_games": 12,
+  "recency_half_life": 15,
+  "base_miss_rate": 0.08,
+  "b2b_miss_add": 0.03,
+  "b2b_miss_add_vet": 0.08,
+  "sims": 4000,
+  "swap_margin": 2.0,
+  "add_margin": 3.0,
+  "notes": "Live copy lives in the dashboard artifact database (doc params/current). The Monday audit proposes changes; Claude writes them there, not here."
+}

@@ -1,5 +1,5 @@
 __pycache__/
 *.pyc
-report*.json
+/report*.json
 params_live.json
 decisions.json

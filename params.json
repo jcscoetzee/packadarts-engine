@@ -7,5 +7,10 @@
   "sims": 4000,
   "swap_margin": 2.0,
   "add_margin": 3.0,
-  "notes": "Live copy lives in the dashboard artifact database (doc params/current). The Monday audit proposes changes; Claude writes them there, not here."
+  "overrides": {
+    "2133": {"out_until": "2026-12-22", "note": "Anthony Edwards: knee clean-up surgery 29 Oct 2026, out up to two months (nba.com)."},
+    "4762": {"out_until": "2026-11-30", "note": "Thomas Sorber: no season debut yet after offseason knee surgery, no timeline (rotowire 26 Oct 2026)."},
+    "1964": {"out_until": "2027-04-15", "note": "Donte DiVincenzo: Achilles surgery, on injured reserve; out for the season unless news changes."}
+  },
+  "notes": "The GitHub Action runs the engine with this file. The live copy, including any newer overrides, is the dashboard database document params/current; the scheduled Claude session reads both and applies anything newer than this file as judgment. Mirror overrides here (in a pull request) when they change."
 }

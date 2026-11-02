@@ -6,9 +6,12 @@ Team: PackaDarts / OnlyFranz, roster 7, league `1352074497095655424`.
 It has three parts and none of them need a computer switched on:
 
 1. **This repo + a GitHub Action** (`.github/workflows/pull.yml`) pulls Sleeper's public feed four
-   times a day and commits compact snapshots to `data/`. `fetch.py` is the puller; it needs no
+   times a day, runs `engine.py` in daily and weekly mode, and commits the snapshot plus
+   `data/report_daily.json` and `data/report_weekly.json`. `fetch.py` is the puller; it needs no
    credentials because every endpoint is public and read-only.
-2. **Claude scheduled tasks** clone this repo, run `engine.py` on the snapshot, read and write the
+2. **Claude scheduled tasks** clone this repo and read the reports and the snapshot. They never
+   execute code from the repo (scheduled Claude sessions are not allowed to run downloaded code, and
+   do not need to). They add the judgment layer (news, overrides, dynasty calls), read and write the
    engine's memory, and push a phone-sized recommendation.
 3. **The dashboard artifact** (a private Claude page) holds the memory: decision log, tuned
    parameters, lessons, league-mate profiles, and a "done" tap that tells the engine what you
@@ -20,7 +23,7 @@ It has three parts and none of them need a computer switched on:
 |---|---|
 | `fetch.py` | Pulls league, rosters, users, matchups (this/next/previous week), transactions, trending adds, the full player catalog (filtered to everyone who matters), per-game logs for this season and a compressed last season, and the full NBA schedule. |
 | `engine.py` | The maths. `--mode daily` = lock/pass + swaps + injuries + win probability. `--mode weekly` = lineup, adds/drops with bids, league scan, trade targets, and the audit of last week when a decision log is supplied. `--mode audit` = just the audit. |
-| `params.json` | Default parameters. The live copy lives in the dashboard's database and is what the scheduled runs actually use. |
+| `params.json` | Parameters the Action runs the engine with, including mirrored player overrides. The live copy (newest overrides, tuned values) lives in the dashboard's database; the scheduled runs apply anything newer as judgment. |
 | `data/` | Snapshots written by the Action. Never edit by hand. |
 
 ## Run it locally

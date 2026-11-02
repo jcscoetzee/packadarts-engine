@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 3,
  "us_date": "2026-11-02",
- "snapshot": "2026-11-02T09:34:03Z",
+ "snapshot": "2026-11-02T22:16:42Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
   "my_points_now": 0.0,
   "opp_points_now": 0.0,
-  "my_expected_final": 317.8,
-  "opp_expected_final": 323.3,
-  "p_win_now": 0.437
+  "my_expected_final": 298.1,
+  "opp_expected_final": 307.0,
+  "p_win_now": 0.4
  },
  "starters": [
   {
@@ -85,8 +85,8 @@
    "pid": "1074",
    "name": "Paul George",
    "team": "BOS",
-   "inj": null,
-   "inj_part": null,
+   "inj": "Out",
+   "inj_part": "Rest",
    "state": "open",
    "counted": 0.0,
    "games_remaining": [
@@ -113,7 +113,7 @@
    ],
    "dist_mean": 28.0,
    "dist_sd": 10.8,
-   "continuation_value": 35.3,
+   "continuation_value": 14.5,
    "decision": "WAIT"
   },
   {
@@ -296,7 +296,7 @@
    "pid": "1054",
    "name": "Kyrie Irving",
    "team": "DAL",
-   "inj": "GTD",
+   "inj": "DTD",
    "inj_part": "Knee",
    "state": "open",
    "counted": 0.0,
@@ -324,7 +324,7 @@
    ],
    "dist_mean": 29.6,
    "dist_sd": 9.0,
-   "continuation_value": 34.0,
+   "continuation_value": 34.9,
    "decision": "WAIT"
   }
  ],
@@ -358,11 +358,11 @@
   },
   {
    "slot": "SF",
-   "pid": "2289",
-   "name": "Scottie Barnes",
+   "pid": "1752",
+   "name": "Lauri Markkanen",
    "state": "open",
    "counted": 0.0,
-   "games_remaining": 3,
+   "games_remaining": 4,
    "inj": null
   },
   {
@@ -394,8 +394,8 @@
   },
   {
    "slot": "UTIL",
-   "pid": "1752",
-   "name": "Lauri Markkanen",
+   "pid": "2713",
+   "name": "Jared McCain",
    "state": "open",
    "counted": 0.0,
    "games_remaining": 4,
@@ -413,21 +413,46 @@
  ],
  "swaps": [
   {
+   "slot": "G",
+   "out": "1074",
+   "out_name": "Paul George",
+   "in": "1747",
+   "in_name": "Jamal Murray",
+   "gain": 29.7,
+   "in_games_remaining": 3
+  },
+  {
+   "slot": "F",
+   "out": "1831",
+   "out_name": "OG Anunoby",
+   "in": "1822",
+   "in_name": "Jayson Tatum",
+   "gain": 16.1,
+   "in_games_remaining": 4
+  },
+  {
    "slot": "UTIL",
    "out": "1444",
    "out_name": "Damian Lillard",
-   "in": "1747",
-   "in_name": "Jamal Murray",
-   "gain": 14.9,
-   "in_games_remaining": 3
+   "in": "1054",
+   "in_name": "Kyrie Irving",
+   "gain": 5.6,
+   "in_games_remaining": 4
   }
  ],
  "injuries": [
   {
    "pid": "1054",
    "name": "Kyrie Irving",
-   "status": "GTD",
+   "status": "DTD",
    "part": "Knee",
+   "starter": true
+  },
+  {
+   "pid": "1074",
+   "name": "Paul George",
+   "status": "Out",
+   "part": "Rest",
    "starter": true
   },
   {

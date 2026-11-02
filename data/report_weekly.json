@@ -3,7 +3,7 @@
  "planning_week": 3,
  "current_week": 3,
  "us_date": "2026-11-02",
- "snapshot": "2026-11-02T09:34:03Z",
+ "snapshot": "2026-11-02T22:16:42Z",
  "week_dates": [
   "2026-11-02",
   "2026-11-08"
@@ -11,33 +11,6 @@
  "lineup": [
   {
    "slot": "PG",
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": "GTD",
-   "week_value": 34.0,
-   "games": 4
-  },
-  {
-   "slot": "SG",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 37.7,
-   "games": 4
-  },
-  {
-   "slot": "G",
    "pid": "1444",
    "name": "Damian Lillard",
    "team": "POR",
@@ -50,20 +23,33 @@
    "games": 4
   },
   {
-   "slot": "SF",
-   "pid": "1822",
-   "name": "Jayson Tatum",
-   "team": "BOS",
+   "slot": "SG",
+   "pid": "2157",
+   "name": "Immanuel Quickley",
+   "team": "TOR",
    "fpos": [
-    "PF",
-    "SF"
+    "PG",
+    "SG"
    ],
    "inj": null,
-   "week_value": 46.1,
+   "week_value": 28.8,
+   "games": 3
+  },
+  {
+   "slot": "G",
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": "DTD",
+   "week_value": 34.9,
    "games": 4
   },
   {
-   "slot": "PF",
+   "slot": "SF",
    "pid": "2029",
    "name": "P.J. Washington",
    "team": "DAL",
@@ -77,7 +63,7 @@
    "games": 4
   },
   {
-   "slot": "F",
+   "slot": "PF",
    "pid": "1831",
    "name": "OG Anunoby",
    "team": "NYK",
@@ -88,6 +74,19 @@
    "inj": null,
    "week_value": 30.0,
    "games": 3
+  },
+  {
+   "slot": "F",
+   "pid": "1822",
+   "name": "Jayson Tatum",
+   "team": "BOS",
+   "fpos": [
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 46.1,
+   "games": 4
   },
   {
    "slot": "C",
@@ -103,20 +102,6 @@
   },
   {
    "slot": "UTIL",
-   "pid": "1074",
-   "name": "Paul George",
-   "team": "BOS",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 35.3,
-   "games": 4
-  },
-  {
-   "slot": "UTIL",
    "pid": "1747",
    "name": "Jamal Murray",
    "team": "DEN",
@@ -126,9 +111,23 @@
    "inj": null,
    "week_value": 44.2,
    "games": 3
+  },
+  {
+   "slot": "UTIL",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
+   "fpos": [
+    "PF",
+    "SF",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 37.7,
+   "games": 4
   }
  ],
- "lineup_total_value": 317.7,
+ "lineup_total_value": 312.1,
  "bench": [
   {
    "pid": "4762",
@@ -170,6 +169,21 @@
    "games": 3,
    "age": 29,
    "years_exp": 10
+  },
+  {
+   "pid": "1074",
+   "name": "Paul George",
+   "team": "BOS",
+   "fpos": [
+    "PF",
+    "SF",
+    "SG"
+   ],
+   "inj": "Out",
+   "week_value": 14.5,
+   "games": 4,
+   "age": 36,
+   "years_exp": 16
   },
   {
    "pid": "2256",
@@ -226,20 +240,6 @@
    "games": 4,
    "age": 28,
    "years_exp": 8
-  },
-  {
-   "pid": "2157",
-   "name": "Immanuel Quickley",
-   "team": "TOR",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 28.8,
-   "games": 3,
-   "age": 27,
-   "years_exp": 6
   }
  ],
  "adds": [
@@ -306,6 +306,28 @@
    "gain_ros_per_week": 6.8,
    "gain_this_week": 8.2,
    "suggested_bid": 33,
+   "budget_left": 400,
+   "kind": "hold"
+  },
+  {
+   "pid": "2280",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "fpos": [
+    "SF",
+    "SG"
+   ],
+   "inj": "GTD",
+   "week_value": 21.8,
+   "games_this_week": 4,
+   "next_week_value": 19.7,
+   "games_next_week": 3,
+   "ros_week_value": 23.8,
+   "age": 25,
+   "years_exp": 5,
+   "gain_ros_per_week": 8.1,
+   "gain_this_week": 6.7,
+   "suggested_bid": 39,
    "budget_left": 400,
    "kind": "hold"
   },
@@ -438,28 +460,6 @@
    "gain_ros_per_week": 5.1,
    "gain_this_week": 5.5,
    "suggested_bid": 24,
-   "budget_left": 400,
-   "kind": "hold"
-  },
-  {
-   "pid": "2139",
-   "name": "Sam Merrill",
-   "team": "CLE",
-   "fpos": [
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 19.9,
-   "games_this_week": 4,
-   "next_week_value": 19.9,
-   "games_next_week": 4,
-   "ros_week_value": 19.4,
-   "age": 30,
-   "years_exp": 6,
-   "gain_ros_per_week": 3.7,
-   "gain_this_week": 4.8,
-   "suggested_bid": 18,
    "budget_left": 400,
    "kind": "hold"
   }

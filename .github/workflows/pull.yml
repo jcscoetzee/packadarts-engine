@@ -29,7 +29,13 @@ jobs:
           LEAGUE_ID: '1352074497095655424'
           MY_ROSTER_ID: '7'
         run: python fetch.py
-      - name: Commit snapshot
+      - name: Run engine
+        # The maths runs here, on GitHub's runner, not in the scheduled Claude session (which only
+        # reads JSON). A failed mode removes its stale report so the session falls back to a manual read.
+        run: |
+          python engine.py --mode daily  --params params.json --out data/report_daily.json  > /dev/null || rm -f data/report_daily.json
+          python engine.py --mode weekly --params params.json --out data/report_weekly.json > /dev/null || rm -f data/report_weekly.json
+      - name: Commit snapshot and reports
         run: |
           git config user.name "packadarts-bot"
           git config user.email "packadarts-bot@users.noreply.github.com"

@@ -1,4 +1,4 @@
-MODE = daily. This is the post-games digest: every US game of the night has finished (it is about 5:50pm Brisbane, 2:50am US Eastern).
+MODE = daily (read data/report_daily.json). This is the post-games digest: every US game of the night has finished (it is about 5:50pm Brisbane, 2:50am US Eastern).
 
 Deliver:
 1. Lock or pass for every starter whose decision is open: report.starters rows with a "verdict" (basis is win probability when the matchup is close, otherwise expected value). State for each: the score in hand, the hurdle (continuation_value), the chance a later game beats it (p_improve_if_pass), and the Brisbane deadline (the player's next game tip-off). Rows marked FINAL need nothing (the last game counts automatically); rows marked WAIT have not played yet this week.

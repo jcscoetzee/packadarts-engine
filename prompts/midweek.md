@@ -1,4 +1,4 @@
-MODE = weekly, and also run --mode daily into report_daily.json so you have lock-state-aware swaps. It is about 7:45am Brisbane (4:45pm US Eastern the previous US day), before tonight's US games tip (from about 10am Brisbane). Work out whether today is Thursday or Saturday in Brisbane from the current time.
+MODE = weekly: read data/report_weekly.json, and also data/report_daily.json so you have lock-state-aware swaps. It is about 7:45am Brisbane (4:45pm US Eastern the previous US day), before tonight's US games tip (from about 10am Brisbane). Work out whether today is Thursday or Saturday in Brisbane from the current time.
 
 Thursday and Saturday both deliver:
 1. Streaming: report.adds ranked by week_value (this week), next_week_value and ros_week_value, with games_this_week and games_next_week. The edge is games remaining: a free agent with four games left beats a bench player with one. Recommend at most two adds with bids and the paired drops (report.drops), as ADD and DROP recs. Dynasty judgment applies: do not drop a young player with long-term value for a streamer; say when the right move is to do nothing. Note that waivers clear daily in this league.

@@ -1,0 +1,462 @@
+{
+ "mode": "daily",
+ "week": 3,
+ "us_date": "2026-11-02",
+ "snapshot": "2026-11-02T09:34:03Z",
+ "matchup": {
+  "opponent_roster": 3,
+  "opponent": "Heat Czech ",
+  "my_points_now": 0.0,
+  "opp_points_now": 0.0,
+  "my_expected_final": 317.8,
+  "opp_expected_final": 323.3,
+  "p_win_now": 0.437
+ },
+ "starters": [
+  {
+   "slot": "PG",
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "team": "DEN",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "POR",
+     "home": true
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "TOR",
+     "home": true
+    },
+    {
+     "date": "2026-11-07",
+     "opp": "IND",
+     "home": false
+    }
+   ],
+   "dist_mean": 37.4,
+   "dist_sd": 13.4,
+   "continuation_value": 44.2,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "SG",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "DEN",
+     "home": false
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "PHX",
+     "home": false
+    },
+    {
+     "date": "2026-11-06",
+     "opp": "LAL",
+     "home": false
+    },
+    {
+     "date": "2026-11-07",
+     "opp": "SAS",
+     "home": true
+    }
+   ],
+   "dist_mean": 32.4,
+   "dist_sd": 8.9,
+   "continuation_value": 37.7,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "G",
+   "pid": "1074",
+   "name": "Paul George",
+   "team": "BOS",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "HOU",
+     "home": false
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "MIL",
+     "home": true
+    },
+    {
+     "date": "2026-11-06",
+     "opp": "CHA",
+     "home": false
+    },
+    {
+     "date": "2026-11-08",
+     "opp": "MIL",
+     "home": false
+    }
+   ],
+   "dist_mean": 28.0,
+   "dist_sd": 10.8,
+   "continuation_value": 35.3,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "SF",
+   "pid": "1822",
+   "name": "Jayson Tatum",
+   "team": "BOS",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "HOU",
+     "home": false
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "MIL",
+     "home": true
+    },
+    {
+     "date": "2026-11-06",
+     "opp": "CHA",
+     "home": false
+    },
+    {
+     "date": "2026-11-08",
+     "opp": "MIL",
+     "home": false
+    }
+   ],
+   "dist_mean": 38.1,
+   "dist_sd": 11.5,
+   "continuation_value": 46.1,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "PF",
+   "pid": "2029",
+   "name": "P.J. Washington",
+   "team": "DAL",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "SAC",
+     "home": true
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "SAS",
+     "home": false
+    },
+    {
+     "date": "2026-11-06",
+     "opp": "UTA",
+     "home": true
+    },
+    {
+     "date": "2026-11-08",
+     "opp": "BKN",
+     "home": true
+    }
+   ],
+   "dist_mean": 23.8,
+   "dist_sd": 9.7,
+   "continuation_value": 30.8,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "F",
+   "pid": "1831",
+   "name": "OG Anunoby",
+   "team": "NYK",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "BKN",
+     "home": true
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "CHI",
+     "home": true
+    },
+    {
+     "date": "2026-11-07",
+     "opp": "CLE",
+     "home": false
+    }
+   ],
+   "dist_mean": 24.3,
+   "dist_sd": 10.5,
+   "continuation_value": 30.0,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "C",
+   "pid": "1350",
+   "name": "Rudy Gobert",
+   "team": "MIN",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "MIL",
+     "home": true
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "HOU",
+     "home": false
+    },
+    {
+     "date": "2026-11-06",
+     "opp": "NOP",
+     "home": false
+    },
+    {
+     "date": "2026-11-08",
+     "opp": "UTA",
+     "home": true
+    }
+   ],
+   "dist_mean": 24.1,
+   "dist_sd": 9.2,
+   "continuation_value": 30.3,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "UTIL",
+   "pid": "1444",
+   "name": "Damian Lillard",
+   "team": "POR",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "DEN",
+     "home": false
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "PHX",
+     "home": false
+    },
+    {
+     "date": "2026-11-06",
+     "opp": "LAL",
+     "home": false
+    },
+    {
+     "date": "2026-11-07",
+     "opp": "SAS",
+     "home": true
+    }
+   ],
+   "dist_mean": 23.9,
+   "dist_sd": 9.3,
+   "continuation_value": 29.3,
+   "decision": "WAIT"
+  },
+  {
+   "slot": "UTIL",
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "inj": "GTD",
+   "inj_part": "Knee",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": [
+    {
+     "date": "2026-11-02",
+     "opp": "SAC",
+     "home": true
+    },
+    {
+     "date": "2026-11-04",
+     "opp": "SAS",
+     "home": false
+    },
+    {
+     "date": "2026-11-06",
+     "opp": "UTA",
+     "home": true
+    },
+    {
+     "date": "2026-11-08",
+     "opp": "BKN",
+     "home": true
+    }
+   ],
+   "dist_mean": 29.6,
+   "dist_sd": 9.0,
+   "continuation_value": 34.0,
+   "decision": "WAIT"
+  }
+ ],
+ "opponent_starters": [
+  {
+   "slot": "PG",
+   "pid": "2772",
+   "name": "Ajay Mitchell",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 4,
+   "inj": null
+  },
+  {
+   "slot": "SG",
+   "pid": "2574",
+   "name": "Amen Thompson",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 3,
+   "inj": null
+  },
+  {
+   "slot": "G",
+   "pid": "2143",
+   "name": "Desmond Bane",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 3,
+   "inj": null
+  },
+  {
+   "slot": "SF",
+   "pid": "2289",
+   "name": "Scottie Barnes",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 3,
+   "inj": null
+  },
+  {
+   "slot": "PF",
+   "pid": "2308",
+   "name": "Alperen \u015eeng\u00fcn",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 3,
+   "inj": null
+  },
+  {
+   "slot": "F",
+   "pid": "2304",
+   "name": "Franz Wagner",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 3,
+   "inj": null
+  },
+  {
+   "slot": "C",
+   "pid": "1272",
+   "name": "Anthony Davis",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 4,
+   "inj": null
+  },
+  {
+   "slot": "UTIL",
+   "pid": "1752",
+   "name": "Lauri Markkanen",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 4,
+   "inj": null
+  },
+  {
+   "slot": "UTIL",
+   "pid": "1739",
+   "name": "Domantas Sabonis",
+   "state": "open",
+   "counted": 0.0,
+   "games_remaining": 4,
+   "inj": null
+  }
+ ],
+ "swaps": [
+  {
+   "slot": "UTIL",
+   "out": "1444",
+   "out_name": "Damian Lillard",
+   "in": "1747",
+   "in_name": "Jamal Murray",
+   "gain": 14.9,
+   "in_games_remaining": 3
+  }
+ ],
+ "injuries": [
+  {
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "status": "GTD",
+   "part": "Knee",
+   "starter": true
+  },
+  {
+   "pid": "1697",
+   "name": "Ivica Zubac",
+   "status": "Out",
+   "part": "Ankle",
+   "starter": false
+  },
+  {
+   "pid": "1964",
+   "name": "Donte DiVincenzo",
+   "status": "Out",
+   "part": "Achilles",
+   "starter": false
+  },
+  {
+   "pid": "2133",
+   "name": "Anthony Edwards",
+   "status": "Out",
+   "part": "Knee",
+   "starter": false
+  },
+  {
+   "pid": "4762",
+   "name": "Thomas Sorber",
+   "status": "Out",
+   "part": "Knee",
+   "starter": false
+  }
+ ]
+}

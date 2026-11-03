@@ -3,7 +3,7 @@
  "planning_week": 3,
  "current_week": 3,
  "us_date": "2026-11-03",
- "snapshot": "2026-11-03T07:45:49Z",
+ "snapshot": "2026-11-03T20:01:25Z",
  "week_dates": [
   "2026-11-02",
   "2026-11-08"
@@ -201,6 +201,34 @@
    "years_exp": 8
   },
   {
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "team": "DET",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 20.4,
+   "games": 2,
+   "age": 25,
+   "years_exp": 2
+  },
+  {
+   "pid": "1972",
+   "name": "De'Anthony Melton",
+   "team": "GSW",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 21.3,
+   "games": 2,
+   "age": 28,
+   "years_exp": 8
+  },
+  {
    "pid": "1961",
    "name": "Duncan Robinson",
    "team": "DET",
@@ -244,50 +272,6 @@
  ],
  "adds": [
   {
-   "pid": "1972",
-   "name": "De'Anthony Melton",
-   "team": "GSW",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 21.3,
-   "games_this_week": 2,
-   "next_week_value": 24.1,
-   "games_next_week": 3,
-   "ros_week_value": 25.0,
-   "age": 28,
-   "years_exp": 8,
-   "gain_ros_per_week": 9.6,
-   "gain_this_week": 8.1,
-   "suggested_bid": 46,
-   "budget_left": 400,
-   "kind": "hold"
-  },
-  {
-   "pid": "2776",
-   "name": "Daniss Jenkins",
-   "team": "DET",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 20.4,
-   "games_this_week": 2,
-   "next_week_value": 23.4,
-   "games_next_week": 3,
-   "ros_week_value": 24.6,
-   "age": 25,
-   "years_exp": 2,
-   "gain_ros_per_week": 9.2,
-   "gain_this_week": 7.2,
-   "suggested_bid": 44,
-   "budget_left": 400,
-   "kind": "hold"
-  },
-  {
    "pid": "2521",
    "name": "Quenton Jackson",
    "team": "IND",
@@ -305,8 +289,8 @@
    "years_exp": 4,
    "gain_ros_per_week": 7.9,
    "gain_this_week": 6.0,
-   "suggested_bid": 38,
-   "budget_left": 400,
+   "suggested_bid": 35,
+   "budget_left": 373,
    "kind": "hold"
   },
   {
@@ -327,8 +311,8 @@
    "years_exp": 2,
    "gain_ros_per_week": 6.6,
    "gain_this_week": 7.8,
-   "suggested_bid": 32,
-   "budget_left": 400,
+   "suggested_bid": 30,
+   "budget_left": 373,
    "kind": "hold"
   },
   {
@@ -349,8 +333,8 @@
    "years_exp": 7,
    "gain_ros_per_week": 6.0,
    "gain_this_week": 7.4,
-   "suggested_bid": 29,
-   "budget_left": 400,
+   "suggested_bid": 27,
+   "budget_left": 373,
    "kind": "hold"
   },
   {
@@ -371,8 +355,8 @@
    "years_exp": 5,
    "gain_ros_per_week": 6.5,
    "gain_this_week": 7.8,
-   "suggested_bid": 31,
-   "budget_left": 400,
+   "suggested_bid": 29,
+   "budget_left": 373,
    "kind": "hold"
   },
   {
@@ -393,8 +377,8 @@
    "years_exp": 3,
    "gain_ros_per_week": 6.3,
    "gain_this_week": 5.7,
-   "suggested_bid": 30,
-   "budget_left": 400,
+   "suggested_bid": 28,
+   "budget_left": 373,
    "kind": "hold"
   },
   {
@@ -414,8 +398,8 @@
    "years_exp": 5,
    "gain_ros_per_week": 6.2,
    "gain_this_week": 5.1,
-   "suggested_bid": 30,
-   "budget_left": 400,
+   "suggested_bid": 28,
+   "budget_left": 373,
    "kind": "hold"
   },
   {
@@ -436,8 +420,8 @@
    "years_exp": 7,
    "gain_ros_per_week": 5.8,
    "gain_this_week": 7.3,
-   "suggested_bid": 28,
-   "budget_left": 400,
+   "suggested_bid": 26,
+   "budget_left": 373,
    "kind": "hold"
   },
   {
@@ -458,8 +442,52 @@
    "years_exp": 5,
    "gain_ros_per_week": 5.0,
    "gain_this_week": 6.6,
-   "suggested_bid": 24,
-   "budget_left": 400,
+   "suggested_bid": 22,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "2280",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "fpos": [
+    "SF",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 19.3,
+   "games_this_week": 3,
+   "next_week_value": 19.2,
+   "games_next_week": 3,
+   "ros_week_value": 21.8,
+   "age": 25,
+   "years_exp": 5,
+   "gain_ros_per_week": 6.4,
+   "gain_this_week": 6.1,
+   "suggested_bid": 29,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "2159",
+   "name": "Isaiah Stewart",
+   "team": "MEM",
+   "fpos": [
+    "C",
+    "PF"
+   ],
+   "inj": null,
+   "week_value": 17.7,
+   "games_this_week": 2,
+   "next_week_value": 21.0,
+   "games_next_week": 4,
+   "ros_week_value": 20.5,
+   "age": 25,
+   "years_exp": 6,
+   "gain_ros_per_week": 5.1,
+   "gain_this_week": 4.5,
+   "suggested_bid": 23,
+   "budget_left": 373,
    "kind": "hold"
   }
  ],
@@ -510,16 +538,16 @@
    "inj": "Out"
   },
   {
-   "pid": "1961",
-   "name": "Duncan Robinson",
-   "ros_week_value": 24.9,
-   "week_value": 22.5,
-   "age": 32,
-   "years_exp": 8,
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "ros_week_value": 24.6,
+   "week_value": 20.4,
+   "age": 25,
+   "years_exp": 2,
    "inj": null
   }
  ],
- "budget_left": 400,
+ "budget_left": 373,
  "league": [
   {
    "roster_id": 12,
@@ -559,9 +587,9 @@
    "division": 1,
    "lock_efficiency": 0.989,
    "top9_ros_value": 333.3,
-   "depth_10_14": 137.0,
-   "avg_age": 28.4,
-   "waiver_budget_used": 0
+   "depth_10_14": 137.1,
+   "avg_age": 28.2,
+   "waiver_budget_used": 27
   },
   {
    "roster_id": 9,

@@ -2,8 +2,8 @@
  "mode": "weekly",
  "planning_week": 3,
  "current_week": 3,
- "us_date": "2026-11-03",
- "snapshot": "2026-11-04T01:09:54Z",
+ "us_date": "2026-11-04",
+ "snapshot": "2026-11-04T15:18:27Z",
  "week_dates": [
   "2026-11-02",
   "2026-11-08"
@@ -11,6 +11,32 @@
  "lineup": [
   {
    "slot": "PG",
+   "pid": "2157",
+   "name": "Immanuel Quickley",
+   "team": "TOR",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 27.6,
+   "games": 2
+  },
+  {
+   "slot": "SG",
+   "pid": "1444",
+   "name": "Damian Lillard",
+   "team": "POR",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 28.6,
+   "games": 3
+  },
+  {
+   "slot": "G",
    "pid": "1054",
    "name": "Kyrie Irving",
    "team": "DAL",
@@ -23,7 +49,7 @@
    "games": 3
   },
   {
-   "slot": "SG",
+   "slot": "SF",
    "pid": "1074",
    "name": "Paul George",
    "team": "BOS",
@@ -37,19 +63,7 @@
    "games": 3
   },
   {
-   "slot": "G",
-   "pid": "1747",
-   "name": "Jamal Murray",
-   "team": "DEN",
-   "fpos": [
-    "PG"
-   ],
-   "inj": null,
-   "week_value": 41.3,
-   "games": 2
-  },
-  {
-   "slot": "SF",
+   "slot": "PF",
    "pid": "1822",
    "name": "Jayson Tatum",
    "team": "BOS",
@@ -57,12 +71,12 @@
     "PF",
     "SF"
    ],
-   "inj": "DTD",
-   "week_value": 41.5,
+   "inj": "GTD",
+   "week_value": 40.2,
    "games": 3
   },
   {
-   "slot": "PF",
+   "slot": "F",
    "pid": "2029",
    "name": "P.J. Washington",
    "team": "DAL",
@@ -73,20 +87,6 @@
    ],
    "inj": null,
    "week_value": 29.1,
-   "games": 3
-  },
-  {
-   "slot": "F",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 36.3,
    "games": 3
   },
   {
@@ -103,32 +103,32 @@
   },
   {
    "slot": "UTIL",
-   "pid": "1444",
-   "name": "Damian Lillard",
-   "team": "POR",
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "team": "DEN",
    "fpos": [
-    "PG",
-    "SG"
+    "PG"
    ],
    "inj": null,
-   "week_value": 28.6,
-   "games": 3
+   "week_value": 41.3,
+   "games": 2
   },
   {
    "slot": "UTIL",
-   "pid": "2157",
-   "name": "Immanuel Quickley",
-   "team": "TOR",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
    "fpos": [
-    "PG",
+    "PF",
+    "SF",
     "SG"
    ],
    "inj": null,
-   "week_value": 27.6,
-   "games": 2
+   "week_value": 36.3,
+   "games": 3
   }
  ],
- "lineup_total_value": 298.7,
+ "lineup_total_value": 297.4,
  "bench": [
   {
    "pid": "4762",
@@ -173,6 +173,19 @@
    "years_exp": 5
   },
   {
+   "pid": "1697",
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "fpos": [
+    "C"
+   ],
+   "inj": "GTD",
+   "week_value": 16.2,
+   "games": 2,
+   "age": 29,
+   "years_exp": 10
+  },
+  {
    "pid": "1975",
    "name": "Mikal Bridges",
    "team": "NYK",
@@ -186,19 +199,6 @@
    "games": 2,
    "age": 30,
    "years_exp": 8
-  },
-  {
-   "pid": "1697",
-   "name": "Ivica Zubac",
-   "team": "IND",
-   "fpos": [
-    "C"
-   ],
-   "inj": "DTD",
-   "week_value": 18.1,
-   "games": 2,
-   "age": 29,
-   "years_exp": 10
   },
   {
    "pid": "2776",
@@ -532,10 +532,10 @@
    "pid": "1697",
    "name": "Ivica Zubac",
    "ros_week_value": 23.7,
-   "week_value": 18.1,
+   "week_value": 16.2,
    "age": 29,
    "years_exp": 10,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "2776",
@@ -825,7 +825,7 @@
    "ros_week_value": 30.7,
    "lock_in_premium": 1.356,
    "age": 27,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "2050",
@@ -885,7 +885,7 @@
    "ros_week_value": 26.7,
    "lock_in_premium": 1.328,
    "age": 28,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "2723",

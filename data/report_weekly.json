@@ -3,7 +3,7 @@
  "planning_week": 3,
  "current_week": 3,
  "us_date": "2026-11-03",
- "snapshot": "2026-11-03T20:01:25Z",
+ "snapshot": "2026-11-04T01:09:54Z",
  "week_dates": [
   "2026-11-02",
   "2026-11-08"
@@ -18,8 +18,8 @@
     "PG",
     "SG"
    ],
-   "inj": "DTD",
-   "week_value": 31.7,
+   "inj": null,
+   "week_value": 32.3,
    "games": 3
   },
   {
@@ -32,8 +32,8 @@
     "SF",
     "SG"
    ],
-   "inj": "DTD",
-   "week_value": 32.0,
+   "inj": null,
+   "week_value": 33.3,
    "games": 3
   },
   {
@@ -57,8 +57,8 @@
     "PF",
     "SF"
    ],
-   "inj": null,
-   "week_value": 43.2,
+   "inj": "DTD",
+   "week_value": 41.5,
    "games": 3
   },
   {
@@ -128,7 +128,7 @@
    "games": 2
   }
  ],
- "lineup_total_value": 298.5,
+ "lineup_total_value": 298.7,
  "bench": [
   {
    "pid": "4762",
@@ -138,24 +138,11 @@
     "C",
     "PF"
    ],
-   "inj": "DTD",
+   "inj": "Out",
    "week_value": 0.0,
    "games": 3,
    "age": 20,
    "years_exp": 0
-  },
-  {
-   "pid": "1697",
-   "name": "Ivica Zubac",
-   "team": "IND",
-   "fpos": [
-    "C"
-   ],
-   "inj": "Out",
-   "week_value": 2.1,
-   "games": 2,
-   "age": 29,
-   "years_exp": 10
   },
   {
    "pid": "4867",
@@ -199,6 +186,19 @@
    "games": 2,
    "age": 30,
    "years_exp": 8
+  },
+  {
+   "pid": "1697",
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "fpos": [
+    "C"
+   ],
+   "inj": "DTD",
+   "week_value": 18.1,
+   "games": 2,
+   "age": 29,
+   "years_exp": 10
   },
   {
    "pid": "2776",
@@ -499,7 +499,7 @@
    "week_value": 0.0,
    "age": 20,
    "years_exp": 0,
-   "inj": "DTD"
+   "inj": "Out"
   },
   {
    "pid": "4867",
@@ -532,10 +532,10 @@
    "pid": "1697",
    "name": "Ivica Zubac",
    "ros_week_value": 23.7,
-   "week_value": 2.1,
+   "week_value": 18.1,
    "age": 29,
    "years_exp": 10,
-   "inj": "Out"
+   "inj": "DTD"
   },
   {
    "pid": "2776",
@@ -825,7 +825,7 @@
    "ros_week_value": 30.7,
    "lock_in_premium": 1.356,
    "age": 27,
-   "inj": null
+   "inj": "DTD"
   },
   {
    "pid": "2050",
@@ -885,7 +885,7 @@
    "ros_week_value": 26.7,
    "lock_in_premium": 1.328,
    "age": 28,
-   "inj": null
+   "inj": "DTD"
   },
   {
    "pid": "2723",

@@ -3,7 +3,7 @@
  "planning_week": 3,
  "current_week": 3,
  "us_date": "2026-11-05",
- "snapshot": "2026-11-05T15:18:33Z",
+ "snapshot": "2026-11-06T01:27:27Z",
  "week_dates": [
   "2026-11-02",
   "2026-11-08"
@@ -24,19 +24,6 @@
   },
   {
    "slot": "SG",
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 30.8,
-   "games": 2
-  },
-  {
-   "slot": "G",
    "pid": "1444",
    "name": "Damian Lillard",
    "team": "POR",
@@ -49,7 +36,7 @@
    "games": 2
   },
   {
-   "slot": "SF",
+   "slot": "G",
    "pid": "2181",
    "name": "Deni Avdija",
    "team": "POR",
@@ -60,6 +47,19 @@
    ],
    "inj": null,
    "week_value": 34.3,
+   "games": 2
+  },
+  {
+   "slot": "SF",
+   "pid": "1822",
+   "name": "Jayson Tatum",
+   "team": "BOS",
+   "fpos": [
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 39.8,
    "games": 2
   },
   {
@@ -78,15 +78,16 @@
   },
   {
    "slot": "F",
-   "pid": "1822",
-   "name": "Jayson Tatum",
-   "team": "BOS",
+   "pid": "2029",
+   "name": "P.J. Washington",
+   "team": "DAL",
    "fpos": [
+    "C",
     "PF",
     "SF"
    ],
-   "inj": "DTD",
-   "week_value": 37.0,
+   "inj": null,
+   "week_value": 27.4,
    "games": 2
   },
   {
@@ -103,6 +104,19 @@
   },
   {
    "slot": "UTIL",
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 30.8,
+   "games": 2
+  },
+  {
+   "slot": "UTIL",
    "pid": "1934",
    "name": "Isaiah Hartenstein",
    "team": "OKC",
@@ -112,23 +126,9 @@
    "inj": null,
    "week_value": 24.1,
    "games": 2
-  },
-  {
-   "slot": "UTIL",
-   "pid": "2029",
-   "name": "P.J. Washington",
-   "team": "DAL",
-   "fpos": [
-    "C",
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 27.4,
-   "games": 2
   }
  ],
- "lineup_total_value": 284.3,
+ "lineup_total_value": 287.1,
  "bench": [
   {
    "pid": "4762",
@@ -825,7 +825,7 @@
    "sd": 10.5,
    "ros_week_value": 27.4,
    "lock_in_premium": 1.342,
-   "age": 24,
+   "age": 25,
    "inj": null
   },
   {

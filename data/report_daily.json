@@ -1,16 +1,16 @@
 {
  "mode": "daily",
  "week": 3,
- "us_date": "2026-11-05",
- "snapshot": "2026-11-06T01:27:27Z",
+ "us_date": "2026-11-06",
+ "snapshot": "2026-11-06T14:55:34Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
-  "my_points_now": 261.0,
-  "opp_points_now": 247.0,
-  "my_expected_final": 302.3,
-  "opp_expected_final": 309.7,
-  "p_win_now": 0.366
+  "my_points_now": 261.5,
+  "opp_points_now": 294.0,
+  "my_expected_final": 303.6,
+  "opp_expected_final": 318.7,
+  "p_win_now": 0.278
  },
  "starters": [
   {
@@ -61,8 +61,8 @@
    "p_improve_if_pass": 0.604,
    "ev_verdict": "PASS",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.351,
-   "winprob_pass": 0.373,
+   "winprob_lock": 0.22,
+   "winprob_pass": 0.279,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -98,8 +98,8 @@
    "p_improve_if_pass": 0.323,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.398,
-   "winprob_pass": 0.32,
+   "winprob_lock": 0.264,
+   "winprob_pass": 0.233,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -135,8 +135,8 @@
    "p_improve_if_pass": 0.257,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.378,
-   "winprob_pass": 0.322,
+   "winprob_lock": 0.282,
+   "winprob_pass": 0.208,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -172,10 +172,10 @@
    "p_improve_if_pass": 0.369,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.368,
-   "winprob_pass": 0.364,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "winprob_lock": 0.277,
+   "winprob_pass": 0.288,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "F",
@@ -209,8 +209,8 @@
    "p_improve_if_pass": 0.89,
    "ev_verdict": "PASS",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.153,
-   "winprob_pass": 0.359,
+   "winprob_lock": 0.078,
+   "winprob_pass": 0.274,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -246,10 +246,10 @@
    "p_improve_if_pass": 0.338,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.367,
-   "winprob_pass": 0.358,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "winprob_lock": 0.251,
+   "winprob_pass": 0.267,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -258,8 +258,8 @@
    "team": "POR",
    "inj": null,
    "inj_part": null,
-   "state": "open",
-   "counted": 29.0,
+   "state": "locked",
+   "counted": 29.5,
    "games_remaining": [
     {
      "date": "2026-11-06",
@@ -274,19 +274,8 @@
    ],
    "dist_mean": 25.6,
    "dist_sd": 8.0,
-   "continuation_value": 27.1,
-   "latest_game": {
-    "date": "2026-11-04",
-    "opp": "PHX",
-    "fp": 29.0
-   },
-   "p_improve_if_pass": 0.349,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-06",
-   "winprob_lock": 0.35,
-   "winprob_pass": 0.352,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "locked_fp": 29.5,
+   "locked_game": "2026-11-02"
   },
   {
    "slot": "UTIL",
@@ -317,12 +306,12 @@
     "opp": "PHX",
     "fp": 35.0
    },
-   "p_improve_if_pass": 0.477,
+   "p_improve_if_pass": 0.445,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.406,
-   "winprob_pass": 0.367,
-   "verdict": "LOCK",
+   "winprob_lock": 0.276,
+   "winprob_pass": 0.296,
+   "verdict": "PASS",
    "verdict_basis": "win probability"
   }
  ],
@@ -338,28 +327,28 @@
   },
   {
    "slot": "SG",
-   "pid": "2564",
-   "name": "Brandin Podziemski",
+   "pid": "2713",
+   "name": "Jared McCain",
    "state": "open",
-   "counted": 0.0,
+   "counted": 6.5,
    "games_remaining": 2,
    "inj": null
   },
   {
    "slot": "G",
-   "pid": "2143",
-   "name": "Desmond Bane",
+   "pid": "2723",
+   "name": "Ja'Kobe Walter",
    "state": "open",
-   "counted": 0.0,
-   "games_remaining": 2,
+   "counted": 7.0,
+   "games_remaining": 1,
    "inj": null
   },
   {
    "slot": "SF",
    "pid": "1752",
    "name": "Lauri Markkanen",
-   "state": "locked",
-   "counted": 33.0,
+   "state": "open",
+   "counted": 38.0,
    "games_remaining": 2,
    "inj": null
   },
@@ -377,8 +366,8 @@
    "pid": "2304",
    "name": "Franz Wagner",
    "state": "open",
-   "counted": 28.5,
-   "games_remaining": 2,
+   "counted": 39.0,
+   "games_remaining": 1,
    "inj": null
   },
   {
@@ -388,16 +377,16 @@
    "state": "open",
    "counted": 43.5,
    "games_remaining": 2,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "slot": "UTIL",
-   "pid": "4742",
-   "name": "Nolan Traore",
-   "state": "open",
-   "counted": 26.0,
-   "games_remaining": 2,
-   "inj": null
+   "pid": "2289",
+   "name": "Scottie Barnes",
+   "state": "locked",
+   "counted": 44.0,
+   "games_remaining": 1,
+   "inj": "GTD"
   },
   {
    "slot": "UTIL",
@@ -425,7 +414,7 @@
    "out_name": "Paul George",
    "in": "1822",
    "in_name": "Jayson Tatum",
-   "gain": 7.3,
+   "gain": 8.7,
    "in_games_remaining": 2
   }
  ],

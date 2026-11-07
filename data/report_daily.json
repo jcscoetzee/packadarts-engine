@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 3,
  "us_date": "2026-11-06",
- "snapshot": "2026-11-06T14:55:34Z",
+ "snapshot": "2026-11-07T00:48:31Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
-  "my_points_now": 261.5,
-  "opp_points_now": 294.0,
-  "my_expected_final": 303.6,
-  "opp_expected_final": 318.7,
-  "p_win_now": 0.278
+  "my_points_now": 257.5,
+  "opp_points_now": 244.0,
+  "my_expected_final": 284.0,
+  "opp_expected_final": 284.6,
+  "p_win_now": 0.509
  },
  "starters": [
   {
@@ -39,8 +39,8 @@
    "pid": "2157",
    "name": "Immanuel Quickley",
    "team": "TOR",
-   "inj": null,
-   "inj_part": null,
+   "inj": "Out",
+   "inj_part": "Hamstring",
    "state": "open",
    "counted": 21.5,
    "games_remaining": [
@@ -52,18 +52,18 @@
    ],
    "dist_mean": 25.4,
    "dist_sd": 8.2,
-   "continuation_value": 23.4,
+   "continuation_value": 0.8,
    "latest_game": {
     "date": "2026-11-04",
     "opp": "DEN",
     "fp": 21.5
    },
-   "p_improve_if_pass": 0.604,
-   "ev_verdict": "PASS",
+   "p_improve_if_pass": 0.027,
+   "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.22,
-   "winprob_pass": 0.279,
-   "verdict": "PASS",
+   "winprob_lock": 0.514,
+   "winprob_pass": 0.244,
+   "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
   {
@@ -95,11 +95,11 @@
     "opp": "SAS",
     "fp": 35.5
    },
-   "p_improve_if_pass": 0.323,
+   "p_improve_if_pass": 0.313,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.264,
-   "winprob_pass": 0.233,
+   "winprob_lock": 0.502,
+   "winprob_pass": 0.457,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -132,11 +132,11 @@
     "opp": "SAS",
     "fp": 33.0
    },
-   "p_improve_if_pass": 0.257,
+   "p_improve_if_pass": 0.271,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.282,
-   "winprob_pass": 0.208,
+   "winprob_lock": 0.504,
+   "winprob_pass": 0.458,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -148,32 +148,27 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 32.5,
+   "counted": 6.0,
    "games_remaining": [
-    {
-     "date": "2026-11-06",
-     "opp": "CHA",
-     "home": false
-    },
     {
      "date": "2026-11-08",
      "opp": "MIL",
      "home": false
     }
    ],
-   "dist_mean": 28.5,
-   "dist_sd": 10.6,
-   "continuation_value": 31.1,
+   "dist_mean": 25.8,
+   "dist_sd": 11.0,
+   "continuation_value": 23.7,
    "latest_game": {
-    "date": "2026-11-04",
-    "opp": "MIL",
-    "fp": 32.5
+    "date": "2026-11-06",
+    "opp": "CHA",
+    "fp": 6.0
    },
-   "p_improve_if_pass": 0.369,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-06",
-   "winprob_lock": 0.277,
-   "winprob_pass": 0.288,
+   "p_improve_if_pass": 0.9,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-08",
+   "winprob_lock": 0.273,
+   "winprob_pass": 0.506,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -185,32 +180,27 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 23.0,
    "games_remaining": [
-    {
-     "date": "2026-11-06",
-     "opp": "CHA",
-     "home": false
-    },
     {
      "date": "2026-11-08",
      "opp": "MIL",
      "home": false
     }
    ],
-   "dist_mean": 37.1,
-   "dist_sd": 11.4,
-   "continuation_value": 39.8,
+   "dist_mean": 34.4,
+   "dist_sd": 10.8,
+   "continuation_value": 31.6,
    "latest_game": {
-    "date": "2026-11-02",
-    "opp": "HOU",
-    "fp": 26.0
+    "date": "2026-11-06",
+    "opp": "CHA",
+    "fp": 23.0
    },
-   "p_improve_if_pass": 0.89,
+   "p_improve_if_pass": 0.779,
    "ev_verdict": "PASS",
-   "deadline": "2026-11-06",
-   "winprob_lock": 0.078,
-   "winprob_pass": 0.274,
+   "deadline": "2026-11-08",
+   "winprob_lock": 0.349,
+   "winprob_pass": 0.524,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -243,12 +233,12 @@
     "opp": "HOU",
     "fp": 29.0
    },
-   "p_improve_if_pass": 0.338,
+   "p_improve_if_pass": 0.369,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.251,
-   "winprob_pass": 0.267,
-   "verdict": "PASS",
+   "winprob_lock": 0.508,
+   "winprob_pass": 0.464,
+   "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
   {
@@ -258,8 +248,8 @@
    "team": "POR",
    "inj": null,
    "inj_part": null,
-   "state": "locked",
-   "counted": 29.5,
+   "state": "open",
+   "counted": 29.0,
    "games_remaining": [
     {
      "date": "2026-11-06",
@@ -274,8 +264,19 @@
    ],
    "dist_mean": 25.6,
    "dist_sd": 8.0,
-   "locked_fp": 29.5,
-   "locked_game": "2026-11-02"
+   "continuation_value": 27.1,
+   "latest_game": {
+    "date": "2026-11-04",
+    "opp": "PHX",
+    "fp": 29.0
+   },
+   "p_improve_if_pass": 0.342,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-06",
+   "winprob_lock": 0.503,
+   "winprob_pass": 0.469,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -306,12 +307,12 @@
     "opp": "PHX",
     "fp": 35.0
    },
-   "p_improve_if_pass": 0.445,
+   "p_improve_if_pass": 0.453,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-06",
-   "winprob_lock": 0.276,
-   "winprob_pass": 0.296,
-   "verdict": "PASS",
+   "winprob_lock": 0.497,
+   "winprob_pass": 0.486,
+   "verdict": "LOCK",
    "verdict_basis": "win probability"
   }
  ],
@@ -356,8 +357,8 @@
    "slot": "PF",
    "pid": "2308",
    "name": "Alperen \u015eeng\u00fcn",
-   "state": "locked",
-   "counted": 51.0,
+   "state": "open",
+   "counted": 41.0,
    "games_remaining": 1,
    "inj": null
   },
@@ -376,17 +377,17 @@
    "name": "Anthony Davis",
    "state": "open",
    "counted": 43.5,
-   "games_remaining": 2,
-   "inj": "GTD"
+   "games_remaining": 1,
+   "inj": "Out"
   },
   {
    "slot": "UTIL",
-   "pid": "2289",
-   "name": "Scottie Barnes",
-   "state": "locked",
-   "counted": 44.0,
+   "pid": "2733",
+   "name": "Alex Sarr",
+   "state": "open",
+   "counted": 4.0,
    "games_remaining": 1,
-   "inj": "GTD"
+   "inj": null
   },
   {
    "slot": "UTIL",
@@ -405,7 +406,7 @@
    "out_name": "Immanuel Quickley",
    "in": "1054",
    "in_name": "Kyrie Irving",
-   "gain": 12.1,
+   "gain": 14.0,
    "in_games_remaining": 2
   },
   {
@@ -414,7 +415,16 @@
    "out_name": "Paul George",
    "in": "1822",
    "in_name": "Jayson Tatum",
-   "gain": 8.7,
+   "gain": 7.9,
+   "in_games_remaining": 1
+  },
+  {
+   "slot": "F",
+   "out": "1822",
+   "out_name": "Jayson Tatum",
+   "in": "2181",
+   "in_name": "Deni Avdija",
+   "gain": 3.4,
    "in_games_remaining": 2
   }
  ],
@@ -432,6 +442,13 @@
    "status": "Out",
    "part": "Knee",
    "starter": false
+  },
+  {
+   "pid": "2157",
+   "name": "Immanuel Quickley",
+   "status": "Out",
+   "part": "Hamstring",
+   "starter": true
   },
   {
    "pid": "4762",

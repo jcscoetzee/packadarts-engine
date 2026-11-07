@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 3,
  "us_date": "2026-11-07",
- "snapshot": "2026-11-07T06:58:06Z",
+ "snapshot": "2026-11-07T13:51:54Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
-  "my_points_now": 268.0,
-  "opp_points_now": 298.5,
-  "my_expected_final": 297.0,
-  "opp_expected_final": 300.0,
-  "p_win_now": 0.363
+  "my_points_now": 249.5,
+  "opp_points_now": 294.0,
+  "my_expected_final": 288.0,
+  "opp_expected_final": 312.6,
+  "p_win_now": 0.168
  },
  "starters": [
   {
@@ -81,8 +81,8 @@
    "p_improve_if_pass": 0.737,
    "ev_verdict": "PASS",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.182,
-   "winprob_pass": 0.348,
+   "winprob_lock": 0.077,
+   "winprob_pass": 0.178,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -113,8 +113,8 @@
    "p_improve_if_pass": 0.114,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.372,
-   "winprob_pass": 0.2,
+   "winprob_lock": 0.185,
+   "winprob_pass": 0.088,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -145,8 +145,8 @@
    "p_improve_if_pass": 0.153,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.37,
-   "winprob_pass": 0.176,
+   "winprob_lock": 0.185,
+   "winprob_pass": 0.088,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -157,8 +157,8 @@
    "team": "BOS",
    "inj": null,
    "inj_part": null,
-   "state": "locked",
-   "counted": 32.5,
+   "state": "open",
+   "counted": 14.0,
    "games_remaining": [
     {
      "date": "2026-11-08",
@@ -168,8 +168,19 @@
    ],
    "dist_mean": 27.1,
    "dist_sd": 10.6,
-   "locked_fp": 32.5,
-   "locked_game": "2026-11-04"
+   "continuation_value": 24.9,
+   "latest_game": {
+    "date": "2026-11-06",
+    "opp": "CHA",
+    "fp": 14.0
+   },
+   "p_improve_if_pass": 0.891,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-08",
+   "winprob_lock": 0.052,
+   "winprob_pass": 0.187,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "C",
@@ -216,13 +227,13 @@
     "opp": "LAL",
     "fp": 22.0
    },
-   "p_improve_if_pass": 0.704,
+   "p_improve_if_pass": 0.664,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-07",
-   "winprob_lock": 0.372,
-   "winprob_pass": 0.389,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "winprob_lock": 0.177,
+   "winprob_pass": 0.182,
+   "verdict": "LOCK",
+   "verdict_basis": "expected value (win probability indifferent)"
   },
   {
    "slot": "UTIL",
@@ -267,11 +278,11 @@
   },
   {
    "slot": "G",
-   "pid": "2723",
-   "name": "Ja'Kobe Walter",
+   "pid": "2574",
+   "name": "Amen Thompson",
    "state": "open",
-   "counted": 13.5,
-   "games_remaining": 0,
+   "counted": 14.0,
+   "games_remaining": 1,
    "inj": null
   },
   {
@@ -279,7 +290,7 @@
    "pid": "1752",
    "name": "Lauri Markkanen",
    "state": "locked",
-   "counted": 33.0,
+   "counted": 38.0,
    "games_remaining": 1,
    "inj": null
   },
@@ -314,17 +325,17 @@
    "slot": "UTIL",
    "pid": "2733",
    "name": "Alex Sarr",
-   "state": "locked",
-   "counted": 24.5,
+   "state": "open",
+   "counted": 28.0,
    "games_remaining": 1,
    "inj": null
   },
   {
    "slot": "UTIL",
-   "pid": "1739",
-   "name": "Domantas Sabonis",
+   "pid": "2143",
+   "name": "Desmond Bane",
    "state": "open",
-   "counted": 28.5,
+   "counted": 15.0,
    "games_remaining": 1,
    "inj": null
   }

@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 3,
  "us_date": "2026-11-08",
- "snapshot": "2026-11-08T07:05:24Z",
+ "snapshot": "2026-11-08T14:15:47Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
-  "my_points_now": 242.5,
+  "my_points_now": 279.5,
   "opp_points_now": 318.5,
-  "my_expected_final": 281.3,
+  "my_expected_final": 308.5,
   "opp_expected_final": 318.5,
-  "p_win_now": 0.017
+  "p_win_now": 0.211
  },
  "starters": [
   {
@@ -76,7 +76,7 @@
    "ev_verdict": "PASS",
    "deadline": "2026-11-08",
    "winprob_lock": 0.0,
-   "winprob_pass": 0.021,
+   "winprob_pass": 0.203,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -107,8 +107,8 @@
    "p_improve_if_pass": 0.114,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.021,
-   "winprob_pass": 0.004,
+   "winprob_lock": 0.202,
+   "winprob_pass": 0.086,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -139,8 +139,8 @@
    "p_improve_if_pass": 0.153,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.021,
-   "winprob_pass": 0.009,
+   "winprob_lock": 0.216,
+   "winprob_pass": 0.07,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -182,23 +182,35 @@
   },
   {
    "slot": "UTIL",
-   "pid": "1444",
-   "name": "Damian Lillard",
-   "team": "POR",
+   "pid": "1961",
+   "name": "Duncan Robinson",
+   "team": "DET",
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 15.0,
-   "games_remaining": [],
-   "dist_mean": 23.8,
-   "dist_sd": 7.8,
-   "continuation_value": null,
+   "counted": 33.5,
+   "games_remaining": [
+    {
+     "date": "2026-11-08",
+     "opp": "LAL",
+     "home": true
+    }
+   ],
+   "dist_mean": 21.4,
+   "dist_sd": 8.1,
+   "continuation_value": 19.7,
    "latest_game": {
-    "date": "2026-11-07",
-    "opp": "SAS",
-    "fp": 15.0
+    "date": "2026-11-04",
+    "opp": "PHI",
+    "fp": 33.5
    },
-   "decision": "FINAL"
+   "p_improve_if_pass": 0.068,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-08",
+   "winprob_lock": 0.204,
+   "winprob_pass": 0.051,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -207,8 +219,8 @@
    "team": "BOS",
    "inj": null,
    "inj_part": null,
-   "state": "open",
-   "counted": 14.0,
+   "state": "locked",
+   "counted": 32.5,
    "games_remaining": [
     {
      "date": "2026-11-08",
@@ -218,19 +230,8 @@
    ],
    "dist_mean": 27.1,
    "dist_sd": 10.6,
-   "continuation_value": 24.9,
-   "latest_game": {
-    "date": "2026-11-06",
-    "opp": "CHA",
-    "fp": 14.0
-   },
-   "p_improve_if_pass": 0.891,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-08",
-   "winprob_lock": 0.0,
-   "winprob_pass": 0.019,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "locked_fp": 32.5,
+   "locked_game": "2026-11-04"
   }
  ],
  "opponent_starters": [
@@ -268,7 +269,7 @@
    "state": "locked",
    "counted": 38.0,
    "games_remaining": 1,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "slot": "PF",

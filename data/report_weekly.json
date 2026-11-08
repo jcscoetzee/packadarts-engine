@@ -3,7 +3,7 @@
  "planning_week": 3,
  "current_week": 3,
  "us_date": "2026-11-08",
- "snapshot": "2026-11-08T07:05:24Z",
+ "snapshot": "2026-11-08T14:15:47Z",
  "week_dates": [
   "2026-11-02",
   "2026-11-08"
@@ -37,16 +37,15 @@
   },
   {
    "slot": "G",
-   "pid": "1074",
-   "name": "Paul George",
-   "team": "BOS",
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "team": "DET",
    "fpos": [
-    "PF",
-    "SF",
+    "PG",
     "SG"
    ],
    "inj": null,
-   "week_value": 24.9,
+   "week_value": 14.6,
    "games": 1
   },
   {
@@ -119,19 +118,21 @@
   },
   {
    "slot": "UTIL",
-   "pid": "2776",
-   "name": "Daniss Jenkins",
-   "team": "DET",
+   "pid": "1074",
+   "name": "Paul George",
+   "team": "BOS",
    "fpos": [
-    "PG",
+    "PF",
+    "SF",
     "SG"
    ],
    "inj": null,
-   "week_value": 14.6,
-   "games": 1
+   "locked_fp": 32.5,
+   "week_value": 32.5,
+   "games": 0
   }
  ],
- "lineup_total_value": 250.3,
+ "lineup_total_value": 257.9,
  "bench": [
   {
    "pid": "1444",
@@ -677,7 +678,7 @@
    "top9_ros_value": 304.6,
    "depth_10_14": 111.4,
    "avg_age": 25.0,
-   "waiver_budget_used": 60
+   "waiver_budget_used": 96
   },
   {
    "roster_id": 5,
@@ -704,8 +705,8 @@
    "lock_efficiency": 0.914,
    "top9_ros_value": 282.8,
    "depth_10_14": 130.1,
-   "avg_age": 24.4,
-   "waiver_budget_used": 90
+   "avg_age": 24.1,
+   "waiver_budget_used": 100
   },
   {
    "roster_id": 1,
@@ -817,7 +818,7 @@
    "ros_week_value": 27.6,
    "lock_in_premium": 1.343,
    "age": 26,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "2711",
@@ -889,7 +890,7 @@
    "ros_week_value": 26.7,
    "lock_in_premium": 1.31,
    "age": 26,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "1959",

@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 3,
  "us_date": "2026-11-07",
- "snapshot": "2026-11-07T13:51:54Z",
+ "snapshot": "2026-11-08T00:19:33Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
-  "my_points_now": 249.5,
-  "opp_points_now": 294.0,
-  "my_expected_final": 288.0,
-  "opp_expected_final": 312.6,
-  "p_win_now": 0.168
+  "my_points_now": 247.0,
+  "opp_points_now": 283.0,
+  "my_expected_final": 279.5,
+  "opp_expected_final": 294.3,
+  "p_win_now": 0.256
  },
  "starters": [
   {
@@ -22,15 +22,9 @@
    "inj_part": null,
    "state": "locked",
    "counted": 45.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-07",
-     "opp": "IND",
-     "home": false
-    }
-   ],
-   "dist_mean": 36.2,
-   "dist_sd": 13.0,
+   "games_remaining": [],
+   "dist_mean": 34.8,
+   "dist_sd": 12.7,
    "locked_fp": 45.5,
    "locked_game": "2026-11-02"
   },
@@ -39,7 +33,7 @@
    "pid": "2157",
    "name": "Immanuel Quickley",
    "team": "TOR",
-   "inj": "Out",
+   "inj": "DTD",
    "inj_part": "Hamstring",
    "state": "open",
    "counted": 0.0,
@@ -81,8 +75,8 @@
    "p_improve_if_pass": 0.737,
    "ev_verdict": "PASS",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.077,
-   "winprob_pass": 0.178,
+   "winprob_lock": 0.155,
+   "winprob_pass": 0.285,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -113,8 +107,8 @@
    "p_improve_if_pass": 0.114,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.185,
-   "winprob_pass": 0.088,
+   "winprob_lock": 0.273,
+   "winprob_pass": 0.147,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -145,63 +139,63 @@
    "p_improve_if_pass": 0.153,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.185,
-   "winprob_pass": 0.088,
+   "winprob_lock": 0.273,
+   "winprob_pass": 0.139,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
   {
    "slot": "F",
-   "pid": "1074",
-   "name": "Paul George",
-   "team": "BOS",
-   "inj": null,
-   "inj_part": null,
-   "state": "open",
-   "counted": 14.0,
-   "games_remaining": [
-    {
-     "date": "2026-11-08",
-     "opp": "MIL",
-     "home": false
-    }
-   ],
-   "dist_mean": 27.1,
-   "dist_sd": 10.6,
-   "continuation_value": 24.9,
-   "latest_game": {
-    "date": "2026-11-06",
-    "opp": "CHA",
-    "fp": 14.0
-   },
-   "p_improve_if_pass": 0.891,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-08",
-   "winprob_lock": 0.052,
-   "winprob_pass": 0.187,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
-  },
-  {
-   "slot": "C",
-   "pid": "1350",
-   "name": "Rudy Gobert",
-   "team": "MIN",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
    "inj": null,
    "inj_part": null,
    "state": "locked",
-   "counted": 29.0,
+   "counted": 35.0,
    "games_remaining": [
     {
-     "date": "2026-11-08",
-     "opp": "UTA",
+     "date": "2026-11-07",
+     "opp": "SAS",
      "home": true
     }
    ],
-   "dist_mean": 24.1,
-   "dist_sd": 8.6,
-   "locked_fp": 29.0,
+   "dist_mean": 33.8,
+   "dist_sd": 8.9,
+   "locked_fp": 35.0,
    "locked_game": "2026-11-04"
+  },
+  {
+   "slot": "C",
+   "pid": "1934",
+   "name": "Isaiah Hartenstein",
+   "team": "OKC",
+   "inj": null,
+   "inj_part": null,
+   "state": "open",
+   "counted": 14.5,
+   "games_remaining": [
+    {
+     "date": "2026-11-07",
+     "opp": "WAS",
+     "home": true
+    }
+   ],
+   "dist_mean": 22.5,
+   "dist_sd": 9.0,
+   "continuation_value": 18.9,
+   "latest_game": {
+    "date": "2026-11-06",
+    "opp": "MEM",
+    "fp": 14.5
+   },
+   "p_improve_if_pass": 0.711,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-07",
+   "winprob_lock": 0.202,
+   "winprob_pass": 0.261,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -227,34 +221,45 @@
     "opp": "LAL",
     "fp": 22.0
    },
-   "p_improve_if_pass": 0.664,
+   "p_improve_if_pass": 0.668,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-07",
-   "winprob_lock": 0.177,
-   "winprob_pass": 0.182,
+   "winprob_lock": 0.271,
+   "winprob_pass": 0.255,
    "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
+   "pid": "1831",
+   "name": "OG Anunoby",
+   "team": "NYK",
    "inj": null,
    "inj_part": null,
-   "state": "locked",
-   "counted": 35.0,
+   "state": "open",
+   "counted": 26.0,
    "games_remaining": [
     {
      "date": "2026-11-07",
-     "opp": "SAS",
-     "home": true
+     "opp": "CLE",
+     "home": false
     }
    ],
-   "dist_mean": 33.8,
-   "dist_sd": 8.9,
-   "locked_fp": 35.0,
-   "locked_game": "2026-11-04"
+   "dist_mean": 24.2,
+   "dist_sd": 9.8,
+   "continuation_value": 22.3,
+   "latest_game": {
+    "date": "2026-11-04",
+    "opp": "CHI",
+    "fp": 26.0
+   },
+   "p_improve_if_pass": 0.361,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-07",
+   "winprob_lock": 0.26,
+   "winprob_pass": 0.243,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   }
  ],
  "opponent_starters": [
@@ -292,14 +297,14 @@
    "state": "locked",
    "counted": 38.0,
    "games_remaining": 1,
-   "inj": null
+   "inj": "DTD"
   },
   {
    "slot": "PF",
    "pid": "2308",
    "name": "Alperen \u015eeng\u00fcn",
-   "state": "locked",
-   "counted": 51.0,
+   "state": "open",
+   "counted": 41.0,
    "games_remaining": 1,
    "inj": null
   },
@@ -316,8 +321,8 @@
    "slot": "C",
    "pid": "1272",
    "name": "Anthony Davis",
-   "state": "open",
-   "counted": 43.5,
+   "state": "locked",
+   "counted": 38.0,
    "games_remaining": 1,
    "inj": "Out"
   },
@@ -332,15 +337,34 @@
   },
   {
    "slot": "UTIL",
-   "pid": "2143",
-   "name": "Desmond Bane",
+   "pid": "2564",
+   "name": "Brandin Podziemski",
    "state": "open",
-   "counted": 15.0,
+   "counted": 19.5,
    "games_remaining": 1,
    "inj": null
   }
  ],
- "swaps": [],
+ "swaps": [
+  {
+   "slot": "C",
+   "out": "1934",
+   "out_name": "Isaiah Hartenstein",
+   "in": "1350",
+   "in_name": "Rudy Gobert",
+   "gain": 3.3,
+   "in_games_remaining": 1
+  },
+  {
+   "slot": "UTIL",
+   "out": "1444",
+   "out_name": "Damian Lillard",
+   "in": "1831",
+   "in_name": "OG Anunoby",
+   "gain": 4.0,
+   "in_games_remaining": 1
+  }
+ ],
  "injuries": [
   {
    "pid": "1964",
@@ -359,7 +383,7 @@
   {
    "pid": "2157",
    "name": "Immanuel Quickley",
-   "status": "Out",
+   "status": "DTD",
    "part": "Hamstring",
    "starter": true
   },

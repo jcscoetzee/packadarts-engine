@@ -1,15 +1,15 @@
 {
  "mode": "daily",
  "week": 3,
- "us_date": "2026-11-08",
- "snapshot": "2026-11-09T00:42:10Z",
+ "us_date": "2026-11-09",
+ "snapshot": "2026-11-09T07:49:02Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
-  "my_points_now": 246.0,
-  "opp_points_now": 325.0,
-  "my_expected_final": 263.5,
-  "opp_expected_final": 325.0,
+  "my_points_now": 221.5,
+  "opp_points_now": 319.0,
+  "my_expected_final": 243.0,
+  "opp_expected_final": 319.0,
   "p_win_now": 0.0
  },
  "starters": [
@@ -36,7 +36,7 @@
    "inj": "DTD",
    "inj_part": "Hamstring",
    "state": "open",
-   "counted": 21.5,
+   "counted": 0.0,
    "games_remaining": [],
    "dist_mean": 25.4,
    "dist_sd": 8.2,
@@ -56,15 +56,15 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 25.0,
    "games_remaining": [],
-   "dist_mean": 28.5,
-   "dist_sd": 9.1,
+   "dist_mean": 28.0,
+   "dist_sd": 8.5,
    "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-06",
-    "opp": "UTA",
-    "fp": 17.5
+    "date": "2026-11-08",
+    "opp": "BKN",
+    "fp": 25.0
    },
    "decision": "FINAL"
   },
@@ -75,13 +75,18 @@
    "team": "DAL",
    "inj": null,
    "inj_part": null,
-   "state": "locked",
-   "counted": 33.0,
+   "state": "open",
+   "counted": 13.5,
    "games_remaining": [],
-   "dist_mean": 22.4,
-   "dist_sd": 10.4,
-   "locked_fp": 33.0,
-   "locked_game": "2026-11-04"
+   "dist_mean": 24.2,
+   "dist_sd": 9.7,
+   "continuation_value": null,
+   "latest_game": {
+    "date": "2026-11-08",
+    "opp": "BKN",
+    "fp": 13.5
+   },
+   "decision": "FINAL"
   },
   {
    "slot": "PF",
@@ -91,29 +96,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 50.0,
-   "games_remaining": [
-    {
-     "date": "2026-11-08",
-     "opp": "MIL",
-     "home": false
-    }
-   ],
-   "dist_mean": 37.3,
-   "dist_sd": 11.3,
-   "continuation_value": 34.3,
+   "counted": 30.0,
+   "games_remaining": [],
+   "dist_mean": 36.5,
+   "dist_sd": 11.0,
+   "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-06",
-    "opp": "CHA",
-    "fp": 50.0
+    "date": "2026-11-08",
+    "opp": "MIL",
+    "fp": 30.0
    },
-   "p_improve_if_pass": 0.145,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-08",
-   "winprob_lock": 0.0,
-   "winprob_pass": 0.0,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "decision": "FINAL"
   },
   {
    "slot": "F",
@@ -140,8 +133,8 @@
    "state": "locked",
    "counted": 29.0,
    "games_remaining": [],
-   "dist_mean": 22.2,
-   "dist_sd": 8.7,
+   "dist_mean": 24.3,
+   "dist_sd": 8.5,
    "locked_fp": 29.0,
    "locked_game": "2026-11-04"
   },
@@ -153,15 +146,15 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": -0.5,
+   "counted": 11.5,
    "games_remaining": [],
-   "dist_mean": 19.7,
-   "dist_sd": 9.1,
+   "dist_mean": 20.7,
+   "dist_sd": 8.1,
    "continuation_value": null,
    "latest_game": {
     "date": "2026-11-08",
     "opp": "LAL",
-    "fp": -0.5
+    "fp": 11.5
    },
    "decision": "FINAL"
   },
@@ -172,19 +165,18 @@
    "team": "BOS",
    "inj": null,
    "inj_part": null,
-   "state": "locked",
-   "counted": 32.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-08",
-     "opp": "MIL",
-     "home": false
-    }
-   ],
+   "state": "open",
+   "counted": 32.0,
+   "games_remaining": [],
    "dist_mean": 27.1,
-   "dist_sd": 10.6,
-   "locked_fp": 32.5,
-   "locked_game": "2026-11-04"
+   "dist_sd": 10.4,
+   "continuation_value": null,
+   "latest_game": {
+    "date": "2026-11-08",
+    "opp": "MIL",
+    "fp": 32.0
+   },
+   "decision": "FINAL"
   }
  ],
  "opponent_starters": [
@@ -201,8 +193,8 @@
    "slot": "SG",
    "pid": "2713",
    "name": "Jared McCain",
-   "state": "locked",
-   "counted": 34.0,
+   "state": "open",
+   "counted": 28.0,
    "games_remaining": 0,
    "inj": null
   },

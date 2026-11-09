@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 3,
  "us_date": "2026-11-08",
- "snapshot": "2026-11-08T14:15:47Z",
+ "snapshot": "2026-11-09T00:42:10Z",
  "matchup": {
   "opponent_roster": 3,
   "opponent": "Heat Czech ",
-  "my_points_now": 279.5,
-  "opp_points_now": 318.5,
-  "my_expected_final": 308.5,
-  "opp_expected_final": 318.5,
-  "p_win_now": 0.211
+  "my_points_now": 246.0,
+  "opp_points_now": 325.0,
+  "my_expected_final": 263.5,
+  "opp_expected_final": 325.0,
+  "p_win_now": 0.0
  },
  "starters": [
   {
@@ -18,8 +18,8 @@
    "pid": "1747",
    "name": "Jamal Murray",
    "team": "DEN",
-   "inj": null,
-   "inj_part": null,
+   "inj": "DTD",
+   "inj_part": "Lower Leg",
    "state": "locked",
    "counted": 45.5,
    "games_remaining": [],
@@ -36,7 +36,7 @@
    "inj": "DTD",
    "inj_part": "Hamstring",
    "state": "open",
-   "counted": 0.0,
+   "counted": 21.5,
    "games_remaining": [],
    "dist_mean": 25.4,
    "dist_sd": 8.2,
@@ -56,29 +56,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 17.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-08",
-     "opp": "BKN",
-     "home": true
-    }
-   ],
+   "counted": 0.0,
+   "games_remaining": [],
    "dist_mean": 28.5,
    "dist_sd": 9.1,
-   "continuation_value": 24.1,
+   "continuation_value": null,
    "latest_game": {
     "date": "2026-11-06",
     "opp": "UTA",
     "fp": 17.5
    },
-   "p_improve_if_pass": 0.737,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-08",
-   "winprob_lock": 0.0,
-   "winprob_pass": 0.203,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "decision": "FINAL"
   },
   {
    "slot": "SF",
@@ -87,30 +75,13 @@
    "team": "DAL",
    "inj": null,
    "inj_part": null,
-   "state": "open",
-   "counted": 36.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-08",
-     "opp": "BKN",
-     "home": true
-    }
-   ],
-   "dist_mean": 25.2,
-   "dist_sd": 9.9,
-   "continuation_value": 23.1,
-   "latest_game": {
-    "date": "2026-11-06",
-    "opp": "UTA",
-    "fp": 36.5
-   },
-   "p_improve_if_pass": 0.114,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-08",
-   "winprob_lock": 0.202,
-   "winprob_pass": 0.086,
-   "verdict": "LOCK",
-   "verdict_basis": "win probability"
+   "state": "locked",
+   "counted": 33.0,
+   "games_remaining": [],
+   "dist_mean": 22.4,
+   "dist_sd": 10.4,
+   "locked_fp": 33.0,
+   "locked_game": "2026-11-04"
   },
   {
    "slot": "PF",
@@ -136,13 +107,13 @@
     "opp": "CHA",
     "fp": 50.0
    },
-   "p_improve_if_pass": 0.153,
+   "p_improve_if_pass": 0.145,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-08",
-   "winprob_lock": 0.216,
-   "winprob_pass": 0.07,
+   "winprob_lock": 0.0,
+   "winprob_pass": 0.0,
    "verdict": "LOCK",
-   "verdict_basis": "win probability"
+   "verdict_basis": "expected value (win probability indifferent)"
   },
   {
    "slot": "F",
@@ -168,15 +139,9 @@
    "inj_part": null,
    "state": "locked",
    "counted": 29.0,
-   "games_remaining": [
-    {
-     "date": "2026-11-08",
-     "opp": "UTA",
-     "home": true
-    }
-   ],
-   "dist_mean": 24.1,
-   "dist_sd": 8.6,
+   "games_remaining": [],
+   "dist_mean": 22.2,
+   "dist_sd": 8.7,
    "locked_fp": 29.0,
    "locked_game": "2026-11-04"
   },
@@ -188,29 +153,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 33.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-08",
-     "opp": "LAL",
-     "home": true
-    }
-   ],
-   "dist_mean": 21.4,
-   "dist_sd": 8.1,
-   "continuation_value": 19.7,
+   "counted": -0.5,
+   "games_remaining": [],
+   "dist_mean": 19.7,
+   "dist_sd": 9.1,
+   "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-04",
-    "opp": "PHI",
-    "fp": 33.5
+    "date": "2026-11-08",
+    "opp": "LAL",
+    "fp": -0.5
    },
-   "p_improve_if_pass": 0.068,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-08",
-   "winprob_lock": 0.204,
-   "winprob_pass": 0.051,
-   "verdict": "LOCK",
-   "verdict_basis": "win probability"
+   "decision": "FINAL"
   },
   {
    "slot": "UTIL",
@@ -248,8 +201,8 @@
    "slot": "SG",
    "pid": "2713",
    "name": "Jared McCain",
-   "state": "open",
-   "counted": 28.0,
+   "state": "locked",
+   "counted": 34.0,
    "games_remaining": 0,
    "inj": null
   },
@@ -268,8 +221,8 @@
    "name": "Lauri Markkanen",
    "state": "locked",
    "counted": 38.0,
-   "games_remaining": 1,
-   "inj": "GTD"
+   "games_remaining": 0,
+   "inj": "Out"
   },
   {
    "slot": "PF",
@@ -296,14 +249,14 @@
    "state": "open",
    "counted": 43.5,
    "games_remaining": 0,
-   "inj": "Out"
+   "inj": "DTD"
   },
   {
    "slot": "UTIL",
    "pid": "2733",
    "name": "Alex Sarr",
-   "state": "open",
-   "counted": 27.5,
+   "state": "locked",
+   "counted": 28.0,
    "games_remaining": 0,
    "inj": null
   },
@@ -319,6 +272,13 @@
  ],
  "swaps": [],
  "injuries": [
+  {
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "status": "DTD",
+   "part": "Lower Leg",
+   "starter": true
+  },
   {
    "pid": "1964",
    "name": "Donte DiVincenzo",

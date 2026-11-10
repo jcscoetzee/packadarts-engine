@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 4,
  "us_date": "2026-11-10",
- "snapshot": "2026-11-10T08:09:58Z",
+ "snapshot": "2026-11-10T20:24:38Z",
  "matchup": {
   "opponent_roster": 12,
   "opponent": "angusf",
   "my_points_now": 174.5,
   "opp_points_now": 169.0,
-  "my_expected_final": 287.4,
-  "opp_expected_final": 313.7,
-  "p_win_now": 0.229
+  "my_expected_final": 287.8,
+  "opp_expected_final": 315.3,
+  "p_win_now": 0.207
  },
  "starters": [
   {
@@ -45,8 +45,8 @@
    "p_improve_if_pass": 0.349,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-11",
-   "winprob_lock": 0.208,
-   "winprob_pass": 0.196,
+   "winprob_lock": 0.196,
+   "winprob_pass": 0.172,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -87,8 +87,8 @@
    "p_improve_if_pass": 0.302,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-12",
-   "winprob_lock": 0.195,
-   "winprob_pass": 0.177,
+   "winprob_lock": 0.203,
+   "winprob_pass": 0.186,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -160,8 +160,8 @@
    "p_improve_if_pass": 0.754,
    "ev_verdict": "PASS",
    "deadline": "2026-11-12",
-   "winprob_lock": 0.17,
-   "winprob_pass": 0.22,
+   "winprob_lock": 0.147,
+   "winprob_pass": 0.213,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -264,8 +264,8 @@
    "p_improve_if_pass": 0.779,
    "ev_verdict": "PASS",
    "deadline": "2026-11-11",
-   "winprob_lock": 0.188,
-   "winprob_pass": 0.208,
+   "winprob_lock": 0.169,
+   "winprob_pass": 0.2,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -301,10 +301,10 @@
    "p_improve_if_pass": 0.298,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-12",
-   "winprob_lock": 0.205,
-   "winprob_pass": 0.188,
+   "winprob_lock": 0.198,
+   "winprob_pass": 0.19,
    "verdict": "LOCK",
-   "verdict_basis": "win probability"
+   "verdict_basis": "expected value (win probability indifferent)"
   },
   {
    "slot": "UTIL",
@@ -338,8 +338,8 @@
    "p_improve_if_pass": 0.407,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-11",
-   "winprob_lock": 0.228,
-   "winprob_pass": 0.21,
+   "winprob_lock": 0.207,
+   "winprob_pass": 0.188,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   }
@@ -379,7 +379,7 @@
    "state": "open",
    "counted": 0.0,
    "games_remaining": 3,
-   "inj": "DTD"
+   "inj": null
   },
   {
    "slot": "PF",

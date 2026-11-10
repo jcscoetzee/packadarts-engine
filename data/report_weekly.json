@@ -3,7 +3,7 @@
  "planning_week": 4,
  "current_week": 4,
  "us_date": "2026-11-10",
- "snapshot": "2026-11-10T08:09:58Z",
+ "snapshot": "2026-11-10T20:24:38Z",
  "week_dates": [
   "2026-11-09",
   "2026-11-15"
@@ -685,7 +685,7 @@
    "division": 2,
    "lock_efficiency": 0.955,
    "top9_ros_value": 302.3,
-   "depth_10_14": 115.2,
+   "depth_10_14": 115.4,
    "avg_age": 25.0,
    "waiver_budget_used": 96
   },
@@ -813,7 +813,7 @@
    "ros_week_value": 25.3,
    "lock_in_premium": 1.335,
    "age": 25,
-   "inj": null
+   "inj": "GTD"
   },
   {
    "pid": "4793",

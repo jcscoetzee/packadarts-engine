@@ -1,16 +1,16 @@
 {
  "mode": "daily",
  "week": 4,
- "us_date": "2026-11-10",
- "snapshot": "2026-11-11T01:09:30Z",
+ "us_date": "2026-11-11",
+ "snapshot": "2026-11-11T15:00:59Z",
  "matchup": {
   "opponent_roster": 12,
   "opponent": "angusf",
-  "my_points_now": 99.5,
-  "opp_points_now": 156.0,
-  "my_expected_final": 282.0,
-  "opp_expected_final": 300.9,
-  "p_win_now": 0.32
+  "my_points_now": 261.0,
+  "opp_points_now": 199.0,
+  "my_expected_final": 306.4,
+  "opp_expected_final": 305.7,
+  "p_win_now": 0.515
  },
  "starters": [
   {
@@ -45,8 +45,8 @@
    "p_improve_if_pass": 0.349,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-11",
-   "winprob_lock": 0.32,
-   "winprob_pass": 0.283,
+   "winprob_lock": 0.516,
+   "winprob_pass": 0.475,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -87,8 +87,8 @@
    "p_improve_if_pass": 0.302,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-12",
-   "winprob_lock": 0.332,
-   "winprob_pass": 0.295,
+   "winprob_lock": 0.527,
+   "winprob_pass": 0.445,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -100,13 +100,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 31.5,
    "games_remaining": [
-    {
-     "date": "2026-11-10",
-     "opp": "OKC",
-     "home": true
-    },
     {
      "date": "2026-11-11",
      "opp": "OKC",
@@ -118,10 +113,21 @@
      "home": false
     }
    ],
-   "dist_mean": 23.8,
-   "dist_sd": 7.8,
-   "continuation_value": 27.5,
-   "decision": "WAIT"
+   "dist_mean": 24.7,
+   "dist_sd": 7.7,
+   "continuation_value": 26.4,
+   "latest_game": {
+    "date": "2026-11-10",
+    "opp": "OKC",
+    "fp": 31.5
+   },
+   "p_improve_if_pass": 0.184,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-11",
+   "winprob_lock": 0.518,
+   "winprob_pass": 0.457,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "SF",
@@ -131,7 +137,7 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 40.0,
    "games_remaining": [
     {
      "date": "2026-11-11",
@@ -144,10 +150,21 @@
      "home": true
     }
    ],
-   "dist_mean": 27.1,
-   "dist_sd": 10.4,
-   "continuation_value": 28.4,
-   "decision": "WAIT"
+   "dist_mean": 27.7,
+   "dist_sd": 10.5,
+   "continuation_value": 30.1,
+   "latest_game": {
+    "date": "2026-11-10",
+    "opp": "PHI",
+    "fp": 40.0
+   },
+   "p_improve_if_pass": 0.174,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-11",
+   "winprob_lock": 0.525,
+   "winprob_pass": 0.385,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "PF",
@@ -157,7 +174,7 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 29.0,
    "games_remaining": [
     {
      "date": "2026-11-11",
@@ -170,10 +187,21 @@
      "home": true
     }
    ],
-   "dist_mean": 36.5,
-   "dist_sd": 11.0,
-   "continuation_value": 37.3,
-   "decision": "WAIT"
+   "dist_mean": 36.0,
+   "dist_sd": 10.8,
+   "continuation_value": 38.1,
+   "latest_game": {
+    "date": "2026-11-10",
+    "opp": "PHI",
+    "fp": 29.0
+   },
+   "p_improve_if_pass": 0.847,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-11",
+   "winprob_lock": 0.401,
+   "winprob_pass": 0.523,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "F",
@@ -183,13 +211,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 34.5,
    "games_remaining": [
-    {
-     "date": "2026-11-10",
-     "opp": "OKC",
-     "home": true
-    },
     {
      "date": "2026-11-11",
      "opp": "OKC",
@@ -201,10 +224,21 @@
      "home": false
     }
    ],
-   "dist_mean": 32.1,
-   "dist_sd": 9.4,
-   "continuation_value": 36.3,
-   "decision": "WAIT"
+   "dist_mean": 32.4,
+   "dist_sd": 9.3,
+   "continuation_value": 34.2,
+   "latest_game": {
+    "date": "2026-11-10",
+    "opp": "OKC",
+    "fp": 34.5
+   },
+   "p_improve_if_pass": 0.513,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-11",
+   "winprob_lock": 0.512,
+   "winprob_pass": 0.522,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "C",
@@ -214,13 +248,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 21.5,
    "games_remaining": [
-    {
-     "date": "2026-11-10",
-     "opp": "POR",
-     "home": false
-    },
     {
      "date": "2026-11-11",
      "opp": "POR",
@@ -238,9 +267,20 @@
     }
    ],
    "dist_mean": 22.2,
-   "dist_sd": 8.6,
-   "continuation_value": 27.6,
-   "decision": "WAIT"
+   "dist_sd": 8.4,
+   "continuation_value": 25.9,
+   "latest_game": {
+    "date": "2026-11-10",
+    "opp": "POR",
+    "fp": 21.5
+   },
+   "p_improve_if_pass": 0.826,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-11",
+   "winprob_lock": 0.469,
+   "winprob_pass": 0.513,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -250,7 +290,7 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 6.5,
+   "counted": 22.5,
    "games_remaining": [
     {
      "date": "2026-11-11",
@@ -268,63 +308,52 @@
      "home": false
     }
    ],
-   "dist_mean": 22.4,
+   "dist_mean": 23.9,
    "dist_sd": 9.4,
-   "continuation_value": 27.1,
+   "continuation_value": 28.4,
    "latest_game": {
     "date": "2026-11-10",
     "opp": "MIL",
-    "fp": 8.5
+    "fp": 22.5
    },
-   "p_improve_if_pass": 0.952,
+   "p_improve_if_pass": 0.811,
    "ev_verdict": "PASS",
    "deadline": "2026-11-11",
-   "winprob_lock": 0.165,
-   "winprob_pass": 0.319,
+   "winprob_lock": 0.443,
+   "winprob_pass": 0.532,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
-   "pid": "1975",
-   "name": "Mikal Bridges",
-   "team": "NYK",
-   "inj": null,
-   "inj_part": null,
+   "pid": "2157",
+   "name": "Immanuel Quickley",
+   "team": "TOR",
+   "inj": "GTD",
+   "inj_part": "Hamstring",
    "state": "open",
-   "counted": 11.0,
+   "counted": 0.0,
    "games_remaining": [
     {
      "date": "2026-11-11",
-     "opp": "CLE",
+     "opp": "BOS",
      "home": true
     },
     {
-     "date": "2026-11-13",
-     "opp": "IND",
+     "date": "2026-11-12",
+     "opp": "PHI",
      "home": false
     },
     {
      "date": "2026-11-15",
-     "opp": "TOR",
-     "home": false
+     "opp": "NYK",
+     "home": true
     }
    ],
-   "dist_mean": 14.9,
-   "dist_sd": 7.1,
-   "continuation_value": 18.6,
-   "latest_game": {
-    "date": "2026-11-10",
-    "opp": "MIL",
-    "fp": 11.0
-   },
-   "p_improve_if_pass": 0.894,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-11",
-   "winprob_lock": 0.249,
-   "winprob_pass": 0.345,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "dist_mean": 25.4,
+   "dist_sd": 8.2,
+   "continuation_value": 26.9,
+   "decision": "WAIT"
   }
  ],
  "opponent_starters": [
@@ -348,11 +377,11 @@
   },
   {
    "slot": "G",
-   "pid": "1081",
-   "name": "Klay Thompson",
+   "pid": "1941",
+   "name": "Kevin Huerter",
    "state": "open",
    "counted": 0.0,
-   "games_remaining": 3,
+   "games_remaining": 2,
    "inj": null
   },
   {
@@ -366,11 +395,11 @@
   },
   {
    "slot": "PF",
-   "pid": "4884",
-   "name": "Nate Ament",
+   "pid": "1585",
+   "name": "Aaron Gordon",
    "state": "open",
-   "counted": 4.0,
-   "games_remaining": 3,
+   "counted": 4.5,
+   "games_remaining": 2,
    "inj": null
   },
   {
@@ -378,8 +407,8 @@
    "pid": "1525",
    "name": "Andrew Wiggins",
    "state": "open",
-   "counted": 0.0,
-   "games_remaining": 3,
+   "counted": 12.5,
+   "games_remaining": 2,
    "inj": null
   },
   {
@@ -387,7 +416,7 @@
    "pid": "1511",
    "name": "Joel Embiid",
    "state": "open",
-   "counted": 0.0,
+   "counted": 18.0,
    "games_remaining": 2,
    "inj": null
   },
@@ -396,8 +425,8 @@
    "pid": "1265",
    "name": "Jrue Holiday",
    "state": "open",
-   "counted": 0.0,
-   "games_remaining": 3,
+   "counted": 12.0,
+   "games_remaining": 2,
    "inj": null
   },
   {
@@ -412,30 +441,12 @@
  ],
  "swaps": [
   {
-   "slot": "G",
-   "out": "1444",
-   "out_name": "Damian Lillard",
-   "in": "2181",
-   "in_name": "Deni Avdija",
-   "gain": 8.8,
-   "in_games_remaining": 3
-  },
-  {
-   "slot": "SF",
-   "out": "1074",
-   "out_name": "Paul George",
-   "in": "1822",
-   "in_name": "Jayson Tatum",
-   "gain": 8.9,
-   "in_games_remaining": 2
-  },
-  {
-   "slot": "UTIL",
-   "out": "1975",
-   "out_name": "Mikal Bridges",
-   "in": "2157",
-   "in_name": "Immanuel Quickley",
-   "gain": 9.3,
+   "slot": "C",
+   "out": "1934",
+   "out_name": "Isaiah Hartenstein",
+   "in": "2029",
+   "in_name": "P.J. Washington",
+   "gain": 3.4,
    "in_games_remaining": 3
   }
  ],
@@ -457,9 +468,9 @@
   {
    "pid": "2157",
    "name": "Immanuel Quickley",
-   "status": "DTD",
+   "status": "GTD",
    "part": "Hamstring",
-   "starter": false
+   "starter": true
   },
   {
    "pid": "4762",

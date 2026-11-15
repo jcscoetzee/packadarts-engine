@@ -3,7 +3,7 @@
  "planning_week": 4,
  "current_week": 4,
  "us_date": "2026-11-15",
- "snapshot": "2026-11-15T07:44:28Z",
+ "snapshot": "2026-11-15T19:19:40Z",
  "week_dates": [
   "2026-11-09",
   "2026-11-15"
@@ -24,19 +24,6 @@
   },
   {
    "slot": "SG",
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 24.0,
-   "games": 1
-  },
-  {
-   "slot": "G",
    "pid": "2157",
    "name": "Immanuel Quickley",
    "team": "TOR",
@@ -46,6 +33,19 @@
    ],
    "inj": null,
    "week_value": 22.0,
+   "games": 1
+  },
+  {
+   "slot": "G",
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": "GTD",
+   "week_value": 15.6,
    "games": 1
   },
   {
@@ -130,7 +130,7 @@
    "games": 1
   }
  ],
- "lineup_total_value": 247.1,
+ "lineup_total_value": 238.7,
  "bench": [
   {
    "pid": "1350",
@@ -167,7 +167,7 @@
     "SF",
     "SG"
    ],
-   "inj": "GTD",
+   "inj": "DTD",
    "week_value": 0.0,
    "games": 0,
    "age": 32,
@@ -266,7 +266,7 @@
     "C"
    ],
    "inj": null,
-   "week_value": 14.5,
+   "week_value": 14.3,
    "games": 1,
    "age": 29,
    "years_exp": 10
@@ -295,28 +295,6 @@
    "kind": "hold"
   },
   {
-   "pid": "2119",
-   "name": "Obi Toppin",
-   "team": "IND",
-   "fpos": [
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 15.3,
-   "games_this_week": 1,
-   "next_week_value": 21.7,
-   "games_next_week": 3,
-   "ros_week_value": 23.8,
-   "age": 28,
-   "years_exp": 6,
-   "gain_ros_per_week": 7.5,
-   "gain_this_week": 15.3,
-   "suggested_bid": 34,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
    "pid": "2494",
    "name": "Julian Champagnie",
    "team": "SAS",
@@ -336,6 +314,28 @@
    "gain_ros_per_week": 5.9,
    "gain_this_week": 16.1,
    "suggested_bid": 26,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "2119",
+   "name": "Obi Toppin",
+   "team": "IND",
+   "fpos": [
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 14.3,
+   "games_this_week": 1,
+   "next_week_value": 20.7,
+   "games_next_week": 3,
+   "ros_week_value": 22.6,
+   "age": 28,
+   "years_exp": 6,
+   "gain_ros_per_week": 6.3,
+   "gain_this_week": 14.3,
+   "suggested_bid": 28,
    "budget_left": 373,
    "kind": "hold"
   },
@@ -405,28 +405,6 @@
    "kind": "hold"
   },
   {
-   "pid": "2563",
-   "name": "Jarace Walker",
-   "team": "IND",
-   "fpos": [
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 12.7,
-   "games_this_week": 1,
-   "next_week_value": 18.0,
-   "games_next_week": 3,
-   "ros_week_value": 18.7,
-   "age": 23,
-   "years_exp": 3,
-   "gain_ros_per_week": 2.4,
-   "gain_this_week": 12.7,
-   "suggested_bid": 11,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
    "pid": "2444",
    "name": "Jake LaRavia",
    "team": "LAL",
@@ -490,6 +468,28 @@
    "suggested_bid": 8,
    "budget_left": 373,
    "kind": "stream"
+  },
+  {
+   "pid": "1801",
+   "name": "Alex Caruso",
+   "team": "OKC",
+   "fpos": [
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 11.8,
+   "games_this_week": 1,
+   "next_week_value": 17.4,
+   "games_next_week": 3,
+   "ros_week_value": 19.1,
+   "age": 32,
+   "years_exp": 9,
+   "gain_ros_per_week": 2.8,
+   "gain_this_week": 11.8,
+   "suggested_bid": 13,
+   "budget_left": 373,
+   "kind": "hold"
   }
  ],
  "drops": [
@@ -545,7 +545,7 @@
    "week_value": 0.0,
    "age": 32,
    "years_exp": 8,
-   "inj": "GTD"
+   "inj": "DTD"
   }
  ],
  "budget_left": 373,
@@ -561,7 +561,7 @@
    "lock_efficiency": 0.935,
    "top9_ros_value": 349.0,
    "depth_10_14": 133.6,
-   "avg_age": 24.0,
+   "avg_age": 23.8,
    "waiver_budget_used": 215
   },
   {
@@ -588,7 +588,7 @@
    "division": 1,
    "lock_efficiency": 0.964,
    "top9_ros_value": 331.1,
-   "depth_10_14": 140.8,
+   "depth_10_14": 140.0,
    "avg_age": 28.2,
    "waiver_budget_used": 27
   },
@@ -617,8 +617,8 @@
    "lock_efficiency": 0.906,
    "top9_ros_value": 324.6,
    "depth_10_14": 118.0,
-   "avg_age": 27.9,
-   "waiver_budget_used": 0
+   "avg_age": 27.6,
+   "waiver_budget_used": 82
   },
   {
    "roster_id": 8,
@@ -644,7 +644,7 @@
    "division": 2,
    "lock_efficiency": 0.925,
    "top9_ros_value": 316.2,
-   "depth_10_14": 126.3,
+   "depth_10_14": 124.9,
    "avg_age": 22.3,
    "waiver_budget_used": 0
   },
@@ -657,7 +657,7 @@
    "ppts": 900,
    "division": 1,
    "lock_efficiency": 0.877,
-   "top9_ros_value": 314.3,
+   "top9_ros_value": 311.5,
    "depth_10_14": 128.9,
    "avg_age": 27.4,
    "waiver_budget_used": 11
@@ -699,7 +699,7 @@
    "ppts": 806,
    "division": 1,
    "lock_efficiency": 0.795,
-   "top9_ros_value": 280.8,
+   "top9_ros_value": 279.5,
    "depth_10_14": 119.5,
    "avg_age": 23.8,
    "waiver_budget_used": 60
@@ -713,7 +713,7 @@
    "ppts": 842,
    "division": 2,
    "lock_efficiency": 0.886,
-   "top9_ros_value": 280.6,
+   "top9_ros_value": 279.4,
    "depth_10_14": 125.5,
    "avg_age": 23.7,
    "waiver_budget_used": 155
@@ -766,7 +766,7 @@
    "ros_week_value": 27.3,
    "lock_in_premium": 1.353,
    "age": 27,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "2128",
@@ -898,7 +898,7 @@
    "ros_week_value": 25.9,
    "lock_in_premium": 1.314,
    "age": 24,
-   "inj": "Out"
+   "inj": "DTD"
   }
  ],
  "my_trade_chips": [

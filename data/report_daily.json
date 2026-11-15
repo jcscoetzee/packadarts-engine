@@ -2,14 +2,14 @@
  "mode": "daily",
  "week": 4,
  "us_date": "2026-11-15",
- "snapshot": "2026-11-15T07:44:28Z",
+ "snapshot": "2026-11-15T19:19:40Z",
  "matchup": {
   "opponent_roster": 12,
   "opponent": "angusf",
-  "my_points_now": 340.5,
-  "opp_points_now": 224.0,
-  "my_expected_final": 340.5,
-  "opp_expected_final": 235.1,
+  "my_points_now": 326.5,
+  "opp_points_now": 192.0,
+  "my_expected_final": 326.5,
+  "opp_expected_final": 232.6,
   "p_win_now": 1.0
  },
  "starters": [
@@ -33,8 +33,8 @@
    "pid": "1054",
    "name": "Kyrie Irving",
    "team": "DAL",
-   "inj": null,
-   "inj_part": null,
+   "inj": "GTD",
+   "inj_part": "Knee",
    "state": "open",
    "counted": 48.5,
    "games_remaining": [
@@ -46,17 +46,17 @@
    ],
    "dist_mean": 29.9,
    "dist_sd": 10.9,
-   "continuation_value": 24.0,
+   "continuation_value": 15.6,
    "latest_game": {
     "date": "2026-11-14",
     "opp": "CLE",
     "fp": 48.5
    },
-   "p_improve_if_pass": 0.045,
+   "p_improve_if_pass": 0.044,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-15",
    "winprob_lock": 1.0,
-   "winprob_pass": 1.0,
+   "winprob_pass": 0.991,
    "verdict": "LOCK",
    "verdict_basis": "expected value (win probability indifferent)"
   },
@@ -151,7 +151,7 @@
     "opp": "TOR",
     "fp": 34.5
    },
-   "p_improve_if_pass": 0.46,
+   "p_improve_if_pass": 0.456,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-15",
    "winprob_lock": 1.0,
@@ -183,11 +183,11 @@
     "opp": "LAC",
     "fp": 44.5
    },
-   "p_improve_if_pass": 0.042,
+   "p_improve_if_pass": 0.039,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-15",
    "winprob_lock": 1.0,
-   "winprob_pass": 1.0,
+   "winprob_pass": 0.999,
    "verdict": "LOCK",
    "verdict_basis": "expected value (win probability indifferent)"
   },
@@ -199,29 +199,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 26.0,
-   "games_remaining": [
-    {
-     "date": "2026-11-15",
-     "opp": "PHI",
-     "home": false
-    }
-   ],
-   "dist_mean": 20.6,
-   "dist_sd": 8.9,
-   "continuation_value": 14.5,
+   "counted": 12.0,
+   "games_remaining": [],
+   "dist_mean": 19.8,
+   "dist_sd": 8.7,
+   "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-13",
-    "opp": "NYK",
-    "fp": 26.0
+    "date": "2026-11-15",
+    "opp": "PHI",
+    "fp": 12.0
    },
-   "p_improve_if_pass": 0.201,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-15",
-   "winprob_lock": 1.0,
-   "winprob_pass": 1.0,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "decision": "FINAL"
   },
   {
    "slot": "UTIL",
@@ -251,7 +239,7 @@
    "ev_verdict": "LOCK",
    "deadline": "2026-11-15",
    "winprob_lock": 1.0,
-   "winprob_pass": 1.0,
+   "winprob_pass": 0.999,
    "verdict": "LOCK",
    "verdict_basis": "expected value (win probability indifferent)"
   }
@@ -286,20 +274,20 @@
   },
   {
    "slot": "SF",
-   "pid": "2054",
-   "name": "Zion Williamson",
-   "state": "locked",
-   "counted": 9.0,
-   "games_remaining": 0,
+   "pid": "4884",
+   "name": "Nate Ament",
+   "state": "open",
+   "counted": 15.5,
+   "games_remaining": 1,
    "inj": null
   },
   {
    "slot": "PF",
-   "pid": "1525",
-   "name": "Andrew Wiggins",
+   "pid": "1378",
+   "name": "Khris Middleton",
    "state": "open",
-   "counted": 14.5,
-   "games_remaining": 0,
+   "counted": 0.0,
+   "games_remaining": 1,
    "inj": null
   },
   {
@@ -316,8 +304,8 @@
    "pid": "1511",
    "name": "Joel Embiid",
    "state": "open",
-   "counted": 24.0,
-   "games_remaining": 1,
+   "counted": 0.0,
+   "games_remaining": 0,
    "inj": "Out"
   },
   {
@@ -342,9 +330,16 @@
  "swaps": [],
  "injuries": [
   {
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "status": "GTD",
+   "part": "Knee",
+   "starter": true
+  },
+  {
    "pid": "1961",
    "name": "Duncan Robinson",
-   "status": "GTD",
+   "status": "DTD",
    "part": "Thigh",
    "starter": false
   },

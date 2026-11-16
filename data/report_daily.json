@@ -2,14 +2,14 @@
  "mode": "daily",
  "week": 4,
  "us_date": "2026-11-15",
- "snapshot": "2026-11-15T19:19:40Z",
+ "snapshot": "2026-11-16T00:54:54Z",
  "matchup": {
   "opponent_roster": 12,
   "opponent": "angusf",
-  "my_points_now": 326.5,
-  "opp_points_now": 192.0,
-  "my_expected_final": 326.5,
-  "opp_expected_final": 232.6,
+  "my_points_now": 308.5,
+  "opp_points_now": 218.5,
+  "my_expected_final": 308.5,
+  "opp_expected_final": 246.0,
   "p_win_now": 1.0
  },
  "starters": [
@@ -33,32 +33,20 @@
    "pid": "1054",
    "name": "Kyrie Irving",
    "team": "DAL",
-   "inj": "GTD",
+   "inj": "Out",
    "inj_part": "Knee",
    "state": "open",
    "counted": 48.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-15",
-     "opp": "BOS",
-     "home": false
-    }
-   ],
+   "games_remaining": [],
    "dist_mean": 29.9,
    "dist_sd": 10.9,
-   "continuation_value": 15.6,
+   "continuation_value": null,
    "latest_game": {
     "date": "2026-11-14",
     "opp": "CLE",
     "fp": 48.5
    },
-   "p_improve_if_pass": 0.044,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-15",
-   "winprob_lock": 1.0,
-   "winprob_pass": 0.991,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "decision": "FINAL"
   },
   {
    "slot": "G",
@@ -87,30 +75,13 @@
    "team": "BOS",
    "inj": null,
    "inj_part": null,
-   "state": "open",
+   "state": "locked",
    "counted": 40.0,
-   "games_remaining": [
-    {
-     "date": "2026-11-15",
-     "opp": "DAL",
-     "home": true
-    }
-   ],
-   "dist_mean": 27.7,
-   "dist_sd": 10.5,
-   "continuation_value": 24.3,
-   "latest_game": {
-    "date": "2026-11-10",
-    "opp": "PHI",
-    "fp": 40.0
-   },
-   "p_improve_if_pass": 0.104,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-15",
-   "winprob_lock": 1.0,
-   "winprob_pass": 1.0,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "games_remaining": [],
+   "dist_mean": 27.0,
+   "dist_sd": 10.4,
+   "locked_fp": 40.0,
+   "locked_game": "2026-11-10"
   },
   {
    "slot": "PF",
@@ -135,29 +106,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 34.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-15",
-     "opp": "DAL",
-     "home": true
-    }
-   ],
+   "counted": 41.0,
+   "games_remaining": [],
    "dist_mean": 36.2,
-   "dist_sd": 10.6,
-   "continuation_value": 33.3,
+   "dist_sd": 10.4,
+   "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-11",
-    "opp": "TOR",
-    "fp": 34.5
+    "date": "2026-11-15",
+    "opp": "DAL",
+    "fp": 41.0
    },
-   "p_improve_if_pass": 0.456,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-15",
-   "winprob_lock": 1.0,
-   "winprob_pass": 1.0,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "decision": "FINAL"
   },
   {
    "slot": "C",
@@ -183,11 +142,11 @@
     "opp": "LAC",
     "fp": 44.5
    },
-   "p_improve_if_pass": 0.039,
+   "p_improve_if_pass": 0.045,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-15",
    "winprob_lock": 1.0,
-   "winprob_pass": 0.999,
+   "winprob_pass": 0.997,
    "verdict": "LOCK",
    "verdict_basis": "expected value (win probability indifferent)"
   },
@@ -199,15 +158,15 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 12.0,
+   "counted": 12.5,
    "games_remaining": [],
-   "dist_mean": 19.8,
-   "dist_sd": 8.7,
+   "dist_mean": 20.1,
+   "dist_sd": 8.8,
    "continuation_value": null,
    "latest_game": {
     "date": "2026-11-15",
     "opp": "PHI",
-    "fp": 12.0
+    "fp": 12.5
    },
    "decision": "FINAL"
   },
@@ -219,29 +178,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 37.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-15",
-     "opp": "NYK",
-     "home": true
-    }
-   ],
-   "dist_mean": 25.1,
-   "dist_sd": 8.5,
-   "continuation_value": 22.0,
+   "counted": 12.5,
+   "games_remaining": [],
+   "dist_mean": 24.0,
+   "dist_sd": 8.6,
+   "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-12",
-    "opp": "PHI",
-    "fp": 37.5
+    "date": "2026-11-15",
+    "opp": "NYK",
+    "fp": 12.5
    },
-   "p_improve_if_pass": 0.063,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-15",
-   "winprob_lock": 1.0,
-   "winprob_pass": 0.999,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "decision": "FINAL"
   }
  ],
  "opponent_starters": [
@@ -250,8 +197,8 @@
    "pid": "1970",
    "name": "Luka Don\u010di\u0107",
    "state": "open",
-   "counted": 36.0,
-   "games_remaining": 1,
+   "counted": 52.0,
+   "games_remaining": 0,
    "inj": null
   },
   {
@@ -260,7 +207,7 @@
    "name": "Cooper Flagg",
    "state": "locked",
    "counted": 63.0,
-   "games_remaining": 1,
+   "games_remaining": 0,
    "inj": null
   },
   {
@@ -286,8 +233,8 @@
    "pid": "1378",
    "name": "Khris Middleton",
    "state": "open",
-   "counted": 0.0,
-   "games_remaining": 1,
+   "counted": 10.5,
+   "games_remaining": 0,
    "inj": null
   },
   {
@@ -306,7 +253,7 @@
    "state": "open",
    "counted": 0.0,
    "games_remaining": 0,
-   "inj": "Out"
+   "inj": "DTD"
   },
   {
    "slot": "UTIL",
@@ -332,7 +279,7 @@
   {
    "pid": "1054",
    "name": "Kyrie Irving",
-   "status": "GTD",
+   "status": "Out",
    "part": "Knee",
    "starter": true
   },

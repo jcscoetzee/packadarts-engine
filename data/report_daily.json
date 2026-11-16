@@ -1,15 +1,15 @@
 {
  "mode": "daily",
  "week": 4,
- "us_date": "2026-11-15",
- "snapshot": "2026-11-16T00:54:54Z",
+ "us_date": "2026-11-16",
+ "snapshot": "2026-11-16T07:49:13Z",
  "matchup": {
   "opponent_roster": 12,
   "opponent": "angusf",
-  "my_points_now": 308.5,
-  "opp_points_now": 218.5,
-  "my_expected_final": 308.5,
-  "opp_expected_final": 246.0,
+  "my_points_now": 293.5,
+  "opp_points_now": 206.0,
+  "my_expected_final": 293.5,
+  "opp_expected_final": 230.0,
   "p_win_now": 1.0
  },
  "starters": [
@@ -126,29 +126,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 44.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-15",
-     "opp": "SAC",
-     "home": false
-    }
-   ],
-   "dist_mean": 24.5,
-   "dist_sd": 9.9,
-   "continuation_value": 22.5,
+   "counted": 15.0,
+   "games_remaining": [],
+   "dist_mean": 23.8,
+   "dist_sd": 9.8,
+   "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-13",
-    "opp": "LAC",
-    "fp": 44.5
+    "date": "2026-11-15",
+    "opp": "SAC",
+    "fp": 15.0
    },
-   "p_improve_if_pass": 0.045,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-15",
-   "winprob_lock": 1.0,
-   "winprob_pass": 0.997,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "decision": "FINAL"
   },
   {
    "slot": "UTIL",
@@ -178,15 +166,15 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 12.5,
+   "counted": 27.0,
    "games_remaining": [],
-   "dist_mean": 24.0,
-   "dist_sd": 8.6,
+   "dist_mean": 25.5,
+   "dist_sd": 8.4,
    "continuation_value": null,
    "latest_game": {
     "date": "2026-11-15",
     "opp": "NYK",
-    "fp": 12.5
+    "fp": 27.0
    },
    "decision": "FINAL"
   }
@@ -215,8 +203,8 @@
    "pid": "2299",
    "name": "Aaron Wiggins",
    "state": "open",
-   "counted": 12.5,
-   "games_remaining": 1,
+   "counted": 9.5,
+   "games_remaining": 0,
    "inj": null
   },
   {
@@ -224,8 +212,8 @@
    "pid": "4884",
    "name": "Nate Ament",
    "state": "open",
-   "counted": 15.5,
-   "games_remaining": 1,
+   "counted": 6.0,
+   "games_remaining": 0,
    "inj": null
   },
   {

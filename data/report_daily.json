@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 5,
  "us_date": "2026-11-17",
- "snapshot": "2026-11-17T08:58:02Z",
+ "snapshot": "2026-11-17T21:39:31Z",
  "matchup": {
   "opponent_roster": 8,
   "opponent": "DogCun",
-  "my_points_now": 194.0,
+  "my_points_now": 187.0,
   "opp_points_now": 79.0,
-  "my_expected_final": 292.3,
-  "opp_expected_final": 303.8,
-  "p_win_now": 0.4
+  "my_expected_final": 299.6,
+  "opp_expected_final": 307.6,
+  "p_win_now": 0.465
  },
  "starters": [
   {
@@ -50,52 +50,46 @@
    "p_improve_if_pass": 0.885,
    "ev_verdict": "PASS",
    "deadline": "2026-11-18",
-   "winprob_lock": 0.279,
-   "winprob_pass": 0.386,
+   "winprob_lock": 0.37,
+   "winprob_pass": 0.454,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
   {
    "slot": "SG",
-   "pid": "1972",
-   "name": "De'Anthony Melton",
-   "team": "GSW",
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "team": "DET",
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 7.0,
+   "counted": 0.0,
    "games_remaining": [
     {
-     "date": "2026-11-18",
-     "opp": "DAL",
+     "date": "2026-11-17",
+     "opp": "SAS",
      "home": false
     },
     {
-     "date": "2026-11-19",
-     "opp": "MEM",
+     "date": "2026-11-18",
+     "opp": "NOP",
      "home": false
+    },
+    {
+     "date": "2026-11-20",
+     "opp": "TOR",
+     "home": true
     },
     {
      "date": "2026-11-22",
-     "opp": "BOS",
-     "home": true
+     "opp": "ATL",
+     "home": false
     }
    ],
-   "dist_mean": 16.7,
-   "dist_sd": 9.0,
-   "continuation_value": 21.6,
-   "latest_game": {
-    "date": "2026-11-16",
-    "opp": "NOP",
-    "fp": 7.0
-   },
-   "p_improve_if_pass": 0.926,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-18",
-   "winprob_lock": 0.243,
-   "winprob_pass": 0.38,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "dist_mean": 20.2,
+   "dist_sd": 13.9,
+   "continuation_value": 31.1,
+   "decision": "WAIT"
   },
   {
    "slot": "G",
@@ -131,11 +125,11 @@
     "opp": "MIN",
     "fp": 11.5
    },
-   "p_improve_if_pass": 0.959,
+   "p_improve_if_pass": 0.957,
    "ev_verdict": "PASS",
    "deadline": "2026-11-17",
-   "winprob_lock": 0.241,
-   "winprob_pass": 0.396,
+   "winprob_lock": 0.293,
+   "winprob_pass": 0.448,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -173,11 +167,11 @@
     "opp": "ORL",
     "fp": 33.5
    },
-   "p_improve_if_pass": 0.357,
+   "p_improve_if_pass": 0.366,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-18",
-   "winprob_lock": 0.387,
-   "winprob_pass": 0.38,
+   "winprob_lock": 0.464,
+   "winprob_pass": 0.469,
    "verdict": "LOCK",
    "verdict_basis": "expected value (win probability indifferent)"
   },
@@ -186,8 +180,8 @@
    "pid": "2181",
    "name": "Deni Avdija",
    "team": "POR",
-   "inj": null,
-   "inj_part": null,
+   "inj": "GTD",
+   "inj_part": "Foot",
    "state": "open",
    "counted": 35.5,
    "games_remaining": [
@@ -209,18 +203,18 @@
    ],
    "dist_mean": 33.5,
    "dist_sd": 9.2,
-   "continuation_value": 37.5,
+   "continuation_value": 35.5,
    "latest_game": {
     "date": "2026-11-16",
     "opp": "MIN",
     "fp": 35.5
    },
-   "p_improve_if_pass": 0.691,
-   "ev_verdict": "PASS",
+   "p_improve_if_pass": 0.545,
+   "ev_verdict": "LOCK",
    "deadline": "2026-11-17",
-   "winprob_lock": 0.364,
-   "winprob_pass": 0.389,
-   "verdict": "PASS",
+   "winprob_lock": 0.457,
+   "winprob_pass": 0.445,
+   "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
   {
@@ -257,11 +251,11 @@
     "opp": "ORL",
     "fp": 35.5
    },
-   "p_improve_if_pass": 0.755,
+   "p_improve_if_pass": 0.756,
    "ev_verdict": "PASS",
    "deadline": "2026-11-18",
-   "winprob_lock": 0.325,
-   "winprob_pass": 0.385,
+   "winprob_lock": 0.398,
+   "winprob_pass": 0.443,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -299,11 +293,11 @@
     "opp": "POR",
     "fp": 38.5
    },
-   "p_improve_if_pass": 0.138,
+   "p_improve_if_pass": 0.118,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-17",
-   "winprob_lock": 0.383,
-   "winprob_pass": 0.292,
+   "winprob_lock": 0.457,
+   "winprob_pass": 0.375,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -456,20 +450,38 @@
  "swaps": [
   {
    "slot": "SG",
-   "out": "1972",
-   "out_name": "De'Anthony Melton",
+   "out": "2776",
+   "out_name": "Daniss Jenkins",
    "in": "1074",
    "in_name": "Paul George",
-   "gain": 11.9,
+   "gain": 2.4,
+   "in_games_remaining": 3
+  },
+  {
+   "slot": "SF",
+   "out": "1074",
+   "out_name": "Paul George",
+   "in": "2181",
+   "in_name": "Deni Avdija",
+   "gain": 2.0,
    "in_games_remaining": 3
   },
   {
    "slot": "UTIL",
    "out": "1697",
    "out_name": "Ivica Zubac",
+   "in": "2776",
+   "in_name": "Daniss Jenkins",
+   "gain": 8.7,
+   "in_games_remaining": 4
+  },
+  {
+   "slot": "UTIL",
+   "out": "2157",
+   "out_name": "Immanuel Quickley",
    "in": "1054",
    "in_name": "Kyrie Irving",
-   "gain": 10.6,
+   "gain": 3.7,
    "in_games_remaining": 3
   }
  ],
@@ -501,6 +513,13 @@
    "status": "Out",
    "part": "Knee",
    "starter": false
+  },
+  {
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "status": "GTD",
+   "part": "Foot",
+   "starter": true
   },
   {
    "pid": "4762",

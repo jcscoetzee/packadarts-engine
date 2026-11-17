@@ -3,7 +3,7 @@
  "planning_week": 5,
  "current_week": 5,
  "us_date": "2026-11-17",
- "snapshot": "2026-11-17T08:58:02Z",
+ "snapshot": "2026-11-17T21:39:31Z",
  "week_dates": [
   "2026-11-16",
   "2026-11-22"
@@ -11,6 +11,33 @@
  "lineup": [
   {
    "slot": "PG",
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": "DTD",
+   "week_value": 32.9,
+   "games": 3
+  },
+  {
+   "slot": "SG",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
+   "fpos": [
+    "PF",
+    "SF",
+    "SG"
+   ],
+   "inj": "GTD",
+   "week_value": 35.5,
+   "games": 3
+  },
+  {
+   "slot": "G",
    "pid": "2157",
    "name": "Immanuel Quickley",
    "team": "TOR",
@@ -20,33 +47,6 @@
    ],
    "inj": null,
    "week_value": 29.2,
-   "games": 3
-  },
-  {
-   "slot": "SG",
-   "pid": "2776",
-   "name": "Daniss Jenkins",
-   "team": "DET",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 31.1,
-   "games": 4
-  },
-  {
-   "slot": "G",
-   "pid": "1074",
-   "name": "Paul George",
-   "team": "BOS",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 31.9,
    "games": 3
   },
   {
@@ -77,16 +77,16 @@
   },
   {
    "slot": "F",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
+   "pid": "1074",
+   "name": "Paul George",
+   "team": "BOS",
    "fpos": [
     "PF",
     "SF",
     "SG"
    ],
    "inj": null,
-   "week_value": 37.5,
+   "week_value": 31.9,
    "games": 3
   },
   {
@@ -103,19 +103,6 @@
   },
   {
    "slot": "UTIL",
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": "DTD",
-   "week_value": 32.9,
-   "games": 3
-  },
-  {
-   "slot": "UTIL",
    "pid": "1747",
    "name": "Jamal Murray",
    "team": "DEN",
@@ -125,9 +112,22 @@
    "inj": null,
    "week_value": 41.9,
    "games": 3
+  },
+  {
+   "slot": "UTIL",
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "team": "DET",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 31.1,
+   "games": 4
   }
  ],
- "lineup_total_value": 304.5,
+ "lineup_total_value": 302.4,
  "bench": [
   {
    "pid": "4762",

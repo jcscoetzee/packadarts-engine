@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 5,
  "us_date": "2026-11-18",
- "snapshot": "2026-11-18T08:23:32Z",
+ "snapshot": "2026-11-18T21:16:06Z",
  "matchup": {
   "opponent_roster": 8,
   "opponent": "DogCun",
   "my_points_now": 155.0,
   "opp_points_now": 250.0,
-  "my_expected_final": 300.5,
-  "opp_expected_final": 292.2,
-  "p_win_now": 0.56
+  "my_expected_final": 301.1,
+  "opp_expected_final": 291.8,
+  "p_win_now": 0.556
  },
  "starters": [
   {
@@ -50,8 +50,8 @@
    "p_improve_if_pass": 0.885,
    "ev_verdict": "PASS",
    "deadline": "2026-11-18",
-   "winprob_lock": 0.466,
-   "winprob_pass": 0.55,
+   "winprob_lock": 0.465,
+   "winprob_pass": 0.547,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -92,8 +92,8 @@
    "p_improve_if_pass": 0.411,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-18",
-   "winprob_lock": 0.573,
-   "winprob_pass": 0.519,
+   "winprob_lock": 0.574,
+   "winprob_pass": 0.523,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -165,8 +165,8 @@
    "p_improve_if_pass": 0.357,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-18",
-   "winprob_lock": 0.591,
-   "winprob_pass": 0.545,
+   "winprob_lock": 0.59,
+   "winprob_pass": 0.55,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -175,7 +175,7 @@
    "pid": "2181",
    "name": "Deni Avdija",
    "team": "POR",
-   "inj": "Out",
+   "inj": "DTD",
    "inj_part": "Foot",
    "state": "open",
    "counted": 0.0,
@@ -193,17 +193,17 @@
    ],
    "dist_mean": 33.5,
    "dist_sd": 9.2,
-   "continuation_value": 4.9,
+   "continuation_value": 33.2,
    "latest_game": {
     "date": "2026-11-16",
     "opp": "MIN",
     "fp": 35.5
    },
-   "p_improve_if_pass": 0.057,
+   "p_improve_if_pass": 0.449,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-19",
    "winprob_lock": 0.579,
-   "winprob_pass": 0.291,
+   "winprob_pass": 0.536,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -241,11 +241,11 @@
     "opp": "ORL",
     "fp": 35.5
    },
-   "p_improve_if_pass": 0.753,
+   "p_improve_if_pass": 0.755,
    "ev_verdict": "PASS",
    "deadline": "2026-11-18",
    "winprob_lock": 0.542,
-   "winprob_pass": 0.586,
+   "winprob_pass": 0.584,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -278,11 +278,11 @@
     "opp": "POR",
     "fp": 1.5
    },
-   "p_improve_if_pass": 0.957,
+   "p_improve_if_pass": 0.95,
    "ev_verdict": "PASS",
    "deadline": "2026-11-19",
-   "winprob_lock": 0.32,
-   "winprob_pass": 0.576,
+   "winprob_lock": 0.319,
+   "winprob_pass": 0.573,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -346,11 +346,11 @@
     "opp": "NYK",
     "fp": 19.5
    },
-   "p_improve_if_pass": 0.834,
+   "p_improve_if_pass": 0.825,
    "ev_verdict": "PASS",
    "deadline": "2026-11-18",
-   "winprob_lock": 0.497,
-   "winprob_pass": 0.571,
+   "winprob_lock": 0.493,
+   "winprob_pass": 0.567,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   }
@@ -474,7 +474,7 @@
   {
    "pid": "2181",
    "name": "Deni Avdija",
-   "status": "Out",
+   "status": "DTD",
    "part": "Foot",
    "starter": true
   },

@@ -3,7 +3,7 @@
  "planning_week": 5,
  "current_week": 5,
  "us_date": "2026-11-18",
- "snapshot": "2026-11-18T08:23:32Z",
+ "snapshot": "2026-11-18T21:16:06Z",
  "week_dates": [
   "2026-11-16",
   "2026-11-22"
@@ -64,6 +64,20 @@
   },
   {
    "slot": "PF",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
+   "fpos": [
+    "PF",
+    "SF",
+    "SG"
+   ],
+   "inj": "DTD",
+   "week_value": 33.2,
+   "games": 2
+  },
+  {
+   "slot": "F",
    "pid": "1831",
    "name": "OG Anunoby",
    "team": "NYK",
@@ -73,20 +87,6 @@
    ],
    "inj": null,
    "week_value": 28.6,
-   "games": 3
-  },
-  {
-   "slot": "F",
-   "pid": "2029",
-   "name": "P.J. Washington",
-   "team": "DAL",
-   "fpos": [
-    "C",
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 26.9,
    "games": 3
   },
   {
@@ -115,19 +115,20 @@
   },
   {
    "slot": "UTIL",
-   "pid": "2157",
-   "name": "Immanuel Quickley",
-   "team": "TOR",
+   "pid": "2029",
+   "name": "P.J. Washington",
+   "team": "DAL",
    "fpos": [
-    "PG",
-    "SG"
+    "C",
+    "PF",
+    "SF"
    ],
    "inj": null,
-   "week_value": 26.6,
-   "games": 2
+   "week_value": 26.9,
+   "games": 3
   }
  ],
- "lineup_total_value": 288.0,
+ "lineup_total_value": 294.7,
  "bench": [
   {
    "pid": "4762",
@@ -156,21 +157,6 @@
    "games": 3,
    "age": 19,
    "years_exp": 0
-  },
-  {
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": "Out",
-   "week_value": 4.9,
-   "games": 2,
-   "age": 25,
-   "years_exp": 6
   },
   {
    "pid": "1961",
@@ -268,6 +254,20 @@
    "games": 2,
    "age": 36,
    "years_exp": 14
+  },
+  {
+   "pid": "2157",
+   "name": "Immanuel Quickley",
+   "team": "TOR",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 26.6,
+   "games": 2,
+   "age": 27,
+   "years_exp": 6
   }
  ],
  "adds": [
@@ -424,28 +424,6 @@
    "kind": "hold"
   },
   {
-   "pid": "2008",
-   "name": "Dean Wade",
-   "team": "PHI",
-   "fpos": [
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 17.2,
-   "games_this_week": 2,
-   "next_week_value": 20.7,
-   "games_next_week": 4,
-   "ros_week_value": 20.3,
-   "age": 29,
-   "years_exp": 7,
-   "gain_ros_per_week": 5.1,
-   "gain_this_week": 2.7,
-   "suggested_bid": 23,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
    "pid": "1660",
    "name": "Mario Hezonja",
    "team": "CLE",
@@ -487,6 +465,28 @@
    "gain_ros_per_week": 5.7,
    "gain_this_week": 1.2,
    "suggested_bid": 26,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "2490",
+   "name": "Karlo Matkovi\u0107",
+   "team": "NOP",
+   "fpos": [
+    "C",
+    "PF"
+   ],
+   "inj": null,
+   "week_value": 18.4,
+   "games_this_week": 3,
+   "next_week_value": 18.6,
+   "games_next_week": 3,
+   "ros_week_value": 19.4,
+   "age": 25,
+   "years_exp": 2,
+   "gain_ros_per_week": 4.2,
+   "gain_this_week": 3.9,
+   "suggested_bid": 19,
    "budget_left": 373,
    "kind": "hold"
   }
@@ -684,9 +684,9 @@
    "ppts": 1201,
    "division": 2,
    "lock_efficiency": 0.95,
-   "top9_ros_value": 291.4,
-   "depth_10_14": 115.1,
-   "avg_age": 24.7,
+   "top9_ros_value": 302.7,
+   "depth_10_14": 118.3,
+   "avg_age": 25.2,
    "waiver_budget_used": 127
   },
   {
@@ -712,9 +712,9 @@
    "ppts": 1098,
    "division": 1,
    "lock_efficiency": 0.813,
-   "top9_ros_value": 282.0,
-   "depth_10_14": 118.8,
-   "avg_age": 23.8,
+   "top9_ros_value": 271.3,
+   "depth_10_14": 113.8,
+   "avg_age": 23.2,
    "waiver_budget_used": 60
   }
  ],
@@ -777,7 +777,7 @@
    "ros_week_value": 27.3,
    "lock_in_premium": 1.353,
    "age": 27,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "2050",
@@ -801,7 +801,7 @@
    "ros_week_value": 27.8,
    "lock_in_premium": 1.335,
    "age": 23,
-   "inj": "DTD"
+   "inj": "Out"
   },
   {
    "pid": "2128",

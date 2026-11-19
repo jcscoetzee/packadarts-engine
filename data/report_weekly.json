@@ -3,7 +3,7 @@
  "planning_week": 5,
  "current_week": 5,
  "us_date": "2026-11-19",
- "snapshot": "2026-11-19T08:35:13Z",
+ "snapshot": "2026-11-19T21:18:14Z",
  "week_dates": [
   "2026-11-16",
   "2026-11-22"
@@ -862,7 +862,7 @@
    "ros_week_value": 25.2,
    "lock_in_premium": 1.319,
    "age": 30,
-   "inj": null
+   "inj": "Out"
   },
   {
    "pid": "1809",
@@ -898,7 +898,7 @@
    "ros_week_value": 26.7,
    "lock_in_premium": 1.313,
    "age": 24,
-   "inj": null
+   "inj": "Out"
   }
  ],
  "my_trade_chips": [

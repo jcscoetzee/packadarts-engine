@@ -1,16 +1,16 @@
 {
  "mode": "daily",
  "week": 5,
- "us_date": "2026-11-18",
- "snapshot": "2026-11-18T21:16:06Z",
+ "us_date": "2026-11-19",
+ "snapshot": "2026-11-19T08:35:13Z",
  "matchup": {
   "opponent_roster": 8,
   "opponent": "DogCun",
-  "my_points_now": 155.0,
-  "opp_points_now": 250.0,
-  "my_expected_final": 301.1,
-  "opp_expected_final": 291.8,
-  "p_win_now": 0.556
+  "my_points_now": 189.5,
+  "opp_points_now": 239.5,
+  "my_expected_final": 278.1,
+  "opp_expected_final": 283.5,
+  "p_win_now": 0.493
  },
  "starters": [
   {
@@ -21,13 +21,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 32.5,
+   "counted": 36.0,
    "games_remaining": [
-    {
-     "date": "2026-11-18",
-     "opp": "BOS",
-     "home": true
-    },
     {
      "date": "2026-11-20",
      "opp": "HOU",
@@ -39,19 +34,19 @@
      "home": false
     }
    ],
-   "dist_mean": 35.9,
-   "dist_sd": 11.8,
-   "continuation_value": 41.9,
+   "dist_mean": 36.0,
+   "dist_sd": 11.5,
+   "continuation_value": 38.7,
    "latest_game": {
-    "date": "2026-11-16",
-    "opp": "PHX",
-    "fp": 32.5
+    "date": "2026-11-18",
+    "opp": "BOS",
+    "fp": 36.0
    },
-   "p_improve_if_pass": 0.885,
+   "p_improve_if_pass": 0.641,
    "ev_verdict": "PASS",
-   "deadline": "2026-11-18",
-   "winprob_lock": 0.465,
-   "winprob_pass": 0.547,
+   "deadline": "2026-11-20",
+   "winprob_lock": 0.454,
+   "winprob_pass": 0.485,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -63,13 +58,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 32.5,
+   "counted": 23.0,
    "games_remaining": [
-    {
-     "date": "2026-11-18",
-     "opp": "NOP",
-     "home": false
-    },
     {
      "date": "2026-11-20",
      "opp": "TOR",
@@ -81,20 +71,20 @@
      "home": false
     }
    ],
-   "dist_mean": 20.8,
-   "dist_sd": 13.9,
-   "continuation_value": 29.0,
+   "dist_mean": 20.9,
+   "dist_sd": 13.7,
+   "continuation_value": 25.3,
    "latest_game": {
-    "date": "2026-11-17",
-    "opp": "SAS",
-    "fp": 32.5
+    "date": "2026-11-18",
+    "opp": "NOP",
+    "fp": 23.0
    },
-   "p_improve_if_pass": 0.411,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-18",
-   "winprob_lock": 0.574,
-   "winprob_pass": 0.523,
-   "verdict": "LOCK",
+   "p_improve_if_pass": 0.579,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-20",
+   "winprob_lock": 0.448,
+   "winprob_pass": 0.487,
+   "verdict": "PASS",
    "verdict_basis": "win probability"
   },
   {
@@ -105,13 +95,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 27.5,
    "games_remaining": [
-    {
-     "date": "2026-11-18",
-     "opp": "GSW",
-     "home": true
-    },
     {
      "date": "2026-11-21",
      "opp": "LAC",
@@ -123,10 +108,21 @@
      "home": false
     }
    ],
-   "dist_mean": 29.9,
-   "dist_sd": 10.9,
-   "continuation_value": 33.8,
-   "decision": "WAIT"
+   "dist_mean": 29.7,
+   "dist_sd": 10.3,
+   "continuation_value": 29.7,
+   "latest_game": {
+    "date": "2026-11-18",
+    "opp": "GSW",
+    "fp": 27.5
+   },
+   "p_improve_if_pass": 0.595,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-21",
+   "winprob_lock": 0.46,
+   "winprob_pass": 0.488,
+   "verdict": "PASS",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "SF",
@@ -136,13 +132,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 33.5,
+   "counted": 18.0,
    "games_remaining": [
-    {
-     "date": "2026-11-18",
-     "opp": "DEN",
-     "home": false
-    },
     {
      "date": "2026-11-21",
      "opp": "SAC",
@@ -154,20 +145,20 @@
      "home": false
     }
    ],
-   "dist_mean": 27.5,
-   "dist_sd": 10.3,
-   "continuation_value": 31.9,
+   "dist_mean": 26.8,
+   "dist_sd": 10.1,
+   "continuation_value": 28.1,
    "latest_game": {
-    "date": "2026-11-16",
-    "opp": "ORL",
-    "fp": 33.5
+    "date": "2026-11-18",
+    "opp": "DEN",
+    "fp": 18.0
    },
-   "p_improve_if_pass": 0.357,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-18",
-   "winprob_lock": 0.59,
-   "winprob_pass": 0.55,
-   "verdict": "LOCK",
+   "p_improve_if_pass": 0.828,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-21",
+   "winprob_lock": 0.369,
+   "winprob_pass": 0.49,
+   "verdict": "PASS",
    "verdict_basis": "win probability"
   },
   {
@@ -175,7 +166,7 @@
    "pid": "2181",
    "name": "Deni Avdija",
    "team": "POR",
-   "inj": "DTD",
+   "inj": "GTD",
    "inj_part": "Foot",
    "state": "open",
    "counted": 0.0,
@@ -193,17 +184,17 @@
    ],
    "dist_mean": 33.5,
    "dist_sd": 9.2,
-   "continuation_value": 33.2,
+   "continuation_value": 31.5,
    "latest_game": {
     "date": "2026-11-16",
     "opp": "MIN",
     "fp": 35.5
    },
-   "p_improve_if_pass": 0.449,
+   "p_improve_if_pass": 0.379,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-19",
-   "winprob_lock": 0.579,
-   "winprob_pass": 0.536,
+   "winprob_lock": 0.477,
+   "winprob_pass": 0.447,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -215,13 +206,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 35.5,
+   "counted": 24.5,
    "games_remaining": [
-    {
-     "date": "2026-11-18",
-     "opp": "DEN",
-     "home": false
-    },
     {
      "date": "2026-11-21",
      "opp": "SAC",
@@ -233,19 +219,19 @@
      "home": false
     }
    ],
-   "dist_mean": 36.3,
-   "dist_sd": 10.2,
-   "continuation_value": 40.7,
+   "dist_mean": 35.9,
+   "dist_sd": 10.3,
+   "continuation_value": 37.0,
    "latest_game": {
-    "date": "2026-11-16",
-    "opp": "ORL",
-    "fp": 35.5
+    "date": "2026-11-18",
+    "opp": "DEN",
+    "fp": 24.5
    },
-   "p_improve_if_pass": 0.755,
+   "p_improve_if_pass": 0.908,
    "ev_verdict": "PASS",
-   "deadline": "2026-11-18",
-   "winprob_lock": 0.542,
-   "winprob_pass": 0.584,
+   "deadline": "2026-11-21",
+   "winprob_lock": 0.365,
+   "winprob_pass": 0.458,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -278,11 +264,11 @@
     "opp": "POR",
     "fp": 1.5
    },
-   "p_improve_if_pass": 0.95,
+   "p_improve_if_pass": 0.949,
    "ev_verdict": "PASS",
    "deadline": "2026-11-19",
-   "winprob_lock": 0.319,
-   "winprob_pass": 0.573,
+   "winprob_lock": 0.255,
+   "winprob_pass": 0.489,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -294,13 +280,8 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 30.0,
    "games_remaining": [
-    {
-     "date": "2026-11-18",
-     "opp": "ATL",
-     "home": true
-    },
     {
      "date": "2026-11-20",
      "opp": "NOP",
@@ -312,10 +293,21 @@
      "home": false
     }
    ],
-   "dist_mean": 23.8,
-   "dist_sd": 9.8,
-   "continuation_value": 28.6,
-   "decision": "WAIT"
+   "dist_mean": 24.2,
+   "dist_sd": 9.7,
+   "continuation_value": 26.4,
+   "latest_game": {
+    "date": "2026-11-18",
+    "opp": "ATL",
+    "fp": 30.0
+   },
+   "p_improve_if_pass": 0.306,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-20",
+   "winprob_lock": 0.466,
+   "winprob_pass": 0.442,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -325,33 +317,28 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 19.5,
+   "counted": 29.0,
    "games_remaining": [
-    {
-     "date": "2026-11-18",
-     "opp": "WAS",
-     "home": true
-    },
     {
      "date": "2026-11-20",
      "opp": "DET",
      "home": false
     }
    ],
-   "dist_mean": 25.3,
-   "dist_sd": 8.4,
-   "continuation_value": 26.6,
+   "dist_mean": 25.5,
+   "dist_sd": 8.3,
+   "continuation_value": 22.8,
    "latest_game": {
-    "date": "2026-11-17",
-    "opp": "NYK",
-    "fp": 19.5
+    "date": "2026-11-18",
+    "opp": "WAS",
+    "fp": 29.0
    },
-   "p_improve_if_pass": 0.825,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-18",
-   "winprob_lock": 0.493,
-   "winprob_pass": 0.567,
-   "verdict": "PASS",
+   "p_improve_if_pass": 0.308,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-20",
+   "winprob_lock": 0.521,
+   "winprob_pass": 0.426,
+   "verdict": "LOCK",
    "verdict_basis": "win probability"
   }
  ],
@@ -379,8 +366,8 @@
    "pid": "2457",
    "name": "Christian Braun",
    "state": "open",
-   "counted": 19.5,
-   "games_remaining": 3,
+   "counted": 20.5,
+   "games_remaining": 2,
    "inj": null
   },
   {
@@ -388,8 +375,8 @@
    "pid": "1637",
    "name": "Norman Powell",
    "state": "open",
-   "counted": 29.0,
-   "games_remaining": 3,
+   "counted": 23.5,
+   "games_remaining": 2,
    "inj": null
   },
   {
@@ -406,8 +393,8 @@
    "pid": "2128",
    "name": "Paul Reed",
    "state": "open",
-   "counted": 27.5,
-   "games_remaining": 3,
+   "counted": 26.0,
+   "games_remaining": 2,
    "inj": null
   },
   {
@@ -433,20 +420,47 @@
    "pid": "1787",
    "name": "Jarrett Allen",
    "state": "open",
-   "counted": 30.5,
-   "games_remaining": 2,
+   "counted": 26.0,
+   "games_remaining": 1,
    "inj": null
   }
  ],
  "swaps": [
+  {
+   "slot": "SG",
+   "out": "2776",
+   "out_name": "Daniss Jenkins",
+   "in": "1054",
+   "in_name": "Kyrie Irving",
+   "gain": 4.4,
+   "in_games_remaining": 2
+  },
+  {
+   "slot": "G",
+   "out": "1054",
+   "out_name": "Kyrie Irving",
+   "in": "2181",
+   "in_name": "Deni Avdija",
+   "gain": 5.8,
+   "in_games_remaining": 2
+  },
+  {
+   "slot": "SF",
+   "out": "1074",
+   "out_name": "Paul George",
+   "in": "1822",
+   "in_name": "Jayson Tatum",
+   "gain": 8.9,
+   "in_games_remaining": 2
+  },
   {
    "slot": "C",
    "out": "1350",
    "out_name": "Rudy Gobert",
    "in": "1934",
    "in_name": "Isaiah Hartenstein",
-   "gain": 3.2,
-   "in_games_remaining": 3
+   "gain": 4.6,
+   "in_games_remaining": 2
   }
  ],
  "injuries": [
@@ -474,7 +488,7 @@
   {
    "pid": "2181",
    "name": "Deni Avdija",
-   "status": "DTD",
+   "status": "GTD",
    "part": "Foot",
    "starter": true
   },

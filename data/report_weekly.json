@@ -2,8 +2,8 @@
  "mode": "weekly",
  "planning_week": 5,
  "current_week": 5,
- "us_date": "2026-11-18",
- "snapshot": "2026-11-18T21:16:06Z",
+ "us_date": "2026-11-19",
+ "snapshot": "2026-11-19T08:35:13Z",
  "week_dates": [
   "2026-11-16",
   "2026-11-22"
@@ -19,8 +19,8 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 33.8,
-   "games": 3
+   "week_value": 29.7,
+   "games": 2
   },
   {
    "slot": "SG",
@@ -33,21 +33,21 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 31.9,
-   "games": 3
+   "week_value": 28.1,
+   "games": 2
   },
   {
    "slot": "G",
-   "pid": "2776",
-   "name": "Daniss Jenkins",
-   "team": "DET",
+   "pid": "1444",
+   "name": "Damian Lillard",
+   "team": "POR",
    "fpos": [
     "PG",
     "SG"
    ],
    "inj": null,
-   "week_value": 29.0,
-   "games": 3
+   "week_value": 26.1,
+   "games": 2
   },
   {
    "slot": "SF",
@@ -59,25 +59,11 @@
     "SF"
    ],
    "inj": null,
-   "week_value": 40.7,
-   "games": 3
-  },
-  {
-   "slot": "PF",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": "DTD",
-   "week_value": 33.2,
+   "week_value": 37.0,
    "games": 2
   },
   {
-   "slot": "F",
+   "slot": "PF",
    "pid": "1831",
    "name": "OG Anunoby",
    "team": "NYK",
@@ -90,16 +76,30 @@
    "games": 3
   },
   {
+   "slot": "F",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
+   "fpos": [
+    "PF",
+    "SF",
+    "SG"
+   ],
+   "inj": "GTD",
+   "week_value": 31.5,
+   "games": 2
+  },
+  {
    "slot": "C",
-   "pid": "1934",
-   "name": "Isaiah Hartenstein",
-   "team": "OKC",
+   "pid": "1350",
+   "name": "Rudy Gobert",
+   "team": "MIN",
    "fpos": [
     "C"
    ],
    "inj": null,
-   "week_value": 28.6,
-   "games": 3
+   "week_value": 25.4,
+   "games": 2
   },
   {
    "slot": "UTIL",
@@ -110,25 +110,23 @@
     "PG"
    ],
    "inj": null,
-   "week_value": 41.9,
-   "games": 3
+   "week_value": 38.7,
+   "games": 2
   },
   {
    "slot": "UTIL",
-   "pid": "2029",
-   "name": "P.J. Washington",
-   "team": "DAL",
+   "pid": "1934",
+   "name": "Isaiah Hartenstein",
+   "team": "OKC",
    "fpos": [
-    "C",
-    "PF",
-    "SF"
+    "C"
    ],
    "inj": null,
-   "week_value": 26.9,
-   "games": 3
+   "week_value": 26.4,
+   "games": 2
   }
  ],
- "lineup_total_value": 294.7,
+ "lineup_total_value": 271.4,
  "bench": [
   {
    "pid": "4762",
@@ -140,7 +138,7 @@
    ],
    "inj": "Out",
    "week_value": 0.0,
-   "games": 3,
+   "games": 2,
    "age": 20,
    "years_exp": 0
   },
@@ -153,8 +151,8 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 3.0,
-   "games": 3,
+   "week_value": 2.2,
+   "games": 2,
    "age": 19,
    "years_exp": 0
   },
@@ -167,8 +165,8 @@
     "SG"
    ],
    "inj": "Out",
-   "week_value": 6.3,
-   "games": 3,
+   "week_value": 2.9,
+   "games": 2,
    "age": 32,
    "years_exp": 8
   },
@@ -187,6 +185,33 @@
    "years_exp": 5
   },
   {
+   "pid": "1972",
+   "name": "De'Anthony Melton",
+   "team": "GSW",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 18.5,
+   "games": 2,
+   "age": 28,
+   "years_exp": 8
+  },
+  {
+   "pid": "1697",
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "fpos": [
+    "C"
+   ],
+   "inj": null,
+   "week_value": 19.5,
+   "games": 2,
+   "age": 29,
+   "years_exp": 10
+  },
+  {
    "pid": "1975",
    "name": "Mikal Bridges",
    "team": "NYK",
@@ -202,60 +227,6 @@
    "years_exp": 8
   },
   {
-   "pid": "1972",
-   "name": "De'Anthony Melton",
-   "team": "GSW",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 21.6,
-   "games": 3,
-   "age": 28,
-   "years_exp": 8
-  },
-  {
-   "pid": "1697",
-   "name": "Ivica Zubac",
-   "team": "IND",
-   "fpos": [
-    "C"
-   ],
-   "inj": null,
-   "week_value": 22.4,
-   "games": 3,
-   "age": 29,
-   "years_exp": 10
-  },
-  {
-   "pid": "1350",
-   "name": "Rudy Gobert",
-   "team": "MIN",
-   "fpos": [
-    "C"
-   ],
-   "inj": null,
-   "week_value": 25.4,
-   "games": 2,
-   "age": 34,
-   "years_exp": 13
-  },
-  {
-   "pid": "1444",
-   "name": "Damian Lillard",
-   "team": "POR",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 26.1,
-   "games": 2,
-   "age": 36,
-   "years_exp": 14
-  },
-  {
    "pid": "2157",
    "name": "Immanuel Quickley",
    "team": "TOR",
@@ -264,10 +235,39 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 26.6,
-   "games": 2,
+   "week_value": 22.8,
+   "games": 1,
    "age": 27,
    "years_exp": 6
+  },
+  {
+   "pid": "2029",
+   "name": "P.J. Washington",
+   "team": "DAL",
+   "fpos": [
+    "C",
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 24.9,
+   "games": 2,
+   "age": 28,
+   "years_exp": 7
+  },
+  {
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "team": "DET",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 25.3,
+   "games": 2,
+   "age": 25,
+   "years_exp": 2
   }
  ],
  "adds": [
@@ -289,28 +289,6 @@
    "gain_ros_per_week": 7.6,
    "gain_this_week": 4.9,
    "suggested_bid": 34,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
-   "pid": "2119",
-   "name": "Obi Toppin",
-   "team": "IND",
-   "fpos": [
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 21.1,
-   "games_this_week": 3,
-   "next_week_value": 20.8,
-   "games_next_week": 3,
-   "ros_week_value": 23.0,
-   "age": 28,
-   "years_exp": 6,
-   "gain_ros_per_week": 7.8,
-   "gain_this_week": 6.6,
-   "suggested_bid": 35,
    "budget_left": 373,
    "kind": "hold"
   },
@@ -338,88 +316,24 @@
    "kind": "hold"
   },
   {
-   "pid": "1994",
-   "name": "Mo Bamba",
-   "team": "UTA",
+   "pid": "2119",
+   "name": "Obi Toppin",
+   "team": "IND",
    "fpos": [
-    "C"
+    "PF",
+    "SF"
    ],
    "inj": null,
-   "week_value": 20.1,
-   "games_this_week": 3,
-   "next_week_value": 20.1,
-   "games_next_week": 3,
-   "ros_week_value": 22.6,
-   "age": 28,
-   "years_exp": 8,
-   "gain_ros_per_week": 7.4,
-   "gain_this_week": 5.6,
-   "suggested_bid": 33,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
-   "pid": "4780",
-   "name": "Javon Small",
-   "team": "MEM",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 18.2,
-   "games_this_week": 3,
-   "next_week_value": 20.4,
-   "games_next_week": 4,
-   "ros_week_value": 23.3,
-   "age": 23,
-   "years_exp": 1,
-   "gain_ros_per_week": 8.1,
-   "gain_this_week": 3.7,
-   "suggested_bid": 36,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
-   "pid": "2017",
-   "name": "Matisse Thybulle",
-   "team": "LAL",
-   "fpos": [
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 18.1,
+   "week_value": 18.3,
    "games_this_week": 2,
-   "next_week_value": 20.1,
+   "next_week_value": 20.4,
    "games_next_week": 3,
-   "ros_week_value": 20.8,
-   "age": 29,
-   "years_exp": 7,
-   "gain_ros_per_week": 5.6,
-   "gain_this_week": 3.6,
-   "suggested_bid": 25,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
-   "pid": "2265",
-   "name": "Charles Bassey",
-   "team": "GSW",
-   "fpos": [
-    "C"
-   ],
-   "inj": null,
-   "week_value": 19.1,
-   "games_this_week": 3,
-   "next_week_value": 19.2,
-   "games_next_week": 3,
-   "ros_week_value": 20.5,
-   "age": 26,
-   "years_exp": 5,
-   "gain_ros_per_week": 5.3,
-   "gain_this_week": 4.6,
-   "suggested_bid": 24,
+   "ros_week_value": 22.4,
+   "age": 28,
+   "years_exp": 6,
+   "gain_ros_per_week": 7.2,
+   "gain_this_week": 3.8,
+   "suggested_bid": 32,
    "budget_left": 373,
    "kind": "hold"
   },
@@ -432,16 +346,59 @@
     "SF"
    ],
    "inj": null,
-   "week_value": 17.5,
+   "week_value": 14.8,
+   "games_this_week": 1,
+   "next_week_value": 21.3,
+   "games_next_week": 3,
+   "ros_week_value": 22.1,
+   "age": 31,
+   "years_exp": 5,
+   "gain_ros_per_week": 6.9,
+   "gain_this_week": 0.3,
+   "suggested_bid": 31,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "4780",
+   "name": "Javon Small",
+   "team": "MEM",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 15.1,
+   "games_this_week": 2,
+   "next_week_value": 20.2,
+   "games_next_week": 4,
+   "ros_week_value": 22.8,
+   "age": 23,
+   "years_exp": 1,
+   "gain_ros_per_week": 7.6,
+   "gain_this_week": 0.6,
+   "suggested_bid": 34,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "2265",
+   "name": "Charles Bassey",
+   "team": "GSW",
+   "fpos": [
+    "C"
+   ],
+   "inj": null,
+   "week_value": 17.0,
    "games_this_week": 2,
    "next_week_value": 19.7,
    "games_next_week": 3,
-   "ros_week_value": 20.5,
-   "age": 31,
+   "ros_week_value": 20.9,
+   "age": 26,
    "years_exp": 5,
-   "gain_ros_per_week": 5.3,
-   "gain_this_week": 3.0,
-   "suggested_bid": 24,
+   "gain_ros_per_week": 5.7,
+   "gain_this_week": 2.5,
+   "suggested_bid": 26,
    "budget_left": 373,
    "kind": "hold"
   },
@@ -469,24 +426,68 @@
    "kind": "hold"
   },
   {
-   "pid": "2490",
-   "name": "Karlo Matkovi\u0107",
-   "team": "NOP",
+   "pid": "2017",
+   "name": "Matisse Thybulle",
+   "team": "LAL",
    "fpos": [
-    "C",
-    "PF"
+    "SF",
+    "SG"
    ],
    "inj": null,
-   "week_value": 18.4,
-   "games_this_week": 3,
-   "next_week_value": 18.6,
+   "week_value": 14.7,
+   "games_this_week": 1,
+   "next_week_value": 19.9,
    "games_next_week": 3,
-   "ros_week_value": 19.4,
-   "age": 25,
-   "years_exp": 2,
-   "gain_ros_per_week": 4.2,
-   "gain_this_week": 3.9,
-   "suggested_bid": 19,
+   "ros_week_value": 20.6,
+   "age": 29,
+   "years_exp": 7,
+   "gain_ros_per_week": 5.4,
+   "gain_this_week": 0.2,
+   "suggested_bid": 24,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "1899",
+   "name": "Landry Shamet",
+   "team": "NYK",
+   "fpos": [
+    "SF",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 17.8,
+   "games_this_week": 3,
+   "next_week_value": 18.1,
+   "games_next_week": 3,
+   "ros_week_value": 18.8,
+   "age": 29,
+   "years_exp": 8,
+   "gain_ros_per_week": 3.6,
+   "gain_this_week": 3.3,
+   "suggested_bid": 16,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "1999",
+   "name": "Max Strus",
+   "team": "LAC",
+   "fpos": [
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 14.2,
+   "games_this_week": 2,
+   "next_week_value": 18.6,
+   "games_next_week": 4,
+   "ros_week_value": 21.1,
+   "age": 30,
+   "years_exp": 7,
+   "gain_ros_per_week": 5.9,
+   "gain_this_week": -0.3,
+   "suggested_bid": 26,
    "budget_left": 373,
    "kind": "hold"
   }
@@ -505,7 +506,7 @@
    "pid": "4867",
    "name": "Ebuka Okorie",
    "ros_week_value": 4.5,
-   "week_value": 3.0,
+   "week_value": 2.2,
    "age": 19,
    "years_exp": 0,
    "inj": null
@@ -531,8 +532,8 @@
   {
    "pid": "1972",
    "name": "De'Anthony Melton",
-   "ros_week_value": 22.8,
-   "week_value": 21.6,
+   "ros_week_value": 22.3,
+   "week_value": 18.5,
    "age": 28,
    "years_exp": 8,
    "inj": null
@@ -541,7 +542,7 @@
    "pid": "1961",
    "name": "Duncan Robinson",
    "ros_week_value": 25.0,
-   "week_value": 6.3,
+   "week_value": 2.9,
    "age": 32,
    "years_exp": 8,
    "inj": "Out"
@@ -558,9 +559,9 @@
    "ppts": 1398,
    "division": 1,
    "lock_efficiency": 0.921,
-   "top9_ros_value": 348.5,
-   "depth_10_14": 124.0,
-   "avg_age": 23.7,
+   "top9_ros_value": 347.0,
+   "depth_10_14": 125.2,
+   "avg_age": 23.8,
    "waiver_budget_used": 237
   },
   {
@@ -573,7 +574,7 @@
    "division": 1,
    "lock_efficiency": 0.853,
    "top9_ros_value": 343.7,
-   "depth_10_14": 114.3,
+   "depth_10_14": 115.1,
    "avg_age": 28.3,
    "waiver_budget_used": 0
   },
@@ -586,8 +587,8 @@
    "ppts": 1442,
    "division": 1,
    "lock_efficiency": 0.94,
-   "top9_ros_value": 330.0,
-   "depth_10_14": 140.1,
+   "top9_ros_value": 328.0,
+   "depth_10_14": 140.7,
    "avg_age": 28.2,
    "waiver_budget_used": 27
   },
@@ -600,8 +601,8 @@
    "ppts": 1246,
    "division": 2,
    "lock_efficiency": 0.9,
-   "top9_ros_value": 328.3,
-   "depth_10_14": 123.3,
+   "top9_ros_value": 326.7,
+   "depth_10_14": 124.8,
    "avg_age": 30.4,
    "waiver_budget_used": 0
   },
@@ -614,8 +615,8 @@
    "ppts": 1372,
    "division": 1,
    "lock_efficiency": 0.898,
-   "top9_ros_value": 322.9,
-   "depth_10_14": 128.1,
+   "top9_ros_value": 322.4,
+   "depth_10_14": 127.0,
    "avg_age": 26.9,
    "waiver_budget_used": 0
   },
@@ -628,24 +629,10 @@
    "ppts": 1258,
    "division": 2,
    "lock_efficiency": 0.886,
-   "top9_ros_value": 322.3,
+   "top9_ros_value": 321.0,
    "depth_10_14": 117.3,
    "avg_age": 27.6,
    "waiver_budget_used": 82
-  },
-  {
-   "roster_id": 10,
-   "owner": "ChetnForget",
-   "wins": 1,
-   "losses": 3,
-   "fpts": 1009,
-   "ppts": 1146,
-   "division": 1,
-   "lock_efficiency": 0.88,
-   "top9_ros_value": 315.1,
-   "depth_10_14": 127.8,
-   "avg_age": 27.4,
-   "waiver_budget_used": 11
   },
   {
    "roster_id": 2,
@@ -656,10 +643,24 @@
    "ppts": 1359,
    "division": 2,
    "lock_efficiency": 0.945,
-   "top9_ros_value": 314.9,
-   "depth_10_14": 143.1,
+   "top9_ros_value": 317.0,
+   "depth_10_14": 145.4,
    "avg_age": 22.6,
    "waiver_budget_used": 0
+  },
+  {
+   "roster_id": 10,
+   "owner": "ChetnForget",
+   "wins": 1,
+   "losses": 3,
+   "fpts": 1009,
+   "ppts": 1146,
+   "division": 1,
+   "lock_efficiency": 0.88,
+   "top9_ros_value": 315.0,
+   "depth_10_14": 127.0,
+   "avg_age": 27.4,
+   "waiver_budget_used": 11
   },
   {
    "roster_id": 5,
@@ -670,8 +671,8 @@
    "ppts": 1177,
    "division": 2,
    "lock_efficiency": 0.901,
-   "top9_ros_value": 306.5,
-   "depth_10_14": 138.4,
+   "top9_ros_value": 306.0,
+   "depth_10_14": 137.5,
    "avg_age": 25.3,
    "waiver_budget_used": 0
   },
@@ -684,8 +685,8 @@
    "ppts": 1201,
    "division": 2,
    "lock_efficiency": 0.95,
-   "top9_ros_value": 302.7,
-   "depth_10_14": 118.3,
+   "top9_ros_value": 301.5,
+   "depth_10_14": 119.2,
    "avg_age": 25.2,
    "waiver_budget_used": 127
   },
@@ -698,8 +699,8 @@
    "ppts": 1147,
    "division": 2,
    "lock_efficiency": 0.889,
-   "top9_ros_value": 282.7,
-   "depth_10_14": 124.2,
+   "top9_ros_value": 284.2,
+   "depth_10_14": 122.2,
    "avg_age": 23.7,
    "waiver_budget_used": 155
   },
@@ -713,7 +714,7 @@
    "division": 1,
    "lock_efficiency": 0.813,
    "top9_ros_value": 271.3,
-   "depth_10_14": 113.8,
+   "depth_10_14": 115.4,
    "avg_age": 23.2,
    "waiver_budget_used": 60
   }
@@ -724,11 +725,23 @@
    "name": "Quentin Grimes",
    "owner": "BigMac23",
    "roster_id": 2,
-   "mean": 18.4,
-   "sd": 12.9,
-   "ros_week_value": 26.6,
-   "lock_in_premium": 1.445,
+   "mean": 18.9,
+   "sd": 12.7,
+   "ros_week_value": 26.9,
+   "lock_in_premium": 1.423,
    "age": 26,
+   "inj": null
+  },
+  {
+   "pid": "2152",
+   "name": "Precious Achiuwa",
+   "owner": "krishanreddy07",
+   "roster_id": 1,
+   "mean": 18.5,
+   "sd": 11.5,
+   "ros_week_value": 25.7,
+   "lock_in_premium": 1.391,
+   "age": 27,
    "inj": null
   },
   {
@@ -744,14 +757,26 @@
    "inj": null
   },
   {
+   "pid": "2050",
+   "name": "De'Andre Hunter",
+   "owner": "ChetnForget",
+   "roster_id": 10,
+   "mean": 19.4,
+   "sd": 10.2,
+   "ros_week_value": 26.4,
+   "lock_in_premium": 1.356,
+   "age": 28,
+   "inj": null
+  },
+  {
    "pid": "2309",
    "name": "Jalen Green",
    "owner": "DogCun",
    "roster_id": 8,
-   "mean": 19.0,
-   "sd": 10.3,
-   "ros_week_value": 25.7,
-   "lock_in_premium": 1.356,
+   "mean": 19.6,
+   "sd": 10.4,
+   "ros_week_value": 26.4,
+   "lock_in_premium": 1.347,
    "age": 24,
    "inj": null
   },
@@ -760,36 +785,12 @@
    "name": "Jakob Poeltl",
    "owner": "krishanreddy07",
    "roster_id": 1,
-   "mean": 18.4,
+   "mean": 18.9,
    "sd": 10.0,
-   "ros_week_value": 24.9,
-   "lock_in_premium": 1.353,
+   "ros_week_value": 25.3,
+   "lock_in_premium": 1.339,
    "age": 31,
    "inj": null
-  },
-  {
-   "pid": "2152",
-   "name": "Precious Achiuwa",
-   "owner": "krishanreddy07",
-   "roster_id": 1,
-   "mean": 20.2,
-   "sd": 11.4,
-   "ros_week_value": 27.3,
-   "lock_in_premium": 1.353,
-   "age": 27,
-   "inj": "GTD"
-  },
-  {
-   "pid": "2050",
-   "name": "De'Andre Hunter",
-   "owner": "ChetnForget",
-   "roster_id": 10,
-   "mean": 19.8,
-   "sd": 10.0,
-   "ros_week_value": 26.6,
-   "lock_in_premium": 1.341,
-   "age": 28,
-   "inj": "GTD"
   },
   {
    "pid": "4793",
@@ -804,15 +805,15 @@
    "inj": "Out"
   },
   {
-   "pid": "2128",
-   "name": "Paul Reed",
-   "owner": "DogCun",
-   "roster_id": 8,
-   "mean": 21.6,
-   "sd": 12.3,
-   "ros_week_value": 28.8,
-   "lock_in_premium": 1.334,
-   "age": 27,
+   "pid": "2313",
+   "name": "Josh Giddey",
+   "owner": "ChetnForget",
+   "roster_id": 10,
+   "mean": 26.2,
+   "sd": 12.6,
+   "ros_week_value": 34.7,
+   "lock_in_premium": 1.325,
+   "age": 24,
    "inj": null
   },
   {
@@ -821,46 +822,22 @@
    "owner": "Paolo BanChurros",
    "roster_id": 5,
    "mean": 23.0,
-   "sd": 11.8,
-   "ros_week_value": 30.7,
-   "lock_in_premium": 1.332,
+   "sd": 11.6,
+   "ros_week_value": 30.4,
+   "lock_in_premium": 1.323,
    "age": 20,
    "inj": null
   },
   {
-   "pid": "2313",
-   "name": "Josh Giddey",
-   "owner": "ChetnForget",
-   "roster_id": 10,
-   "mean": 25.5,
-   "sd": 12.5,
-   "ros_week_value": 33.9,
-   "lock_in_premium": 1.331,
-   "age": 24,
-   "inj": null
-  },
-  {
-   "pid": "1809",
-   "name": "John Collins",
-   "owner": "MrGreedyWinner",
-   "roster_id": 4,
-   "mean": 18.3,
-   "sd": 9.3,
-   "ros_week_value": 24.1,
-   "lock_in_premium": 1.321,
-   "age": 29,
-   "inj": null
-  },
-  {
-   "pid": "1595",
-   "name": "Myles Turner",
-   "owner": "Drink Booz Drive Carrs",
-   "roster_id": 11,
-   "mean": 19.5,
-   "sd": 9.6,
-   "ros_week_value": 25.8,
-   "lock_in_premium": 1.321,
-   "age": 30,
+   "pid": "2128",
+   "name": "Paul Reed",
+   "owner": "DogCun",
+   "roster_id": 8,
+   "mean": 21.8,
+   "sd": 12.1,
+   "ros_week_value": 28.8,
+   "lock_in_premium": 1.322,
+   "age": 27,
    "inj": null
   },
   {
@@ -868,23 +845,47 @@
    "name": "Tristan da Silva",
    "owner": "DogCun",
    "roster_id": 8,
-   "mean": 19.3,
-   "sd": 9.6,
-   "ros_week_value": 25.4,
-   "lock_in_premium": 1.318,
+   "mean": 18.9,
+   "sd": 9.4,
+   "ros_week_value": 24.9,
+   "lock_in_premium": 1.319,
    "age": 25,
    "inj": null
   },
   {
-   "pid": "4755",
-   "name": "Collin Murray-Boyles",
-   "owner": "DogCun",
-   "roster_id": 8,
-   "mean": 18.7,
-   "sd": 9.5,
-   "ros_week_value": 24.7,
+   "pid": "1595",
+   "name": "Myles Turner",
+   "owner": "Drink Booz Drive Carrs",
+   "roster_id": 11,
+   "mean": 19.1,
+   "sd": 9.4,
+   "ros_week_value": 25.2,
+   "lock_in_premium": 1.319,
+   "age": 30,
+   "inj": null
+  },
+  {
+   "pid": "1809",
+   "name": "John Collins",
+   "owner": "MrGreedyWinner",
+   "roster_id": 4,
+   "mean": 18.9,
+   "sd": 9.4,
+   "ros_week_value": 24.9,
    "lock_in_premium": 1.318,
-   "age": 21,
+   "age": 29,
+   "inj": null
+  },
+  {
+   "pid": "2275",
+   "name": "Day'Ron Sharpe",
+   "owner": "MrGreedyWinner",
+   "roster_id": 4,
+   "mean": 22.2,
+   "sd": 10.6,
+   "ros_week_value": 29.2,
+   "lock_in_premium": 1.317,
+   "age": 25,
    "inj": null
   },
   {
@@ -892,10 +893,10 @@
    "name": "Zach Edey",
    "owner": "krishanreddy07",
    "roster_id": 1,
-   "mean": 20.5,
-   "sd": 9.9,
-   "ros_week_value": 26.9,
-   "lock_in_premium": 1.315,
+   "mean": 20.3,
+   "sd": 9.8,
+   "ros_week_value": 26.7,
+   "lock_in_premium": 1.313,
    "age": 24,
    "inj": null
   }
@@ -913,10 +914,10 @@
   {
    "pid": "1822",
    "name": "Jayson Tatum",
-   "mean": 36.3,
-   "sd": 10.2,
-   "ros_week_value": 42.5,
-   "lock_in_premium": 1.169,
+   "mean": 35.9,
+   "sd": 10.3,
+   "ros_week_value": 42.3,
+   "lock_in_premium": 1.176,
    "age": 28
   },
   {
@@ -931,47 +932,47 @@
   {
    "pid": "1747",
    "name": "Jamal Murray",
-   "mean": 35.9,
-   "sd": 11.8,
-   "ros_week_value": 42.9,
-   "lock_in_premium": 1.195,
+   "mean": 36.0,
+   "sd": 11.5,
+   "ros_week_value": 42.8,
+   "lock_in_premium": 1.188,
    "age": 29
   },
   {
    "pid": "2157",
    "name": "Immanuel Quickley",
-   "mean": 25.3,
-   "sd": 8.4,
-   "ros_week_value": 30.4,
-   "lock_in_premium": 1.202,
+   "mean": 25.5,
+   "sd": 8.3,
+   "ros_week_value": 30.5,
+   "lock_in_premium": 1.195,
    "age": 27
-  },
-  {
-   "pid": "1074",
-   "name": "Paul George",
-   "mean": 27.5,
-   "sd": 10.3,
-   "ros_week_value": 33.8,
-   "lock_in_premium": 1.228,
-   "age": 36
-  },
-  {
-   "pid": "1831",
-   "name": "OG Anunoby",
-   "mean": 24.2,
-   "sd": 9.6,
-   "ros_week_value": 30.0,
-   "lock_in_premium": 1.237,
-   "age": 29
   },
   {
    "pid": "1054",
    "name": "Kyrie Irving",
-   "mean": 29.9,
-   "sd": 10.9,
-   "ros_week_value": 37.1,
-   "lock_in_premium": 1.239,
+   "mean": 29.7,
+   "sd": 10.3,
+   "ros_week_value": 36.3,
+   "lock_in_premium": 1.223,
    "age": 34
+  },
+  {
+   "pid": "1934",
+   "name": "Isaiah Hartenstein",
+   "mean": 24.2,
+   "sd": 9.7,
+   "ros_week_value": 29.8,
+   "lock_in_premium": 1.235,
+   "age": 28
+  },
+  {
+   "pid": "1074",
+   "name": "Paul George",
+   "mean": 26.8,
+   "sd": 10.1,
+   "ros_week_value": 33.1,
+   "lock_in_premium": 1.236,
+   "age": 36
   }
  ],
  "next_opponent": {

@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 5,
  "us_date": "2026-11-20",
- "snapshot": "2026-11-20T08:17:34Z",
+ "snapshot": "2026-11-20T20:59:48Z",
  "matchup": {
   "opponent_roster": 8,
   "opponent": "DogCun",
-  "my_points_now": 190.5,
+  "my_points_now": 200.0,
   "opp_points_now": 237.5,
-  "my_expected_final": 255.4,
-  "opp_expected_final": 261.1,
-  "p_win_now": 0.433
+  "my_expected_final": 261.2,
+  "opp_expected_final": 259.0,
+  "p_win_now": 0.501
  },
  "starters": [
   {
@@ -45,8 +45,8 @@
    "p_improve_if_pass": 0.641,
    "ev_verdict": "PASS",
    "deadline": "2026-11-20",
-   "winprob_lock": 0.411,
-   "winprob_pass": 0.427,
+   "winprob_lock": 0.469,
+   "winprob_pass": 0.482,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -57,8 +57,8 @@
    "team": "DET",
    "inj": null,
    "inj_part": null,
-   "state": "open",
-   "counted": 23.0,
+   "state": "locked",
+   "counted": 32.5,
    "games_remaining": [
     {
      "date": "2026-11-20",
@@ -73,19 +73,8 @@
    ],
    "dist_mean": 20.9,
    "dist_sd": 13.7,
-   "continuation_value": 25.3,
-   "latest_game": {
-    "date": "2026-11-18",
-    "opp": "NOP",
-    "fp": 23.0
-   },
-   "p_improve_if_pass": 0.579,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-20",
-   "winprob_lock": 0.385,
-   "winprob_pass": 0.41,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "locked_fp": 32.5,
+   "locked_game": "2026-11-17"
   },
   {
    "slot": "G",
@@ -111,11 +100,11 @@
     "opp": "WAS",
     "fp": 29.0
    },
-   "p_improve_if_pass": 0.346,
+   "p_improve_if_pass": 0.293,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-20",
-   "winprob_lock": 0.417,
-   "winprob_pass": 0.37,
+   "winprob_lock": 0.493,
+   "winprob_pass": 0.439,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -148,11 +137,11 @@
     "opp": "DEN",
     "fp": 18.0
    },
-   "p_improve_if_pass": 0.817,
+   "p_improve_if_pass": 0.832,
    "ev_verdict": "PASS",
    "deadline": "2026-11-21",
-   "winprob_lock": 0.315,
-   "winprob_pass": 0.422,
+   "winprob_lock": 0.387,
+   "winprob_pass": 0.497,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -180,11 +169,11 @@
     "opp": "MIN",
     "fp": 35.5
    },
-   "p_improve_if_pass": 0.305,
+   "p_improve_if_pass": 0.318,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-21",
-   "winprob_lock": 0.409,
-   "winprob_pass": 0.338,
+   "winprob_lock": 0.502,
+   "winprob_pass": 0.397,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -217,11 +206,11 @@
     "opp": "MIN",
     "fp": 26.5
    },
-   "p_improve_if_pass": 0.423,
+   "p_improve_if_pass": 0.416,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-21",
-   "winprob_lock": 0.424,
-   "winprob_pass": 0.402,
+   "winprob_lock": 0.515,
+   "winprob_pass": 0.484,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -249,11 +238,11 @@
     "opp": "NYK",
     "fp": 17.0
    },
-   "p_improve_if_pass": 0.643,
+   "p_improve_if_pass": 0.678,
    "ev_verdict": "PASS",
    "deadline": "2026-11-21",
-   "winprob_lock": 0.371,
-   "winprob_pass": 0.446,
+   "winprob_lock": 0.427,
+   "winprob_pass": 0.495,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -286,11 +275,11 @@
     "opp": "ATL",
     "fp": 30.0
    },
-   "p_improve_if_pass": 0.282,
+   "p_improve_if_pass": 0.26,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-20",
-   "winprob_lock": 0.407,
-   "winprob_pass": 0.388,
+   "winprob_lock": 0.502,
+   "winprob_pass": 0.462,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -323,11 +312,11 @@
     "opp": "HOU",
     "fp": 11.0
    },
-   "p_improve_if_pass": 0.805,
+   "p_improve_if_pass": 0.814,
    "ev_verdict": "PASS",
    "deadline": "2026-11-20",
-   "winprob_lock": 0.327,
-   "winprob_pass": 0.417,
+   "winprob_lock": 0.381,
+   "winprob_pass": 0.485,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   }
@@ -416,15 +405,6 @@
   }
  ],
  "swaps": [
-  {
-   "slot": "SG",
-   "out": "2776",
-   "out_name": "Daniss Jenkins",
-   "in": "2157",
-   "in_name": "Immanuel Quickley",
-   "gain": 3.7,
-   "in_games_remaining": 1
-  },
   {
    "slot": "SF",
    "out": "1074",

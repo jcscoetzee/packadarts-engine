@@ -3,7 +3,7 @@
  "planning_week": 5,
  "current_week": 5,
  "us_date": "2026-11-20",
- "snapshot": "2026-11-20T08:17:34Z",
+ "snapshot": "2026-11-20T20:59:48Z",
  "week_dates": [
   "2026-11-16",
   "2026-11-22"
@@ -24,6 +24,20 @@
   },
   {
    "slot": "SG",
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "team": "DET",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "locked_fp": 32.5,
+   "week_value": 32.5,
+   "games": 0
+  },
+  {
+   "slot": "G",
    "pid": "1074",
    "name": "Paul George",
    "team": "BOS",
@@ -34,18 +48,6 @@
    ],
    "inj": null,
    "week_value": 28.1,
-   "games": 2
-  },
-  {
-   "slot": "G",
-   "pid": "1747",
-   "name": "Jamal Murray",
-   "team": "DEN",
-   "fpos": [
-    "PG"
-   ],
-   "inj": null,
-   "week_value": 38.7,
    "games": 2
   },
   {
@@ -63,19 +65,6 @@
   },
   {
    "slot": "PF",
-   "pid": "1831",
-   "name": "OG Anunoby",
-   "team": "NYK",
-   "fpos": [
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 25.9,
-   "games": 2
-  },
-  {
-   "slot": "F",
    "pid": "2029",
    "name": "P.J. Washington",
    "team": "DAL",
@@ -87,6 +76,20 @@
    "inj": null,
    "week_value": 24.9,
    "games": 2
+  },
+  {
+   "slot": "F",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
+   "fpos": [
+    "PF",
+    "SF",
+    "SG"
+   ],
+   "inj": "DTD",
+   "week_value": 25.1,
+   "games": 1
   },
   {
    "slot": "C",
@@ -102,33 +105,31 @@
   },
   {
    "slot": "UTIL",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "team": "DEN",
    "fpos": [
-    "PF",
-    "SF",
-    "SG"
+    "PG"
    ],
-   "inj": "DTD",
-   "week_value": 25.1,
-   "games": 1
+   "inj": null,
+   "week_value": 38.7,
+   "games": 2
   },
   {
    "slot": "UTIL",
-   "pid": "2776",
-   "name": "Daniss Jenkins",
-   "team": "DET",
+   "pid": "1831",
+   "name": "OG Anunoby",
+   "team": "NYK",
    "fpos": [
-    "PG",
-    "SG"
+    "PF",
+    "SF"
    ],
    "inj": null,
-   "week_value": 25.3,
+   "week_value": 25.9,
    "games": 2
   }
  ],
- "lineup_total_value": 261.1,
+ "lineup_total_value": 268.3,
  "bench": [
   {
    "pid": "4762",
@@ -447,6 +448,28 @@
    "kind": "hold"
   },
   {
+   "pid": "2008",
+   "name": "Dean Wade",
+   "team": "PHI",
+   "fpos": [
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 12.6,
+   "games_this_week": 1,
+   "next_week_value": 20.3,
+   "games_next_week": 4,
+   "ros_week_value": 20.3,
+   "age": 30,
+   "years_exp": 7,
+   "gain_ros_per_week": 5.7,
+   "gain_this_week": 0.3,
+   "suggested_bid": 26,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
    "pid": "2771",
    "name": "Oso Ighodaro",
    "team": "PHX",
@@ -464,29 +487,6 @@
    "gain_ros_per_week": 5.0,
    "gain_this_week": 1.0,
    "suggested_bid": 22,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
-   "pid": "2716",
-   "name": "Terrence Shannon Jr.",
-   "team": "MIN",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 11.2,
-   "games_this_week": 1,
-   "next_week_value": 20.9,
-   "games_next_week": 4,
-   "ros_week_value": 20.7,
-   "age": 26,
-   "years_exp": 2,
-   "gain_ros_per_week": 6.1,
-   "gain_this_week": -1.1,
-   "suggested_bid": 27,
    "budget_left": 373,
    "kind": "hold"
   }

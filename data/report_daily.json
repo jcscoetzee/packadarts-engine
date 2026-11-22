@@ -1,49 +1,38 @@
 {
  "mode": "daily",
  "week": 5,
- "us_date": "2026-11-21",
- "snapshot": "2026-11-22T01:06:13Z",
+ "us_date": "2026-11-22",
+ "snapshot": "2026-11-22T15:11:43Z",
  "matchup": {
   "opponent_roster": 8,
   "opponent": "DogCun",
-  "my_points_now": 141.5,
-  "opp_points_now": 145.0,
-  "my_expected_final": 179.5,
-  "opp_expected_final": 236.3,
-  "p_win_now": 0.027
+  "my_points_now": 231.5,
+  "opp_points_now": 301.5,
+  "my_expected_final": 258.8,
+  "opp_expected_final": 306.0,
+  "p_win_now": 0.033
  },
  "starters": [
   {
    "slot": "PG",
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "team": "DEN",
    "inj": null,
    "inj_part": null,
-   "state": "open",
-   "counted": 27.5,
+   "state": "locked",
+   "counted": 36.0,
    "games_remaining": [
     {
      "date": "2026-11-22",
-     "opp": "UTA",
+     "opp": "CHI",
      "home": false
     }
    ],
-   "dist_mean": 29.7,
-   "dist_sd": 10.3,
-   "continuation_value": 21.3,
-   "latest_game": {
-    "date": "2026-11-18",
-    "opp": "GSW",
-    "fp": 27.5
-   },
-   "p_improve_if_pass": 0.357,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-22",
-   "winprob_lock": 0.039,
-   "winprob_pass": 0.044,
-   "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "dist_mean": 35.2,
+   "dist_sd": 11.8,
+   "locked_fp": 36.0,
+   "locked_game": "2026-11-18"
   },
   {
    "slot": "SG",
@@ -69,33 +58,34 @@
     "opp": "TOR",
     "fp": 18.5
    },
-   "p_improve_if_pass": 0.473,
+   "p_improve_if_pass": 0.468,
    "ev_verdict": "PASS",
    "deadline": "2026-11-22",
-   "winprob_lock": 0.023,
-   "winprob_pass": 0.048,
+   "winprob_lock": 0.012,
+   "winprob_pass": 0.041,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
   {
    "slot": "G",
-   "pid": "1444",
-   "name": "Damian Lillard",
-   "team": "POR",
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "team": "DAL",
    "inj": null,
    "inj_part": null,
-   "state": "open",
-   "counted": 4.5,
-   "games_remaining": [],
-   "dist_mean": 22.9,
-   "dist_sd": 9.7,
-   "continuation_value": null,
-   "latest_game": {
-    "date": "2026-11-21",
-    "opp": "NYK",
-    "fp": 2.5
-   },
-   "decision": "FINAL"
+   "state": "locked",
+   "counted": 27.5,
+   "games_remaining": [
+    {
+     "date": "2026-11-22",
+     "opp": "UTA",
+     "home": false
+    }
+   ],
+   "dist_mean": 29.5,
+   "dist_sd": 9.8,
+   "locked_fp": 27.5,
+   "locked_game": "2026-11-18"
   },
   {
    "slot": "SF",
@@ -105,34 +95,29 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 18.0,
+   "counted": 32.5,
    "games_remaining": [
-    {
-     "date": "2026-11-21",
-     "opp": "SAC",
-     "home": false
-    },
     {
      "date": "2026-11-22",
      "opp": "GSW",
      "home": false
     }
    ],
-   "dist_mean": 26.8,
+   "dist_mean": 27.2,
    "dist_sd": 10.1,
-   "continuation_value": 28.1,
+   "continuation_value": 22.3,
    "latest_game": {
-    "date": "2026-11-18",
-    "opp": "DEN",
-    "fp": 18.0
+    "date": "2026-11-21",
+    "opp": "SAC",
+    "fp": 32.5
    },
-   "p_improve_if_pass": 0.838,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-21",
-   "winprob_lock": 0.011,
-   "winprob_pass": 0.038,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "p_improve_if_pass": 0.249,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-22",
+   "winprob_lock": 0.023,
+   "winprob_pass": 0.025,
+   "verdict": "LOCK",
+   "verdict_basis": "expected value (win probability indifferent)"
   },
   {
    "slot": "PF",
@@ -142,47 +127,47 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 13.5,
+   "counted": 34.0,
    "games_remaining": [],
-   "dist_mean": 31.6,
-   "dist_sd": 9.5,
+   "dist_mean": 33.6,
+   "dist_sd": 9.1,
    "continuation_value": null,
    "latest_game": {
     "date": "2026-11-21",
     "opp": "NYK",
-    "fp": 14.0
+    "fp": 34.0
    },
    "decision": "FINAL"
   },
   {
    "slot": "F",
-   "pid": "1975",
-   "name": "Mikal Bridges",
-   "team": "NYK",
-   "inj": null,
-   "inj_part": null,
+   "pid": "1822",
+   "name": "Jayson Tatum",
+   "team": "BOS",
+   "inj": "GTD",
+   "inj_part": "Rest",
    "state": "open",
-   "counted": 3.5,
+   "counted": 0.0,
    "games_remaining": [
     {
      "date": "2026-11-22",
-     "opp": "IND",
-     "home": true
+     "opp": "GSW",
+     "home": false
     }
    ],
-   "dist_mean": 15.3,
-   "dist_sd": 7.4,
-   "continuation_value": 12.9,
+   "dist_mean": 35.9,
+   "dist_sd": 10.3,
+   "continuation_value": 18.7,
    "latest_game": {
-    "date": "2026-11-21",
-    "opp": "POR",
-    "fp": 3.5
+    "date": "2026-11-18",
+    "opp": "DEN",
+    "fp": 24.5
    },
-   "p_improve_if_pass": 0.766,
-   "ev_verdict": "PASS",
+   "p_improve_if_pass": 0.459,
+   "ev_verdict": "LOCK",
    "deadline": "2026-11-22",
-   "winprob_lock": 0.017,
-   "winprob_pass": 0.038,
+   "winprob_lock": 0.029,
+   "winprob_pass": 0.053,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -194,15 +179,15 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 0.0,
+   "counted": 27.0,
    "games_remaining": [],
-   "dist_mean": 22.8,
-   "dist_sd": 9.5,
+   "dist_mean": 23.1,
+   "dist_sd": 9.4,
    "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-19",
-    "opp": "NYK",
-    "fp": 17.0
+    "date": "2026-11-21",
+    "opp": "MEM",
+    "fp": 27.0
    },
    "decision": "FINAL"
   },
@@ -230,11 +215,11 @@
     "opp": "NOP",
     "fp": 18.5
    },
-   "p_improve_if_pass": 0.658,
+   "p_improve_if_pass": 0.683,
    "ev_verdict": "PASS",
    "deadline": "2026-11-22",
-   "winprob_lock": 0.025,
-   "winprob_pass": 0.04,
+   "winprob_lock": 0.015,
+   "winprob_pass": 0.036,
    "verdict": "PASS",
    "verdict_basis": "win probability"
   },
@@ -262,11 +247,11 @@
     "opp": "CLE",
     "fp": 37.5
    },
-   "p_improve_if_pass": 0.032,
+   "p_improve_if_pass": 0.029,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-22",
-   "winprob_lock": 0.045,
-   "winprob_pass": 0.011,
+   "winprob_lock": 0.036,
+   "winprob_pass": 0.005,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   }
@@ -277,7 +262,7 @@
    "pid": "1967",
    "name": "Jalen Brunson",
    "state": "open",
-   "counted": 26.0,
+   "counted": 36.0,
    "games_remaining": 1,
    "inj": null
   },
@@ -286,7 +271,7 @@
    "pid": "1803",
    "name": "Josh Hart",
    "state": "open",
-   "counted": 4.5,
+   "counted": 13.5,
    "games_remaining": 1,
    "inj": null
   },
@@ -306,7 +291,7 @@
    "state": "open",
    "counted": 17.0,
    "games_remaining": 1,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "slot": "PF",
@@ -315,14 +300,14 @@
    "state": "locked",
    "counted": 41.5,
    "games_remaining": 1,
-   "inj": "Out"
+   "inj": "GTD"
   },
   {
    "slot": "F",
    "pid": "2128",
    "name": "Paul Reed",
-   "state": "open",
-   "counted": 0.0,
+   "state": "locked",
+   "counted": 27.5,
    "games_remaining": 1,
    "inj": null
   },
@@ -331,17 +316,17 @@
    "pid": "2577",
    "name": "Victor Wembanyama",
    "state": "open",
-   "counted": 0.0,
+   "counted": 90.0,
    "games_remaining": 0,
    "inj": null
   },
   {
    "slot": "UTIL",
-   "pid": "1872",
-   "name": "De'Aaron Fox",
+   "pid": "1883",
+   "name": "Wendell Carter Jr.",
    "state": "open",
-   "counted": 0.0,
-   "games_remaining": 0,
+   "counted": 20.0,
+   "games_remaining": 1,
    "inj": null
   },
   {
@@ -354,38 +339,19 @@
    "inj": null
   }
  ],
- "swaps": [
-  {
-   "slot": "PG",
-   "out": "1054",
-   "out_name": "Kyrie Irving",
-   "in": "1747",
-   "in_name": "Jamal Murray",
-   "gain": 4.9,
-   "in_games_remaining": 1
-  },
-  {
-   "slot": "SG",
-   "out": "2776",
-   "out_name": "Daniss Jenkins",
-   "in": "1054",
-   "in_name": "Kyrie Irving",
-   "gain": 8.4,
-   "in_games_remaining": 1
-  }
- ],
+ "swaps": [],
  "injuries": [
   {
    "pid": "1822",
    "name": "Jayson Tatum",
-   "status": "Out",
+   "status": "GTD",
    "part": "Rest",
-   "starter": false
+   "starter": true
   },
   {
    "pid": "1831",
    "name": "OG Anunoby",
-   "status": "Out",
+   "status": "GTD",
    "part": "Calf",
    "starter": false
   },
@@ -406,7 +372,7 @@
   {
    "pid": "2029",
    "name": "P.J. Washington",
-   "status": "Out",
+   "status": "GTD",
    "part": "Illness",
    "starter": false
   },

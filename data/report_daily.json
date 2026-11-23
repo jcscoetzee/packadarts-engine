@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 5,
  "us_date": "2026-11-22",
- "snapshot": "2026-11-22T15:11:43Z",
+ "snapshot": "2026-11-23T01:30:22Z",
  "matchup": {
   "opponent_roster": 8,
   "opponent": "DogCun",
-  "my_points_now": 231.5,
-  "opp_points_now": 301.5,
-  "my_expected_final": 258.8,
-  "opp_expected_final": 306.0,
-  "p_win_now": 0.033
+  "my_points_now": 242.0,
+  "opp_points_now": 216.5,
+  "my_expected_final": 271.3,
+  "opp_expected_final": 235.5,
+  "p_win_now": 1.0
  },
  "starters": [
   {
@@ -22,15 +22,9 @@
    "inj_part": null,
    "state": "locked",
    "counted": 36.0,
-   "games_remaining": [
-    {
-     "date": "2026-11-22",
-     "opp": "CHI",
-     "home": false
-    }
-   ],
-   "dist_mean": 35.2,
-   "dist_sd": 11.8,
+   "games_remaining": [],
+   "dist_mean": 34.9,
+   "dist_sd": 11.4,
    "locked_fp": 36.0,
    "locked_game": "2026-11-18"
   },
@@ -42,29 +36,17 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 18.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-22",
-     "opp": "ATL",
-     "home": false
-    }
-   ],
-   "dist_mean": 20.7,
-   "dist_sd": 13.4,
-   "continuation_value": 19.1,
+   "counted": 17.5,
+   "games_remaining": [],
+   "dist_mean": 20.6,
+   "dist_sd": 13.2,
+   "continuation_value": null,
    "latest_game": {
-    "date": "2026-11-20",
-    "opp": "TOR",
-    "fp": 18.5
+    "date": "2026-11-22",
+    "opp": "ATL",
+    "fp": 17.5
    },
-   "p_improve_if_pass": 0.468,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-22",
-   "winprob_lock": 0.012,
-   "winprob_pass": 0.041,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "decision": "FINAL"
   },
   {
    "slot": "G",
@@ -75,15 +57,9 @@
    "inj_part": null,
    "state": "locked",
    "counted": 27.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-22",
-     "opp": "UTA",
-     "home": false
-    }
-   ],
-   "dist_mean": 29.5,
-   "dist_sd": 9.8,
+   "games_remaining": [],
+   "dist_mean": 29.0,
+   "dist_sd": 9.5,
    "locked_fp": 27.5,
    "locked_game": "2026-11-18"
   },
@@ -92,8 +68,8 @@
    "pid": "1074",
    "name": "Paul George",
    "team": "BOS",
-   "inj": null,
-   "inj_part": null,
+   "inj": "Out",
+   "inj_part": "Rest",
    "state": "open",
    "counted": 32.5,
    "games_remaining": [
@@ -105,19 +81,19 @@
    ],
    "dist_mean": 27.2,
    "dist_sd": 10.1,
-   "continuation_value": 22.3,
+   "continuation_value": 0.5,
    "latest_game": {
     "date": "2026-11-21",
     "opp": "SAC",
     "fp": 32.5
    },
-   "p_improve_if_pass": 0.249,
+   "p_improve_if_pass": 0.009,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-22",
-   "winprob_lock": 0.023,
-   "winprob_pass": 0.025,
+   "winprob_lock": 1.0,
+   "winprob_pass": 0.693,
    "verdict": "LOCK",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "verdict_basis": "win probability"
   },
   {
    "slot": "PF",
@@ -144,8 +120,8 @@
    "pid": "1822",
    "name": "Jayson Tatum",
    "team": "BOS",
-   "inj": "GTD",
-   "inj_part": "Rest",
+   "inj": null,
+   "inj_part": null,
    "state": "open",
    "counted": 0.0,
    "games_remaining": [
@@ -157,19 +133,19 @@
    ],
    "dist_mean": 35.9,
    "dist_sd": 10.3,
-   "continuation_value": 18.7,
+   "continuation_value": 29.5,
    "latest_game": {
     "date": "2026-11-18",
     "opp": "DEN",
     "fp": 24.5
    },
-   "p_improve_if_pass": 0.459,
-   "ev_verdict": "LOCK",
+   "p_improve_if_pass": 0.735,
+   "ev_verdict": "PASS",
    "deadline": "2026-11-22",
-   "winprob_lock": 0.029,
-   "winprob_pass": 0.053,
+   "winprob_lock": 1.0,
+   "winprob_pass": 1.0,
    "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "verdict_basis": "expected value (win probability indifferent)"
   },
   {
    "slot": "C",
@@ -198,30 +174,13 @@
    "team": "OKC",
    "inj": null,
    "inj_part": null,
-   "state": "open",
-   "counted": 18.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-22",
-     "opp": "MIA",
-     "home": false
-    }
-   ],
-   "dist_mean": 24.0,
-   "dist_sd": 9.6,
-   "continuation_value": 22.1,
-   "latest_game": {
-    "date": "2026-11-20",
-    "opp": "NOP",
-    "fp": 18.5
-   },
-   "p_improve_if_pass": 0.683,
-   "ev_verdict": "PASS",
-   "deadline": "2026-11-22",
-   "winprob_lock": 0.015,
-   "winprob_pass": 0.036,
-   "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "state": "locked",
+   "counted": 30.0,
+   "games_remaining": [],
+   "dist_mean": 23.4,
+   "dist_sd": 9.7,
+   "locked_fp": 30.0,
+   "locked_game": "2026-11-18"
   },
   {
    "slot": "UTIL",
@@ -230,30 +189,13 @@
    "team": "IND",
    "inj": null,
    "inj_part": null,
-   "state": "open",
+   "state": "locked",
    "counted": 37.5,
-   "games_remaining": [
-    {
-     "date": "2026-11-22",
-     "opp": "NYK",
-     "home": false
-    }
-   ],
-   "dist_mean": 20.8,
+   "games_remaining": [],
+   "dist_mean": 19.5,
    "dist_sd": 9.4,
-   "continuation_value": 15.6,
-   "latest_game": {
-    "date": "2026-11-20",
-    "opp": "CLE",
-    "fp": 37.5
-   },
-   "p_improve_if_pass": 0.029,
-   "ev_verdict": "LOCK",
-   "deadline": "2026-11-22",
-   "winprob_lock": 0.036,
-   "winprob_pass": 0.005,
-   "verdict": "LOCK",
-   "verdict_basis": "win probability"
+   "locked_fp": 37.5,
+   "locked_game": "2026-11-20"
   }
  ],
  "opponent_starters": [
@@ -261,18 +203,18 @@
    "slot": "PG",
    "pid": "1967",
    "name": "Jalen Brunson",
-   "state": "open",
+   "state": "locked",
    "counted": 36.0,
-   "games_remaining": 1,
+   "games_remaining": 0,
    "inj": null
   },
   {
    "slot": "SG",
    "pid": "1803",
    "name": "Josh Hart",
-   "state": "open",
+   "state": "locked",
    "counted": 13.5,
-   "games_remaining": 1,
+   "games_remaining": 0,
    "inj": null
   },
   {
@@ -280,8 +222,8 @@
    "pid": "2457",
    "name": "Christian Braun",
    "state": "open",
-   "counted": 37.0,
-   "games_remaining": 1,
+   "counted": 15.5,
+   "games_remaining": 0,
    "inj": null
   },
   {
@@ -289,9 +231,9 @@
    "pid": "1637",
    "name": "Norman Powell",
    "state": "open",
-   "counted": 17.0,
-   "games_remaining": 1,
-   "inj": "GTD"
+   "counted": 0.0,
+   "games_remaining": 0,
+   "inj": "Out"
   },
   {
    "slot": "PF",
@@ -299,24 +241,24 @@
    "name": "Karl-Anthony Towns",
    "state": "locked",
    "counted": 41.5,
-   "games_remaining": 1,
-   "inj": "GTD"
+   "games_remaining": 0,
+   "inj": null
   },
   {
    "slot": "F",
    "pid": "2128",
    "name": "Paul Reed",
-   "state": "locked",
-   "counted": 27.5,
-   "games_remaining": 1,
+   "state": "open",
+   "counted": 21.5,
+   "games_remaining": 0,
    "inj": null
   },
   {
    "slot": "C",
    "pid": "2577",
    "name": "Victor Wembanyama",
-   "state": "open",
-   "counted": 90.0,
+   "state": "locked",
+   "counted": 44.5,
    "games_remaining": 0,
    "inj": null
   },
@@ -325,16 +267,16 @@
    "pid": "1883",
    "name": "Wendell Carter Jr.",
    "state": "open",
-   "counted": 20.0,
-   "games_remaining": 1,
+   "counted": 13.5,
+   "games_remaining": 0,
    "inj": null
   },
   {
    "slot": "UTIL",
    "pid": "1787",
    "name": "Jarrett Allen",
-   "state": "open",
-   "counted": 19.0,
+   "state": "locked",
+   "counted": 30.5,
    "games_remaining": 0,
    "inj": null
   }
@@ -342,16 +284,16 @@
  "swaps": [],
  "injuries": [
   {
-   "pid": "1822",
-   "name": "Jayson Tatum",
-   "status": "GTD",
+   "pid": "1074",
+   "name": "Paul George",
+   "status": "Out",
    "part": "Rest",
    "starter": true
   },
   {
    "pid": "1831",
    "name": "OG Anunoby",
-   "status": "GTD",
+   "status": "Out",
    "part": "Calf",
    "starter": false
   },
@@ -372,7 +314,7 @@
   {
    "pid": "2029",
    "name": "P.J. Washington",
-   "status": "GTD",
+   "status": "Out",
    "part": "Illness",
    "starter": false
   },
@@ -381,6 +323,13 @@
    "name": "Anthony Edwards",
    "status": "Out",
    "part": "Knee",
+   "starter": false
+  },
+  {
+   "pid": "2256",
+   "name": "Miles McBride",
+   "status": "Out",
+   "part": "Abdomen",
    "starter": false
   },
   {
@@ -393,7 +342,7 @@
   {
    "pid": "4867",
    "name": "Ebuka Okorie",
-   "status": "Out",
+   "status": "DTD",
    "part": "Oblique",
    "starter": false
   }

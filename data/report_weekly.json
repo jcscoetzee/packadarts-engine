@@ -3,7 +3,7 @@
  "planning_week": 6,
  "current_week": 6,
  "us_date": "2026-11-24",
- "snapshot": "2026-11-24T05:13:39Z",
+ "snapshot": "2026-11-24T18:46:32Z",
  "week_dates": [
   "2026-11-23",
   "2026-11-29"
@@ -11,6 +11,19 @@
  "lineup": [
   {
    "slot": "PG",
+   "pid": "2776",
+   "name": "Daniss Jenkins",
+   "team": "DET",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 28.2,
+   "games": 3
+  },
+  {
+   "slot": "SG",
    "pid": "1054",
    "name": "Kyrie Irving",
    "team": "DAL",
@@ -21,20 +34,6 @@
    "inj": null,
    "week_value": 29.9,
    "games": 2
-  },
-  {
-   "slot": "SG",
-   "pid": "1074",
-   "name": "Paul George",
-   "team": "BOS",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 31.7,
-   "games": 3
   },
   {
    "slot": "G",
@@ -63,15 +62,16 @@
   },
   {
    "slot": "PF",
-   "pid": "1831",
-   "name": "OG Anunoby",
-   "team": "NYK",
+   "pid": "1074",
+   "name": "Paul George",
+   "team": "BOS",
    "fpos": [
     "PF",
-    "SF"
+    "SF",
+    "SG"
    ],
-   "inj": "DTD",
-   "week_value": 27.9,
+   "inj": null,
+   "week_value": 31.7,
    "games": 3
   },
   {
@@ -97,7 +97,7 @@
     "C"
    ],
    "inj": null,
-   "week_value": 27.7,
+   "week_value": 27.8,
    "games": 3
   },
   {
@@ -115,19 +115,19 @@
   },
   {
    "slot": "UTIL",
-   "pid": "2776",
-   "name": "Daniss Jenkins",
-   "team": "DET",
+   "pid": "1831",
+   "name": "OG Anunoby",
+   "team": "NYK",
    "fpos": [
-    "PG",
-    "SG"
+    "PF",
+    "SF"
    ],
-   "inj": null,
-   "week_value": 28.2,
+   "inj": "DTD",
+   "week_value": 27.9,
    "games": 3
   }
  ],
- "lineup_total_value": 295.3,
+ "lineup_total_value": 295.4,
  "bench": [
   {
    "pid": "4762",
@@ -236,8 +236,8 @@
     "PF",
     "SF"
    ],
-   "inj": "DTD",
-   "week_value": 23.1,
+   "inj": "GTD",
+   "week_value": 21.6,
    "games": 2,
    "age": 28,
    "years_exp": 7
@@ -281,37 +281,16 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 22.1,
+   "week_value": 22.3,
    "games_this_week": 3,
-   "next_week_value": 19.9,
+   "next_week_value": 20.0,
    "games_next_week": 2,
-   "ros_week_value": 22.9,
+   "ros_week_value": 23.0,
    "age": 25,
    "years_exp": 4,
-   "gain_ros_per_week": 8.6,
-   "gain_this_week": 9.1,
+   "gain_ros_per_week": 8.7,
+   "gain_this_week": 9.3,
    "suggested_bid": 39,
-   "budget_left": 373,
-   "kind": "hold"
-  },
-  {
-   "pid": "2265",
-   "name": "Charles Bassey",
-   "team": "GSW",
-   "fpos": [
-    "C"
-   ],
-   "inj": null,
-   "week_value": 23.2,
-   "games_this_week": 3,
-   "next_week_value": 15.3,
-   "games_next_week": 1,
-   "ros_week_value": 24.5,
-   "age": 26,
-   "years_exp": 5,
-   "gain_ros_per_week": 10.2,
-   "gain_this_week": 10.2,
-   "suggested_bid": 46,
    "budget_left": 373,
    "kind": "hold"
   },
@@ -411,15 +390,15 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 18.7,
+   "week_value": 18.6,
    "games_this_week": 2,
-   "next_week_value": 18.6,
+   "next_week_value": 18.5,
    "games_next_week": 2,
-   "ros_week_value": 21.3,
+   "ros_week_value": 21.2,
    "age": 29,
    "years_exp": 7,
-   "gain_ros_per_week": 7.0,
-   "gain_this_week": 5.7,
+   "gain_ros_per_week": 6.9,
+   "gain_this_week": 5.6,
    "suggested_bid": 31,
    "budget_left": 373,
    "kind": "hold"
@@ -486,6 +465,28 @@
    "gain_ros_per_week": 5.6,
    "gain_this_week": 6.0,
    "suggested_bid": 25,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "4780",
+   "name": "Javon Small",
+   "team": "MEM",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 18.1,
+   "games_this_week": 3,
+   "next_week_value": 15.0,
+   "games_next_week": 2,
+   "ros_week_value": 22.6,
+   "age": 23,
+   "years_exp": 1,
+   "gain_ros_per_week": 8.3,
+   "gain_this_week": 5.1,
+   "suggested_bid": 37,
    "budget_left": 373,
    "kind": "hold"
   }
@@ -557,10 +558,10 @@
    "ppts": 1748,
    "division": 1,
    "lock_efficiency": 0.93,
-   "top9_ros_value": 345.3,
-   "depth_10_14": 124.0,
-   "avg_age": 23.8,
-   "waiver_budget_used": 237
+   "top9_ros_value": 345.5,
+   "depth_10_14": 126.6,
+   "avg_age": 24.0,
+   "waiver_budget_used": 258
   },
   {
    "roster_id": 12,
@@ -571,7 +572,7 @@
    "ppts": 1624,
    "division": 1,
    "lock_efficiency": 0.86,
-   "top9_ros_value": 343.3,
+   "top9_ros_value": 343.6,
    "depth_10_14": 113.7,
    "avg_age": 28.3,
    "waiver_budget_used": 0
@@ -600,7 +601,7 @@
    "division": 1,
    "lock_efficiency": 0.948,
    "top9_ros_value": 327.9,
-   "depth_10_14": 142.2,
+   "depth_10_14": 142.3,
    "avg_age": 28.2,
    "waiver_budget_used": 27
   },
@@ -613,7 +614,7 @@
    "ppts": 1613,
    "division": 2,
    "lock_efficiency": 0.909,
-   "top9_ros_value": 326.3,
+   "top9_ros_value": 326.7,
    "depth_10_14": 119.1,
    "avg_age": 27.6,
    "waiver_budget_used": 82
@@ -628,7 +629,7 @@
    "division": 1,
    "lock_efficiency": 0.886,
    "top9_ros_value": 323.8,
-   "depth_10_14": 130.1,
+   "depth_10_14": 130.2,
    "avg_age": 26.9,
    "waiver_budget_used": 0
   },
@@ -642,7 +643,7 @@
    "division": 1,
    "lock_efficiency": 0.89,
    "top9_ros_value": 316.3,
-   "depth_10_14": 129.5,
+   "depth_10_14": 129.8,
    "avg_age": 27.4,
    "waiver_budget_used": 11
   },
@@ -669,7 +670,7 @@
    "ppts": 1480,
    "division": 2,
    "lock_efficiency": 0.914,
-   "top9_ros_value": 306.6,
+   "top9_ros_value": 306.9,
    "depth_10_14": 138.5,
    "avg_age": 25.1,
    "waiver_budget_used": 0
@@ -684,7 +685,7 @@
    "division": 2,
    "lock_efficiency": 0.94,
    "top9_ros_value": 304.0,
-   "depth_10_14": 118.1,
+   "depth_10_14": 118.2,
    "avg_age": 25.3,
    "waiver_budget_used": 127
   },
@@ -712,7 +713,7 @@
    "division": 1,
    "lock_efficiency": 0.824,
    "top9_ros_value": 273.5,
-   "depth_10_14": 113.2,
+   "depth_10_14": 113.4,
    "avg_age": 23.2,
    "waiver_budget_used": 60
   }
@@ -724,8 +725,8 @@
    "owner": "BigMac23",
    "roster_id": 2,
    "mean": 19.0,
-   "sd": 12.0,
-   "ros_week_value": 26.4,
+   "sd": 12.1,
+   "ros_week_value": 26.5,
    "lock_in_premium": 1.391,
    "age": 26,
    "inj": null
@@ -785,7 +786,7 @@
    "roster_id": 10,
    "mean": 21.5,
    "sd": 10.8,
-   "ros_week_value": 28.7,
+   "ros_week_value": 28.8,
    "lock_in_premium": 1.335,
    "age": 28,
    "inj": null
@@ -800,7 +801,7 @@
    "ros_week_value": 27.8,
    "lock_in_premium": 1.335,
    "age": 23,
-   "inj": "Out"
+   "inj": "DTD"
   },
   {
    "pid": "2309",

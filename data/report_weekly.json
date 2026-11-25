@@ -2,8 +2,8 @@
  "mode": "weekly",
  "planning_week": 6,
  "current_week": 6,
- "us_date": "2026-11-24",
- "snapshot": "2026-11-25T04:03:30Z",
+ "us_date": "2026-11-25",
+ "snapshot": "2026-11-25T17:54:50Z",
  "week_dates": [
   "2026-11-23",
   "2026-11-29"
@@ -11,6 +11,31 @@
  "lineup": [
   {
    "slot": "PG",
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "team": "DEN",
+   "fpos": [
+    "PG"
+   ],
+   "inj": null,
+   "week_value": 39.5,
+   "games": 2
+  },
+  {
+   "slot": "SG",
+   "pid": "1444",
+   "name": "Damian Lillard",
+   "team": "POR",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 28.0,
+   "games": 3
+  },
+  {
+   "slot": "G",
    "pid": "2157",
    "name": "Immanuel Quickley",
    "team": "TOR",
@@ -23,32 +48,20 @@
    "games": 2
   },
   {
-   "slot": "SG",
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
+   "slot": "SF",
+   "pid": "1822",
+   "name": "Jayson Tatum",
+   "team": "BOS",
    "fpos": [
-    "PG",
-    "SG"
+    "PF",
+    "SF"
    ],
    "inj": null,
-   "week_value": 28.7,
+   "week_value": 39.5,
    "games": 2
   },
   {
-   "slot": "G",
-   "pid": "1747",
-   "name": "Jamal Murray",
-   "team": "DEN",
-   "fpos": [
-    "PG"
-   ],
-   "inj": null,
-   "week_value": 42.0,
-   "games": 3
-  },
-  {
-   "slot": "SF",
+   "slot": "PF",
    "pid": "1074",
    "name": "Paul George",
    "team": "BOS",
@@ -58,21 +71,8 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 32.5,
-   "games": 3
-  },
-  {
-   "slot": "PF",
-   "pid": "1822",
-   "name": "Jayson Tatum",
-   "team": "BOS",
-   "fpos": [
-    "PF",
-    "SF"
-   ],
-   "inj": null,
-   "week_value": 42.6,
-   "games": 3
+   "week_value": 29.6,
+   "games": 2
   },
   {
    "slot": "F",
@@ -97,21 +97,20 @@
     "C"
    ],
    "inj": null,
-   "week_value": 27.8,
+   "week_value": 27.7,
    "games": 3
   },
   {
    "slot": "UTIL",
-   "pid": "1444",
-   "name": "Damian Lillard",
-   "team": "POR",
+   "pid": "1934",
+   "name": "Isaiah Hartenstein",
+   "team": "OKC",
    "fpos": [
-    "PG",
-    "SG"
+    "C"
    ],
    "inj": null,
-   "week_value": 28.0,
-   "games": 3
+   "week_value": 26.1,
+   "games": 2
   },
   {
    "slot": "UTIL",
@@ -123,11 +122,11 @@
     "SG"
    ],
    "inj": null,
-   "week_value": 28.2,
-   "games": 3
+   "week_value": 24.7,
+   "games": 2
   }
  ],
- "lineup_total_value": 294.2,
+ "lineup_total_value": 279.5,
  "bench": [
   {
    "pid": "4762",
@@ -152,8 +151,8 @@
     "SG"
    ],
    "inj": "Out",
-   "week_value": 0.5,
-   "games": 3,
+   "week_value": 0.3,
+   "games": 2,
    "age": 19,
    "years_exp": 0
   },
@@ -166,8 +165,8 @@
     "SG"
    ],
    "inj": "Out",
-   "week_value": 5.7,
-   "games": 3,
+   "week_value": 2.6,
+   "games": 2,
    "age": 32,
    "years_exp": 8
   },
@@ -193,8 +192,8 @@
     "PG",
     "SG"
    ],
-   "inj": "DTD",
-   "week_value": 13.0,
+   "inj": "GTD",
+   "week_value": 12.5,
    "games": 3,
    "age": 26,
    "years_exp": 5
@@ -213,6 +212,21 @@
    "games": 3,
    "age": 30,
    "years_exp": 8
+  },
+  {
+   "pid": "2029",
+   "name": "P.J. Washington",
+   "team": "DAL",
+   "fpos": [
+    "C",
+    "PF",
+    "SF"
+   ],
+   "inj": null,
+   "week_value": 20.2,
+   "games": 1,
+   "age": 28,
+   "years_exp": 7
   },
   {
    "pid": "1697",
@@ -242,32 +256,18 @@
    "years_exp": 8
   },
   {
-   "pid": "2029",
-   "name": "P.J. Washington",
+   "pid": "1054",
+   "name": "Kyrie Irving",
    "team": "DAL",
    "fpos": [
-    "C",
-    "PF",
-    "SF"
+    "PG",
+    "SG"
    ],
    "inj": null,
-   "week_value": 24.2,
-   "games": 2,
-   "age": 28,
-   "years_exp": 7
-  },
-  {
-   "pid": "1934",
-   "name": "Isaiah Hartenstein",
-   "team": "OKC",
-   "fpos": [
-    "C"
-   ],
-   "inj": null,
-   "week_value": 26.1,
-   "games": 2,
-   "age": 28,
-   "years_exp": 8
+   "week_value": 24.3,
+   "games": 1,
+   "age": 34,
+   "years_exp": 15
   }
  ],
  "adds": [
@@ -289,7 +289,7 @@
    "age": 25,
    "years_exp": 4,
    "gain_ros_per_week": 8.7,
-   "gain_this_week": 9.3,
+   "gain_this_week": 9.8,
    "suggested_bid": 39,
    "budget_left": 373,
    "kind": "hold"
@@ -311,7 +311,7 @@
    "age": 28,
    "years_exp": 6,
    "gain_ros_per_week": 8.6,
-   "gain_this_week": 5.9,
+   "gain_this_week": 6.4,
    "suggested_bid": 39,
    "budget_left": 373,
    "kind": "hold"
@@ -333,7 +333,7 @@
    "age": 31,
    "years_exp": 5,
    "gain_ros_per_week": 7.6,
-   "gain_this_week": 5.7,
+   "gain_this_week": 6.2,
    "suggested_bid": 34,
    "budget_left": 373,
    "kind": "hold"
@@ -354,7 +354,7 @@
    "age": 24,
    "years_exp": 5,
    "gain_ros_per_week": 6.7,
-   "gain_this_week": 7.2,
+   "gain_this_week": 7.7,
    "suggested_bid": 30,
    "budget_left": 373,
    "kind": "hold"
@@ -376,7 +376,7 @@
    "age": 29,
    "years_exp": 7,
    "gain_ros_per_week": 6.9,
-   "gain_this_week": 5.6,
+   "gain_this_week": 6.1,
    "suggested_bid": 31,
    "budget_left": 373,
    "kind": "hold"
@@ -397,7 +397,7 @@
    "age": 33,
    "years_exp": 10,
    "gain_ros_per_week": 7.2,
-   "gain_this_week": 4.5,
+   "gain_this_week": 5.0,
    "suggested_bid": 32,
    "budget_left": 373,
    "kind": "hold"
@@ -420,7 +420,7 @@
    "age": 26,
    "years_exp": 2,
    "gain_ros_per_week": 6.6,
-   "gain_this_week": 6.3,
+   "gain_this_week": 6.8,
    "suggested_bid": 30,
    "budget_left": 373,
    "kind": "hold"
@@ -441,7 +441,7 @@
    "age": 24,
    "years_exp": 2,
    "gain_ros_per_week": 5.6,
-   "gain_this_week": 6.0,
+   "gain_this_week": 6.5,
    "suggested_bid": 25,
    "budget_left": 373,
    "kind": "hold"
@@ -463,7 +463,7 @@
    "age": 23,
    "years_exp": 1,
    "gain_ros_per_week": 8.3,
-   "gain_this_week": 5.1,
+   "gain_this_week": 5.6,
    "suggested_bid": 37,
    "budget_left": 373,
    "kind": "hold"
@@ -485,7 +485,7 @@
    "age": 29,
    "years_exp": 8,
    "gain_ros_per_week": 5.6,
-   "gain_this_week": 6.2,
+   "gain_this_week": 6.7,
    "suggested_bid": 25,
    "budget_left": 373,
    "kind": "hold"
@@ -505,7 +505,7 @@
    "pid": "4867",
    "name": "Ebuka Okorie",
    "ros_week_value": 4.5,
-   "week_value": 0.5,
+   "week_value": 0.3,
    "age": 19,
    "years_exp": 0,
    "inj": "Out"
@@ -514,10 +514,10 @@
    "pid": "2256",
    "name": "Miles McBride",
    "ros_week_value": 14.3,
-   "week_value": 13.0,
+   "week_value": 12.5,
    "age": 26,
    "years_exp": 5,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "1975",
@@ -541,7 +541,7 @@
    "pid": "1961",
    "name": "Duncan Robinson",
    "ros_week_value": 25.0,
-   "week_value": 5.7,
+   "week_value": 2.6,
    "age": 32,
    "years_exp": 8,
    "inj": "Out"
@@ -572,7 +572,7 @@
    "ppts": 1624,
    "division": 1,
    "lock_efficiency": 0.86,
-   "top9_ros_value": 341.2,
+   "top9_ros_value": 343.0,
    "depth_10_14": 114.0,
    "avg_age": 28.3,
    "waiver_budget_used": 0
@@ -600,8 +600,8 @@
    "ppts": 1781,
    "division": 1,
    "lock_efficiency": 0.948,
-   "top9_ros_value": 327.5,
-   "depth_10_14": 141.3,
+   "top9_ros_value": 328.8,
+   "depth_10_14": 141.8,
    "avg_age": 28.2,
    "waiver_budget_used": 27
   },
@@ -615,7 +615,7 @@
    "division": 2,
    "lock_efficiency": 0.909,
    "top9_ros_value": 326.7,
-   "depth_10_14": 119.0,
+   "depth_10_14": 119.3,
    "avg_age": 27.6,
    "waiver_budget_used": 82
   },
@@ -629,7 +629,7 @@
    "division": 1,
    "lock_efficiency": 0.886,
    "top9_ros_value": 323.6,
-   "depth_10_14": 129.2,
+   "depth_10_14": 129.8,
    "avg_age": 26.9,
    "waiver_budget_used": 0
   },
@@ -684,7 +684,7 @@
    "ppts": 1516,
    "division": 2,
    "lock_efficiency": 0.94,
-   "top9_ros_value": 301.6,
+   "top9_ros_value": 303.1,
    "depth_10_14": 118.0,
    "avg_age": 25.3,
    "waiver_budget_used": 127
@@ -699,9 +699,9 @@
    "division": 2,
    "lock_efficiency": 0.895,
    "top9_ros_value": 282.0,
-   "depth_10_14": 124.2,
-   "avg_age": 23.7,
-   "waiver_budget_used": 155
+   "depth_10_14": 125.1,
+   "avg_age": 24.1,
+   "waiver_budget_used": 200
   },
   {
    "roster_id": 1,
@@ -813,7 +813,7 @@
    "ros_week_value": 27.8,
    "lock_in_premium": 1.335,
    "age": 23,
-   "inj": "DTD"
+   "inj": "Out"
   },
   {
    "pid": "2309",
@@ -938,6 +938,24 @@
    "age": 27
   },
   {
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "mean": 28.1,
+   "sd": 9.5,
+   "ros_week_value": 34.0,
+   "lock_in_premium": 1.21,
+   "age": 34
+  },
+  {
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "mean": 36.2,
+   "sd": 13.2,
+   "ros_week_value": 44.2,
+   "lock_in_premium": 1.222,
+   "age": 29
+  },
+  {
    "pid": "1074",
    "name": "Paul George",
    "mean": 27.9,
@@ -954,24 +972,6 @@
    "ros_week_value": 30.0,
    "lock_in_premium": 1.229,
    "age": 29
-  },
-  {
-   "pid": "1350",
-   "name": "Rudy Gobert",
-   "mean": 23.1,
-   "sd": 9.2,
-   "ros_week_value": 28.5,
-   "lock_in_premium": 1.236,
-   "age": 34
-  },
-  {
-   "pid": "1934",
-   "name": "Isaiah Hartenstein",
-   "mean": 23.8,
-   "sd": 9.6,
-   "ros_week_value": 29.4,
-   "lock_in_premium": 1.238,
-   "age": 28
   }
  ],
  "next_opponent": {

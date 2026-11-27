@@ -2,15 +2,15 @@
  "mode": "daily",
  "week": 6,
  "us_date": "2026-11-26",
- "snapshot": "2026-11-26T17:39:11Z",
+ "snapshot": "2026-11-27T03:35:08Z",
  "matchup": {
   "opponent_roster": 6,
   "opponent": "deepb01",
-  "my_points_now": 307.5,
+  "my_points_now": 310.5,
   "opp_points_now": 271.5,
-  "my_expected_final": 344.6,
-  "opp_expected_final": 285.1,
-  "p_win_now": 0.983
+  "my_expected_final": 344.2,
+  "opp_expected_final": 283.2,
+  "p_win_now": 0.99
  },
  "starters": [
   {
@@ -45,8 +45,8 @@
    "p_improve_if_pass": 0.057,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.977,
-   "winprob_pass": 0.951,
+   "winprob_lock": 0.992,
+   "winprob_pass": 0.973,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -82,8 +82,8 @@
    "p_improve_if_pass": 0.059,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.975,
-   "winprob_pass": 0.926,
+   "winprob_lock": 0.989,
+   "winprob_pass": 0.957,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -119,10 +119,10 @@
    "p_improve_if_pass": 0.904,
    "ev_verdict": "PASS",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.955,
-   "winprob_pass": 0.979,
+   "winprob_lock": 0.986,
+   "winprob_pass": 0.989,
    "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "verdict_basis": "expected value (win probability indifferent)"
   },
   {
    "slot": "SF",
@@ -156,8 +156,8 @@
    "p_improve_if_pass": 0.151,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.977,
-   "winprob_pass": 0.939,
+   "winprob_lock": 0.991,
+   "winprob_pass": 0.971,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -193,8 +193,8 @@
    "p_improve_if_pass": 0.049,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.983,
-   "winprob_pass": 0.907,
+   "winprob_lock": 0.986,
+   "winprob_pass": 0.95,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -230,8 +230,8 @@
    "p_improve_if_pass": 0.058,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.978,
-   "winprob_pass": 0.9,
+   "winprob_lock": 0.991,
+   "winprob_pass": 0.942,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -242,8 +242,8 @@
    "team": "OKC",
    "inj": null,
    "inj_part": null,
-   "state": "locked",
-   "counted": 28.5,
+   "state": "open",
+   "counted": 31.5,
    "games_remaining": [
     {
      "date": "2026-11-28",
@@ -253,8 +253,19 @@
    ],
    "dist_mean": 24.2,
    "dist_sd": 9.7,
-   "locked_fp": 28.5,
-   "locked_game": "2026-11-23"
+   "continuation_value": 22.3,
+   "latest_game": {
+    "date": "2026-11-25",
+    "opp": "MIN",
+    "fp": 31.5
+   },
+   "p_improve_if_pass": 0.131,
+   "ev_verdict": "LOCK",
+   "deadline": "2026-11-28",
+   "winprob_lock": 0.99,
+   "winprob_pass": 0.966,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -280,11 +291,11 @@
     "opp": "DEN",
     "fp": 18.5
    },
-   "p_improve_if_pass": 0.679,
+   "p_improve_if_pass": 0.672,
    "ev_verdict": "PASS",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.987,
-   "winprob_pass": 0.981,
+   "winprob_lock": 0.995,
+   "winprob_pass": 0.993,
    "verdict": "PASS",
    "verdict_basis": "expected value (win probability indifferent)"
   },
@@ -317,13 +328,13 @@
     "opp": "MIL",
     "fp": 14.0
    },
-   "p_improve_if_pass": 0.897,
+   "p_improve_if_pass": 0.901,
    "ev_verdict": "PASS",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.958,
-   "winprob_pass": 0.98,
+   "winprob_lock": 0.98,
+   "winprob_pass": 0.986,
    "verdict": "PASS",
-   "verdict_basis": "win probability"
+   "verdict_basis": "expected value (win probability indifferent)"
   }
  ],
  "opponent_starters": [
@@ -370,7 +381,7 @@
    "state": "open",
    "counted": 47.5,
    "games_remaining": 2,
-   "inj": null
+   "inj": "DTD"
   },
   {
    "slot": "F",
@@ -414,9 +425,9 @@
    "slot": "UTIL",
    "out": "1054",
    "out_name": "Kyrie Irving",
-   "in": "1747",
-   "in_name": "Jamal Murray",
-   "gain": 15.2,
+   "in": "2157",
+   "in_name": "Immanuel Quickley",
+   "gain": 2.8,
    "in_games_remaining": 2
   }
  ],
@@ -431,7 +442,7 @@
   {
    "pid": "1961",
    "name": "Duncan Robinson",
-   "status": "DTD",
+   "status": "Out",
    "part": "Quadriceps",
    "starter": false
   },

@@ -3,7 +3,7 @@
  "planning_week": 6,
  "current_week": 6,
  "us_date": "2026-11-26",
- "snapshot": "2026-11-26T17:39:11Z",
+ "snapshot": "2026-11-27T03:35:08Z",
  "week_dates": [
   "2026-11-23",
   "2026-11-29"
@@ -11,6 +11,18 @@
  "lineup": [
   {
    "slot": "PG",
+   "pid": "1747",
+   "name": "Jamal Murray",
+   "team": "DEN",
+   "fpos": [
+    "PG"
+   ],
+   "inj": null,
+   "week_value": 39.5,
+   "games": 2
+  },
+  {
+   "slot": "SG",
    "pid": "1444",
    "name": "Damian Lillard",
    "team": "POR",
@@ -23,7 +35,7 @@
    "games": 2
   },
   {
-   "slot": "SG",
+   "slot": "G",
    "pid": "2157",
    "name": "Immanuel Quickley",
    "team": "TOR",
@@ -33,18 +45,6 @@
    ],
    "inj": null,
    "week_value": 27.0,
-   "games": 2
-  },
-  {
-   "slot": "G",
-   "pid": "1747",
-   "name": "Jamal Murray",
-   "team": "DEN",
-   "fpos": [
-    "PG"
-   ],
-   "inj": null,
-   "week_value": 39.5,
    "games": 2
   },
   {
@@ -62,16 +62,15 @@
   },
   {
    "slot": "PF",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
+   "pid": "1831",
+   "name": "OG Anunoby",
+   "team": "NYK",
    "fpos": [
     "PF",
-    "SF",
-    "SG"
+    "SF"
    ],
-   "inj": null,
-   "week_value": 36.4,
+   "inj": "DTD",
+   "week_value": 24.6,
    "games": 2
   },
   {
@@ -90,19 +89,6 @@
   },
   {
    "slot": "C",
-   "pid": "1934",
-   "name": "Isaiah Hartenstein",
-   "team": "OKC",
-   "fpos": [
-    "C"
-   ],
-   "inj": null,
-   "locked_fp": 28.5,
-   "week_value": 28.5,
-   "games": 0
-  },
-  {
-   "slot": "UTIL",
    "pid": "1350",
    "name": "Rudy Gobert",
    "team": "MIN",
@@ -111,6 +97,20 @@
    ],
    "inj": null,
    "week_value": 25.3,
+   "games": 2
+  },
+  {
+   "slot": "UTIL",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
+   "fpos": [
+    "PF",
+    "SF",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 36.4,
    "games": 2
   },
   {
@@ -127,7 +127,7 @@
    "games": 2
   }
  ],
- "lineup_total_value": 277.6,
+ "lineup_total_value": 273.7,
  "bench": [
   {
    "pid": "4762",
@@ -158,6 +158,20 @@
    "years_exp": 0
   },
   {
+   "pid": "1961",
+   "name": "Duncan Robinson",
+   "team": "DET",
+   "fpos": [
+    "SF",
+    "SG"
+   ],
+   "inj": "Out",
+   "week_value": 2.6,
+   "games": 2,
+   "age": 32,
+   "years_exp": 8
+  },
+  {
    "pid": "2256",
    "name": "Miles McBride",
    "team": "NYK",
@@ -184,20 +198,6 @@
    "week_value": 18.9,
    "games": 2,
    "age": 30,
-   "years_exp": 8
-  },
-  {
-   "pid": "1961",
-   "name": "Duncan Robinson",
-   "team": "DET",
-   "fpos": [
-    "SF",
-    "SG"
-   ],
-   "inj": "DTD",
-   "week_value": 19.9,
-   "games": 2,
-   "age": 32,
    "years_exp": 8
   },
   {
@@ -243,6 +243,19 @@
    "years_exp": 10
   },
   {
+   "pid": "1934",
+   "name": "Isaiah Hartenstein",
+   "team": "OKC",
+   "fpos": [
+    "C"
+   ],
+   "inj": null,
+   "week_value": 22.3,
+   "games": 1,
+   "age": 28,
+   "years_exp": 8
+  },
+  {
    "pid": "1054",
    "name": "Kyrie Irving",
    "team": "DAL",
@@ -255,20 +268,6 @@
    "games": 1,
    "age": 34,
    "years_exp": 15
-  },
-  {
-   "pid": "1831",
-   "name": "OG Anunoby",
-   "team": "NYK",
-   "fpos": [
-    "PF",
-    "SF"
-   ],
-   "inj": "DTD",
-   "week_value": 24.6,
-   "games": 2,
-   "age": 29,
-   "years_exp": 9
   }
  ],
  "adds": [
@@ -541,10 +540,10 @@
    "pid": "1961",
    "name": "Duncan Robinson",
    "ros_week_value": 25.0,
-   "week_value": 19.9,
+   "week_value": 2.6,
    "age": 32,
    "years_exp": 8,
-   "inj": "DTD"
+   "inj": "Out"
   }
  ],
  "budget_left": 373,

@@ -2,8 +2,8 @@
  "mode": "weekly",
  "planning_week": 6,
  "current_week": 6,
- "us_date": "2026-11-26",
- "snapshot": "2026-11-27T03:35:08Z",
+ "us_date": "2026-11-27",
+ "snapshot": "2026-11-27T17:21:56Z",
  "week_dates": [
   "2026-11-23",
   "2026-11-29"
@@ -23,6 +23,19 @@
   },
   {
    "slot": "SG",
+   "pid": "1054",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "fpos": [
+    "PG",
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 24.3,
+   "games": 1
+  },
+  {
+   "slot": "G",
    "pid": "1444",
    "name": "Damian Lillard",
    "team": "POR",
@@ -32,19 +45,6 @@
    ],
    "inj": null,
    "week_value": 27.2,
-   "games": 2
-  },
-  {
-   "slot": "G",
-   "pid": "2157",
-   "name": "Immanuel Quickley",
-   "team": "TOR",
-   "fpos": [
-    "PG",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 27.0,
    "games": 2
   },
   {
@@ -62,15 +62,16 @@
   },
   {
    "slot": "PF",
-   "pid": "1831",
-   "name": "OG Anunoby",
-   "team": "NYK",
+   "pid": "2181",
+   "name": "Deni Avdija",
+   "team": "POR",
    "fpos": [
     "PF",
-    "SF"
+    "SF",
+    "SG"
    ],
-   "inj": "DTD",
-   "week_value": 24.6,
+   "inj": null,
+   "week_value": 36.4,
    "games": 2
   },
   {
@@ -101,16 +102,15 @@
   },
   {
    "slot": "UTIL",
-   "pid": "2181",
-   "name": "Deni Avdija",
-   "team": "POR",
+   "pid": "2157",
+   "name": "Immanuel Quickley",
+   "team": "TOR",
    "fpos": [
-    "PF",
-    "SF",
+    "PG",
     "SG"
    ],
    "inj": null,
-   "week_value": 36.4,
+   "week_value": 27.0,
    "games": 2
   },
   {
@@ -127,7 +127,7 @@
    "games": 2
   }
  ],
- "lineup_total_value": 273.7,
+ "lineup_total_value": 273.4,
  "bench": [
   {
    "pid": "4762",
@@ -179,8 +179,8 @@
     "PG",
     "SG"
    ],
-   "inj": "DTD",
-   "week_value": 11.1,
+   "inj": "GTD",
+   "week_value": 10.2,
    "games": 2,
    "age": 26,
    "years_exp": 5
@@ -256,44 +256,21 @@
    "years_exp": 8
   },
   {
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
+   "pid": "1831",
+   "name": "OG Anunoby",
+   "team": "NYK",
    "fpos": [
-    "PG",
-    "SG"
+    "PF",
+    "SF"
    ],
-   "inj": null,
-   "week_value": 24.3,
-   "games": 1,
-   "age": 34,
-   "years_exp": 15
+   "inj": "GTD",
+   "week_value": 22.9,
+   "games": 2,
+   "age": 29,
+   "years_exp": 9
   }
  ],
  "adds": [
-  {
-   "pid": "2494",
-   "name": "Julian Champagnie",
-   "team": "SAS",
-   "fpos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "inj": null,
-   "week_value": 20.1,
-   "games_this_week": 2,
-   "next_week_value": 20.0,
-   "games_next_week": 2,
-   "ros_week_value": 23.1,
-   "age": 25,
-   "years_exp": 4,
-   "gain_ros_per_week": 8.8,
-   "gain_this_week": 9.0,
-   "suggested_bid": 40,
-   "budget_left": 373,
-   "kind": "hold"
-  },
   {
    "pid": "2119",
    "name": "Obi Toppin",
@@ -311,7 +288,7 @@
    "age": 28,
    "years_exp": 6,
    "gain_ros_per_week": 8.6,
-   "gain_this_week": 7.8,
+   "gain_this_week": 8.7,
    "suggested_bid": 39,
    "budget_left": 373,
    "kind": "hold"
@@ -333,7 +310,7 @@
    "age": 29,
    "years_exp": 7,
    "gain_ros_per_week": 6.9,
-   "gain_this_week": 7.5,
+   "gain_this_week": 8.4,
    "suggested_bid": 31,
    "budget_left": 373,
    "kind": "hold"
@@ -355,7 +332,7 @@
    "age": 28,
    "years_exp": 4,
    "gain_ros_per_week": 7.6,
-   "gain_this_week": 6.9,
+   "gain_this_week": 7.8,
    "suggested_bid": 34,
    "budget_left": 373,
    "kind": "hold"
@@ -367,16 +344,16 @@
    "fpos": [
     "C"
    ],
-   "inj": null,
-   "week_value": 17.5,
+   "inj": "DTD",
+   "week_value": 16.8,
    "games_this_week": 2,
-   "next_week_value": 17.5,
+   "next_week_value": 16.8,
    "games_next_week": 2,
    "ros_week_value": 21.9,
    "age": 28,
    "years_exp": 8,
    "gain_ros_per_week": 7.6,
-   "gain_this_week": 6.4,
+   "gain_this_week": 6.6,
    "suggested_bid": 34,
    "budget_left": 373,
    "kind": "hold"
@@ -398,7 +375,7 @@
    "age": 25,
    "years_exp": 4,
    "gain_ros_per_week": 6.1,
-   "gain_this_week": 6.4,
+   "gain_this_week": 7.3,
    "suggested_bid": 27,
    "budget_left": 373,
    "kind": "hold"
@@ -419,7 +396,7 @@
    "age": 24,
    "years_exp": 2,
    "gain_ros_per_week": 5.6,
-   "gain_this_week": 6.2,
+   "gain_this_week": 7.1,
    "suggested_bid": 25,
    "budget_left": 373,
    "kind": "hold"
@@ -440,7 +417,7 @@
    "age": 24,
    "years_exp": 5,
    "gain_ros_per_week": 6.0,
-   "gain_this_week": 6.0,
+   "gain_this_week": 6.9,
    "suggested_bid": 27,
    "budget_left": 373,
    "kind": "hold"
@@ -462,7 +439,7 @@
    "age": 29,
    "years_exp": 8,
    "gain_ros_per_week": 5.5,
-   "gain_this_week": 6.0,
+   "gain_this_week": 6.9,
    "suggested_bid": 25,
    "budget_left": 373,
    "kind": "hold"
@@ -484,8 +461,29 @@
    "age": 31,
    "years_exp": 5,
    "gain_ros_per_week": 6.9,
-   "gain_this_week": 2.5,
+   "gain_this_week": 3.4,
    "suggested_bid": 31,
+   "budget_left": 373,
+   "kind": "hold"
+  },
+  {
+   "pid": "1707",
+   "name": "Buddy Hield",
+   "team": "CHI",
+   "fpos": [
+    "SG"
+   ],
+   "inj": null,
+   "week_value": 13.4,
+   "games_this_week": 1,
+   "next_week_value": 17.7,
+   "games_next_week": 2,
+   "ros_week_value": 21.6,
+   "age": 33,
+   "years_exp": 10,
+   "gain_ros_per_week": 7.3,
+   "gain_this_week": 3.2,
+   "suggested_bid": 33,
    "budget_left": 373,
    "kind": "hold"
   }
@@ -513,10 +511,10 @@
    "pid": "2256",
    "name": "Miles McBride",
    "ros_week_value": 14.3,
-   "week_value": 11.1,
+   "week_value": 10.2,
    "age": 26,
    "years_exp": 5,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "pid": "1975",
@@ -684,8 +682,8 @@
    "division": 2,
    "lock_efficiency": 0.94,
    "top9_ros_value": 304.7,
-   "depth_10_14": 117.6,
-   "avg_age": 25.3,
+   "depth_10_14": 118.4,
+   "avg_age": 25.5,
    "waiver_budget_used": 127
   },
   {

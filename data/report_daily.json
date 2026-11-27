@@ -1,16 +1,16 @@
 {
  "mode": "daily",
  "week": 6,
- "us_date": "2026-11-26",
- "snapshot": "2026-11-27T03:35:08Z",
+ "us_date": "2026-11-27",
+ "snapshot": "2026-11-27T17:21:56Z",
  "matchup": {
   "opponent_roster": 6,
   "opponent": "deepb01",
   "my_points_now": 310.5,
-  "opp_points_now": 271.5,
-  "my_expected_final": 344.2,
-  "opp_expected_final": 283.2,
-  "p_win_now": 0.99
+  "opp_points_now": 293.5,
+  "my_expected_final": 345.3,
+  "opp_expected_final": 304.2,
+  "p_win_now": 0.945
  },
  "starters": [
   {
@@ -45,8 +45,8 @@
    "p_improve_if_pass": 0.057,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.992,
-   "winprob_pass": 0.973,
+   "winprob_lock": 0.947,
+   "winprob_pass": 0.882,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -82,8 +82,8 @@
    "p_improve_if_pass": 0.059,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.989,
-   "winprob_pass": 0.957,
+   "winprob_lock": 0.94,
+   "winprob_pass": 0.819,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -119,10 +119,10 @@
    "p_improve_if_pass": 0.904,
    "ev_verdict": "PASS",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.986,
-   "winprob_pass": 0.989,
+   "winprob_lock": 0.887,
+   "winprob_pass": 0.943,
    "verdict": "PASS",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "verdict_basis": "win probability"
   },
   {
    "slot": "SF",
@@ -156,8 +156,8 @@
    "p_improve_if_pass": 0.151,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.991,
-   "winprob_pass": 0.971,
+   "winprob_lock": 0.947,
+   "winprob_pass": 0.859,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -193,8 +193,8 @@
    "p_improve_if_pass": 0.049,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.986,
-   "winprob_pass": 0.95,
+   "winprob_lock": 0.95,
+   "winprob_pass": 0.824,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -230,8 +230,8 @@
    "p_improve_if_pass": 0.058,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.991,
-   "winprob_pass": 0.942,
+   "winprob_lock": 0.943,
+   "winprob_pass": 0.802,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -262,8 +262,8 @@
    "p_improve_if_pass": 0.131,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-28",
-   "winprob_lock": 0.99,
-   "winprob_pass": 0.966,
+   "winprob_lock": 0.949,
+   "winprob_pass": 0.867,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -294,10 +294,10 @@
    "p_improve_if_pass": 0.672,
    "ev_verdict": "PASS",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.995,
-   "winprob_pass": 0.993,
-   "verdict": "PASS",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "winprob_lock": 0.946,
+   "winprob_pass": 0.929,
+   "verdict": "LOCK",
+   "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
@@ -331,10 +331,10 @@
    "p_improve_if_pass": 0.901,
    "ev_verdict": "PASS",
    "deadline": "2026-11-27",
-   "winprob_lock": 0.98,
-   "winprob_pass": 0.986,
+   "winprob_lock": 0.891,
+   "winprob_pass": 0.946,
    "verdict": "PASS",
-   "verdict_basis": "expected value (win probability indifferent)"
+   "verdict_basis": "win probability"
   }
  ],
  "opponent_starters": [
@@ -381,7 +381,7 @@
    "state": "open",
    "counted": 47.5,
    "games_remaining": 2,
-   "inj": "DTD"
+   "inj": "GTD"
   },
   {
    "slot": "F",
@@ -403,20 +403,20 @@
   },
   {
    "slot": "UTIL",
-   "pid": "2613",
-   "name": "Toumani Camara",
+   "pid": "2441",
+   "name": "Walker Kessler",
    "state": "open",
-   "counted": 13.5,
+   "counted": 29.5,
    "games_remaining": 2,
    "inj": null
   },
   {
    "slot": "UTIL",
-   "pid": "1998",
-   "name": "Coby White",
+   "pid": "2131",
+   "name": "Saddiq Bey",
    "state": "open",
-   "counted": 21.0,
-   "games_remaining": 1,
+   "counted": 27.0,
+   "games_remaining": 2,
    "inj": null
   }
  ],
@@ -435,7 +435,7 @@
   {
    "pid": "1831",
    "name": "OG Anunoby",
-   "status": "DTD",
+   "status": "GTD",
    "part": "Calf",
    "starter": false
   },
@@ -463,7 +463,7 @@
   {
    "pid": "2256",
    "name": "Miles McBride",
-   "status": "DTD",
+   "status": "GTD",
    "part": "Groin",
    "starter": false
   },

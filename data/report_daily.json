@@ -1,16 +1,16 @@
 {
  "mode": "daily",
  "week": 6,
- "us_date": "2026-11-27",
- "snapshot": "2026-11-28T03:12:46Z",
+ "us_date": "2026-11-28",
+ "snapshot": "2026-11-28T16:05:04Z",
  "matchup": {
   "opponent_roster": 6,
   "opponent": "deepb01",
-  "my_points_now": 294.0,
-  "opp_points_now": 249.0,
-  "my_expected_final": 335.0,
-  "opp_expected_final": 283.7,
-  "p_win_now": 0.957
+  "my_points_now": 341.5,
+  "opp_points_now": 278.5,
+  "my_expected_final": 344.0,
+  "opp_expected_final": 288.4,
+  "p_win_now": 0.985
  },
  "starters": [
   {
@@ -40,8 +40,8 @@
    "p_improve_if_pass": 0.002,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-29",
-   "winprob_lock": 0.957,
-   "winprob_pass": 0.682,
+   "winprob_lock": 0.99,
+   "winprob_pass": 0.791,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -61,8 +61,8 @@
      "home": true
     }
    ],
-   "dist_mean": 16.2,
-   "dist_sd": 9.7,
+   "dist_mean": 17.5,
+   "dist_sd": 9.5,
    "locked_fp": 36.0,
    "locked_game": "2026-11-25"
   },
@@ -74,7 +74,7 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 11.5,
+   "counted": 43.5,
    "games_remaining": [
     {
      "date": "2026-11-29",
@@ -82,20 +82,20 @@
      "home": false
     }
    ],
-   "dist_mean": 34.4,
-   "dist_sd": 13.5,
-   "continuation_value": 31.6,
+   "dist_mean": 36.4,
+   "dist_sd": 13.0,
+   "continuation_value": 33.5,
    "latest_game": {
     "date": "2026-11-27",
     "opp": "UTA",
-    "fp": 11.5
+    "fp": 43.5
    },
-   "p_improve_if_pass": 0.873,
-   "ev_verdict": "PASS",
+   "p_improve_if_pass": 0.261,
+   "ev_verdict": "LOCK",
    "deadline": "2026-11-29",
-   "winprob_lock": 0.878,
-   "winprob_pass": 0.961,
-   "verdict": "PASS",
+   "winprob_lock": 0.986,
+   "winprob_pass": 0.94,
+   "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
   {
@@ -114,7 +114,7 @@
      "home": false
     }
    ],
-   "dist_mean": 26.9,
+   "dist_mean": 27.0,
    "dist_sd": 10.7,
    "locked_fp": 40.5,
    "locked_game": "2026-11-24"
@@ -135,8 +135,8 @@
      "home": true
     }
    ],
-   "dist_mean": 33.0,
-   "dist_sd": 10.1,
+   "dist_mean": 34.6,
+   "dist_sd": 9.5,
    "locked_fp": 53.5,
    "locked_game": "2026-11-25"
   },
@@ -148,7 +148,7 @@
    "inj": null,
    "inj_part": null,
    "state": "open",
-   "counted": 30.5,
+   "counted": 31.5,
    "games_remaining": [
     {
      "date": "2026-11-29",
@@ -156,19 +156,19 @@
      "home": false
     }
    ],
-   "dist_mean": 37.0,
+   "dist_mean": 37.1,
    "dist_sd": 10.7,
-   "continuation_value": 33.8,
+   "continuation_value": 33.9,
    "latest_game": {
     "date": "2026-11-27",
     "opp": "ATL",
-    "fp": 30.5
+    "fp": 31.5
    },
-   "p_improve_if_pass": 0.645,
+   "p_improve_if_pass": 0.599,
    "ev_verdict": "PASS",
    "deadline": "2026-11-29",
-   "winprob_lock": 0.97,
-   "winprob_pass": 0.945,
+   "winprob_lock": 0.999,
+   "winprob_pass": 0.986,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
@@ -199,30 +199,42 @@
    "p_improve_if_pass": 0.168,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-28",
-   "winprob_lock": 0.95,
-   "winprob_pass": 0.896,
+   "winprob_lock": 0.987,
+   "winprob_pass": 0.968,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   },
   {
    "slot": "UTIL",
-   "pid": "1054",
-   "name": "Kyrie Irving",
-   "team": "DAL",
-   "inj": "Out",
-   "inj_part": "Knee",
+   "pid": "1697",
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "inj": null,
+   "inj_part": null,
    "state": "open",
-   "counted": 0.0,
-   "games_remaining": [],
-   "dist_mean": 28.1,
-   "dist_sd": 9.5,
-   "continuation_value": null,
+   "counted": 14.5,
+   "games_remaining": [
+    {
+     "date": "2026-11-28",
+     "opp": "CHI",
+     "home": false
+    }
+   ],
+   "dist_mean": 21.2,
+   "dist_sd": 8.9,
+   "continuation_value": 14.9,
    "latest_game": {
-    "date": "2026-11-24",
-    "opp": "DEN",
-    "fp": 18.5
+    "date": "2026-11-27",
+    "opp": "PHI",
+    "fp": 14.5
    },
-   "decision": "FINAL"
+   "p_improve_if_pass": 0.527,
+   "ev_verdict": "PASS",
+   "deadline": "2026-11-28",
+   "winprob_lock": 0.995,
+   "winprob_pass": 0.99,
+   "verdict": "PASS",
+   "verdict_basis": "expected value (win probability indifferent)"
   },
   {
    "slot": "UTIL",
@@ -248,11 +260,11 @@
     "opp": "BKN",
     "fp": 53.5
    },
-   "p_improve_if_pass": 0.033,
+   "p_improve_if_pass": 0.029,
    "ev_verdict": "LOCK",
    "deadline": "2026-11-29",
-   "winprob_lock": 0.948,
-   "winprob_pass": 0.752,
+   "winprob_lock": 0.987,
+   "winprob_pass": 0.839,
    "verdict": "LOCK",
    "verdict_basis": "win probability"
   }
@@ -308,7 +320,7 @@
    "pid": "1799",
    "name": "Kyle Kuzma",
    "state": "open",
-   "counted": 12.5,
+   "counted": 16.0,
    "games_remaining": 1,
    "inj": null
   },
@@ -326,7 +338,7 @@
    "pid": "2441",
    "name": "Walker Kessler",
    "state": "open",
-   "counted": 10.0,
+   "counted": 30.0,
    "games_remaining": 1,
    "inj": null
   },
@@ -335,19 +347,29 @@
    "pid": "2131",
    "name": "Saddiq Bey",
    "state": "open",
-   "counted": 6.0,
+   "counted": 12.0,
    "games_remaining": 1,
    "inj": null
   }
  ],
- "swaps": [],
+ "swaps": [
+  {
+   "slot": "UTIL",
+   "out": "1697",
+   "out_name": "Ivica Zubac",
+   "in": "2157",
+   "in_name": "Immanuel Quickley",
+   "gain": 38.6,
+   "in_games_remaining": 1
+  }
+ ],
  "injuries": [
   {
    "pid": "1054",
    "name": "Kyrie Irving",
    "status": "Out",
    "part": "Knee",
-   "starter": true
+   "starter": false
   },
   {
    "pid": "1444",
@@ -403,6 +425,13 @@
    "name": "Ebuka Okorie",
    "status": "Out",
    "part": "Oblique",
+   "starter": false
+  },
+  {
+   "pid": "4932",
+   "name": "Michael Ajayi",
+   "status": "GTD",
+   "part": "Lower Leg",
    "starter": false
   }
  ]
